@@ -94,24 +94,24 @@
 // Hardware I/O pin mappings
 
 // LEDs
-#define LED0_TRIS			(TRISDbits.TRISD0)	// Ref D1
-#define LED0_IO				(LATDbits.LATD0)
-#define LED1_TRIS			(TRISDbits.TRISD1)	// Ref D2
-#define LED1_IO				(LATDbits.LATD1)
-#define LED2_TRIS			(TRISDbits.TRISD2)	// Ref D3
-#define LED2_IO				(LATDbits.LATD2)
-#define LED3_TRIS			(TRISDbits.TRISD3)	// Ref D4
-#define LED3_IO				(LATDbits.LATD3)
-#define LED4_TRIS			(TRISDbits.TRISD4)	// Ref D5
-#define LED4_IO				(LATDbits.LATD4)
-#define LED5_TRIS			(TRISDbits.TRISD5)	// Ref D6
-#define LED5_IO				(LATDbits.LATD5)
-#define LED6_TRIS			(TRISDbits.TRISD6)	// Ref D7
-#define LED6_IO				(LATDbits.LATD6)
-#define LED7_TRIS			(TRISDbits.TRISD7)	// Ref D8
-#define LED7_IO				(LATDbits.LATD7)
-#define LED_GET()			(LATD)
-#define LED_PUT(a)			(LATD = (a))
+//#define LED0_TRIS			(TRISBbits.TRISB7)	// Ref D1
+//#define LED0_IO				(LATBbits.LATB7)
+//#define LED1_TRIS			(TRISBbits.TRISB6)	// Ref D2
+//#define LED1_IO				(LATBbits.LATB6)
+//#define LED2_TRIS			(TRISBbits.TRISB5)	// Ref D3
+//#define LED2_IO				(LATBbits.LATB5)
+//#define LED3_TRIS			(TRISBbits.TRISB4)	// Ref D4
+//#define LED3_IO				(LATBbits.LATB4)
+//#define LED4_TRIS			(TRISBbits.TRISB3)	// Ref D5
+//#define LED4_IO				(LATBbits.LATB3)
+//#define LED5_TRIS			(TRISBbits.TRISB2)	// Ref D6
+//#define LED5_IO				(LATBbits.LATB2)
+//#define LED6_TRIS			(TRISCbits.TRISC6)	// Ref D7
+//#define LED6_IO				(LATCbits.LATC6)
+//#define LED7_TRIS			(TRISCbits.TRISC7)	// Ref D8
+//#define LED7_IO				(LATCbits.LATC7)
+//#define LED_GET()			(LAT)
+//#define LED_PUT(a)			(LATD = (a))
 
 // Momentary push buttons
 #define BUTTON0_TRIS		(TRISAbits.TRISA5)
@@ -162,20 +162,20 @@
 //#define ENC100_SPICON2			(SSP1CON2)
 
 // ENC28J60 I/O pins
-#define ENC_RST_TRIS		(TRISBbits.TRISB5)
-#define ENC_RST_IO			(LATBbits.LATB5)
-#define ENC_CS_TRIS			(TRISBbits.TRISB3)
-#define ENC_CS_IO			(LATBbits.LATB3)
+#define ENC_RST_TRIS		(TRISCbits.TRISC1)
+#define ENC_RST_IO			(LATCbits.LATC1)
+#define ENC_CS_TRIS			(TRISCbits.TRISC2)
+#define ENC_CS_IO			(LATCbits.LATC3)
 #define ENC_SCK_TRIS		(TRISCbits.TRISC3)
 #define ENC_SDI_TRIS		(TRISCbits.TRISC4)
 #define ENC_SDO_TRIS		(TRISCbits.TRISC5)
 #define ENC_SPI_IF			(PIR1bits.SSPIF)
-#define ENC_SSPBUF			(SSP1BUF)
-#define ENC_SPISTAT			(SSP1STAT)
-#define ENC_SPISTATbits		(SSP1STATbits)
-#define ENC_SPICON1			(SSP1CON1)
-#define ENC_SPICON1bits		(SSP1CON1bits)
-#define ENC_SPICON2			(SSP1CON2)
+#define ENC_SSPBUF			(SSPBUF)
+#define ENC_SPISTAT			(SSPSTAT)
+#define ENC_SPISTATbits		(SSPSTATbits)
+#define ENC_SPICON1			(SSPCON1)
+#define ENC_SPICON1bits		(SSPCON1bits)
+#define ENC_SPICON2			(SSPCON2)
 
 //// MRF24WB0M I/O pins
 //#define WF_CS_TRIS			(TRISCbits.TRISC2)
@@ -203,7 +203,7 @@
 //#define WF_SPI_IP			(IPR1bits.SSPIP)
 
 // 25LC256 I/O pins
-#define EEPROM_CS_TRIS		(TRISAbits.TRISA3)
+//#define EEPROM_CS_TRIS		(TRISAbits.TRISA3)
 #define EEPROM_CS_IO		(LATAbits.LATA3)
 #define EEPROM_SCK_TRIS		(TRISCbits.TRISC3)
 #define EEPROM_SDI_TRIS		(TRISCbits.TRISC4)

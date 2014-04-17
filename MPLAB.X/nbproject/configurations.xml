@@ -1690,7 +1690,7 @@
         <C18LanguageToolchain>
         </C18LanguageToolchain>
       </item>
-      <item path="../MPFSImg2.c" ex="true" overriding="false">
+      <item path="../MPFSImg2.c" ex="false" overriding="false">
         <C18>
         </C18>
         <C18-AS>

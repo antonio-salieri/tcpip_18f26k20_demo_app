@@ -197,21 +197,21 @@ HTTP_IO_RESULT HTTPExecuteGet(void)
 	if(!memcmppgm2ram(filename, "forms.htm", 9))
 	{
 		// Seek out each of the four LED strings, and if it exists set the LED states
-		ptr = HTTPGetROMArg(curHTTP.data, (ROM BYTE *)"led4");
-		if(ptr)
-			LED4_IO = (*ptr == '1');
-
-		ptr = HTTPGetROMArg(curHTTP.data, (ROM BYTE *)"led3");
-		if(ptr)
-			LED3_IO = (*ptr == '1');
-
-		ptr = HTTPGetROMArg(curHTTP.data, (ROM BYTE *)"led2");
-		if(ptr)
-			LED2_IO = (*ptr == '1');
-
-		ptr = HTTPGetROMArg(curHTTP.data, (ROM BYTE *)"led1");
-		if(ptr)
-			LED1_IO = (*ptr == '1');
+//		ptr = HTTPGetROMArg(curHTTP.data, (ROM BYTE *)"led4");
+//		if(ptr)
+//			LED4_IO = (*ptr == '1');
+//
+//		ptr = HTTPGetROMArg(curHTTP.data, (ROM BYTE *)"led3");
+//		if(ptr)
+//			LED3_IO = (*ptr == '1');
+//
+//		ptr = HTTPGetROMArg(curHTTP.data, (ROM BYTE *)"led2");
+//		if(ptr)
+//			LED2_IO = (*ptr == '1');
+//
+//		ptr = HTTPGetROMArg(curHTTP.data, (ROM BYTE *)"led1");
+//		if(ptr)
+//			LED1_IO = (*ptr == '1');
 	}
 	
 	// If it's the LED updater file
@@ -233,29 +233,29 @@ HTTP_IO_RESULT HTTPExecuteGet(void)
 		ptr = HTTPGetROMArg(curHTTP.data, (ROM BYTE *)"led");
 		
 		// Toggle the specified LED
-		switch(*ptr) {
-			case '1':
-				LED1_IO ^= 1;
-				break;
-			case '2':
-				LED2_IO ^= 1;
-				break;
-			case '3':
-				LED3_IO ^= 1;
-				break;
-			case '4':
-				LED4_IO ^= 1;
-				break;
-			case '5':
-				LED5_IO ^= 1;
-				break;
-			case '6':
-				LED6_IO ^= 1;
-				break;
-			case '7':
-				LED7_IO ^= 1;
-				break;
-		}
+//		switch(*ptr) {
+//			case '1':
+//				LED1_IO ^= 1;
+//				break;
+//			case '2':
+//				LED2_IO ^= 1;
+//				break;
+//			case '3':
+//				LED3_IO ^= 1;
+//				break;
+//			case '4':
+//				LED4_IO ^= 1;
+//				break;
+//			case '5':
+//				LED5_IO ^= 1;
+//				break;
+//			case '6':
+//				LED6_IO ^= 1;
+//				break;
+//			case '7':
+//				LED7_IO ^= 1;
+//				break;
+//		}
 		
 	}
 	
@@ -1697,31 +1697,31 @@ void HTTPPrint_led(WORD num)
 	// Determine which LED
 	switch(num)
 	{
-		case 0:
-			num = LED0_IO;
-			break;
-		case 1:
-			num = LED1_IO;
-			break;
-		case 2:
-			num = LED2_IO;
-			break;
-		case 3:
-			num = LED3_IO;
-			break;
-		case 4:
-			num = LED4_IO;
-			break;
-		case 5:
-			num = LED5_IO;
-			break;
-		case 6:
-			num = LED6_IO;
-			break;
-		case 7:
-			num = LED7_IO;
-			break;
-
+//		case 0:
+//			num = LED0_IO;
+//			break;
+//		case 1:
+//			num = LED1_IO;
+//			break;
+//		case 2:
+//			num = LED2_IO;
+//			break;
+//		case 3:
+//			num = LED3_IO;
+//			break;
+//		case 4:
+//			num = LED4_IO;
+//			break;
+//		case 5:
+//			num = LED5_IO;
+//			break;
+//		case 6:
+//			num = LED6_IO;
+//			break;
+//		case 7:
+//			num = LED7_IO;
+//			break;
+//
 		default:
 			num = 0;
 	}
@@ -1736,30 +1736,30 @@ void HTTPPrint_ledSelected(WORD num, WORD state)
 	// Determine which LED to check
 	switch(num)
 	{
-		case 0:
-			num = LED0_IO;
-			break;
-		case 1:
-			num = LED1_IO;
-			break;
-		case 2:
-			num = LED2_IO;
-			break;
-		case 3:
-			num = LED3_IO;
-			break;
-		case 4:
-			num = LED4_IO;
-			break;
-		case 5:
-			num = LED5_IO;
-			break;
-		case 6:
-			num = LED6_IO;
-			break;
-		case 7:
-			num = LED7_IO;
-			break;
+//		case 0:
+//			num = LED0_IO;
+//			break;
+//		case 1:
+//			num = LED1_IO;
+//			break;
+//		case 2:
+//			num = LED2_IO;
+//			break;
+//		case 3:
+//			num = LED3_IO;
+//			break;
+//		case 4:
+//			num = LED4_IO;
+//			break;
+//		case 5:
+//			num = LED5_IO;
+//			break;
+//		case 6:
+//			num = LED6_IO;
+//			break;
+//		case 7:
+//			num = LED7_IO;
+//			break;
 
 		default:
 			num = 0;
