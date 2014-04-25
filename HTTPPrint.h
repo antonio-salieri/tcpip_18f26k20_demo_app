@@ -52,25 +52,13 @@ extern HTTP_STUB httpStubs[MAX_HTTP_CONNECTIONS];
 extern BYTE curHTTPID;
 
 void HTTPPrint(DWORD callbackID);
-void HTTPPrint_hellomsg(void);
-void HTTPPrint_builddate(void);
-void HTTPPrint_version(void);
 
 void HTTPPrint(DWORD callbackID)
 {
 	switch(callbackID)
 	{
-        case 0x00000001:
-			HTTPPrint_hellomsg();
-			break;
         case 0x00000002:
 			HTTPIncFile((ROM BYTE*)"footer.inc");
-			break;
-        case 0x00000005:
-			HTTPPrint_builddate();
-			break;
-        case 0x00000016:
-			HTTPPrint_version();
 			break;
         case 0x00000033:
 			HTTPIncFile((ROM BYTE*)"header.inc");

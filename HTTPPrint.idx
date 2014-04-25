@@ -1,9 +1,9 @@
 ~inc:header.inc
-+hellomsg
+hellomsg
 +inc:footer.inc
 cookiename
 
-+builddate
+builddate
 led(7)
 led(6)
 led(5)
@@ -20,7 +20,7 @@ ledSelected(2,TRUE)
 ledSelected(2,FALSE)
 ledSelected(1,TRUE)
 ledSelected(1,FALSE)
-+version
+version
 led(0)
 btn(0)
 btn(1)

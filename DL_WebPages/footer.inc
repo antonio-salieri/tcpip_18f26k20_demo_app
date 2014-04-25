@@ -1,7 +1,5 @@
-<div class="spacer">&nbsp;</div>
-<div id="footer">Copyright &copy; 2012 Microchip Technology, Inc.</div>
 
-</div></div></div></div></div>
-
-</body>
+        <hr/>
+        <div id="footer">Copyright &copy; 2014 Digital Logic, Ltd.</div>
+    </body>
 </html>
