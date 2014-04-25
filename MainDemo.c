@@ -209,46 +209,46 @@ int main(void)
 
     // Initiates board setup process if button is depressed 
     // on startup
-    if(BUTTON0_IO == 0u)
-    {
-        #if defined(EEPROM_CS_TRIS) || defined(SPIFLASH_CS_TRIS)
+//    if(BUTTON0_IO == 0u)
+//    {
+//        #if defined(EEPROM_CS_TRIS) || defined(SPIFLASH_CS_TRIS)
         // Invalidate the EEPROM contents if BUTTON0 is held down for more than 4 seconds
-        DWORD StartTime = TickGet();
-        LED_PUT(0x00);
+//        DWORD StartTime = TickGet();
+//        LED_PUT(0x00);
                 
-        while(BUTTON0_IO == 0u)
-        {
-            if(TickGet() - StartTime > 4*TICK_SECOND)
-            {
-                #if defined(EEPROM_CS_TRIS)
-                XEEBeginWrite(0x0000);
-                XEEWrite(0xFF);
-                XEEWrite(0xFF);
-                XEEEndWrite();
-                #elif defined(SPIFLASH_CS_TRIS)
-                SPIFlashBeginWrite(0x0000);
-                SPIFlashWrite(0xFF);
-                SPIFlashWrite(0xFF);
-                #endif
+//        while(BUTTON0_IO == 0u)
+//        {
+//            if(TickGet() - StartTime > 4*TICK_SECOND)
+//            {
+//                #if defined(EEPROM_CS_TRIS)
+//                XEEBeginWrite(0x0000);
+//                XEEWrite(0xFF);
+//                XEEWrite(0xFF);
+//                XEEEndWrite();
+//                #elif defined(SPIFLASH_CS_TRIS)
+//                SPIFlashBeginWrite(0x0000);
+////                SPIFlashWrite(0xFF);
+//                SPIFlashWrite(0xFF);
+//                #endif
                 
-                #if defined(STACK_USE_UART)
-                putrsUART("\r\n\r\nBUTTON0 held for more than 4 seconds.  Default settings restored.\r\n\r\n");
-                #endif
+//                #if defined(STACK_USE_UART)
+//                putrsUART("\r\n\r\nBUTTON0 held for more than 4 seconds.  Default settings restored.\r\n\r\n");
+//                #endif
 
-                LED_PUT(0x0F);
-                while((LONG)(TickGet() - StartTime) <= (LONG)(9*TICK_SECOND/2));
-                LED_PUT(0x00);
-                while(BUTTON0_IO == 0u);
-                Reset();
-                break;
-            }
-        }
-        #endif
+//                LED_PUT(0x0F);
+//                while((LONG)(TickGet() - StartTime) <= (LONG)(9*TICK_SECOND/2));
+//                LED_PUT(0x00);
+//                while(BUTTON0_IO == 0u);
+//                Reset();
+//                break;
+//            }
+//        }
+//        #endif
 
-        #if defined(STACK_USE_UART)
-        DoUARTConfig();
-        #endif
-    }
+//        #if defined(STACK_USE_UART)
+//        DoUARTConfig();
+//        #endif
+//    }
 
     // Initialize core stack layers (MAC, ARP, TCP, UDP) and
     // application modules (HTTP, SNMP, etc.)

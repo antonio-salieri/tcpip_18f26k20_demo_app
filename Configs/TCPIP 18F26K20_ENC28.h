@@ -64,7 +64,7 @@
 //#define STACK_USE_UART					// Application demo using UART for IP address display and stack configuration
 //#define STACK_USE_UART2TCP_BRIDGE		// UART to TCP Bridge application example
 //#define STACK_USE_IP_GLEANING
-//#define STACK_USE_ICMP_SERVER			// Ping query and response capability
+#define STACK_USE_ICMP_SERVER			// Ping query and response capability
 //#define STACK_USE_ICMP_CLIENT			// Ping transmission capability
 #define STACK_USE_HTTP2_SERVER			// New HTTP server with POST, Cookies, Authentication, etc.
 //#define STACK_USE_SSL_SERVER			// SSL server socket support (Requires SW300052)

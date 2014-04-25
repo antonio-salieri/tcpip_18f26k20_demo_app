@@ -60,7 +60,7 @@
 #if defined(THIS_IS_STACK_APPLICATION)
 	#if defined(__18F26K20)
             #pragma config LVP=OFF, WDTPS=512, FOSC = HSPLL, BOREN = SBORDIS, BORV = 22, PBADEN = OFF, PWRT = ON
-            #pragma config WRT0 = OFF, WRT1 = OFF, WRT2 = OFF, WRT3 = OFF, WRTD = OFF
+//            #pragma config WRT0 = OFF, WRT1 = OFF, WRT2 = OFF, WRT3 = OFF, WRTD = OFF
 	#elif defined(__18F8722)
 		#pragma config OSC=HSPLL, FCMEN=OFF, IESO=OFF, PWRT=OFF, WDT=OFF, LVP=OFF
 	#elif defined(__18F87J10)
@@ -84,6 +84,8 @@
 // These directly influence timed events using the Tick module.  They also are used for UART and SPI baud rate generation.
 #if defined(__18F87J50) || defined(_18F87J50)
 	#define GetSystemClock()	(48000000ul)			// PIC18F87J50 USB PIM has it's own 12MHz crystal on it
+#elif defined(__18F26K20)
+	#define GetSystemClock()	(48000000ul)			// Hz
 #else	// PIC18F8722, PIC18F87J11, other ordinary PIMs	// Uses 10MHz crystal on PIC18 Explorer
 	#define GetSystemClock()	(40000000ul)			// Hz
 #endif
@@ -114,14 +116,14 @@
 //#define LED_PUT(a)			(LATD = (a))
 
 // Momentary push buttons
-#define BUTTON0_TRIS		(TRISAbits.TRISA5)
-#define	BUTTON0_IO			(PORTAbits.RA5)
-#define BUTTON1_TRIS		(TRISBbits.TRISB0)
-#define	BUTTON1_IO			(PORTBbits.RB0)
-#define BUTTON2_TRIS		(TRISBbits.TRISB0)	// No Button2 on this board
-#define	BUTTON2_IO			(1u)
-#define BUTTON3_TRIS		(TRISBbits.TRISB0)	// No Button3 on this board
-#define	BUTTON3_IO			(1u)
+//#define BUTTON0_TRIS		(TRISAbits.TRISA5)
+//#define	BUTTON0_IO			(PORTAbits.RA5)
+//#define BUTTON1_TRIS		(TRISBbits.TRISB0)
+//#define	BUTTON1_IO			(PORTBbits.RB0)
+//#define BUTTON2_TRIS		(TRISBbits.TRISB0)	// No Button2 on this board
+//#define	BUTTON2_IO			(1u)
+//#define BUTTON3_TRIS		(TRISBbits.TRISB0)	// No Button3 on this board
+//#define	BUTTON3_IO			(1u)
 
 //// ENC424J600/624J600 Fast 100Mbps Ethernet PICtail Plus defines
 //#define ENC100_INTERFACE_MODE			0
@@ -165,7 +167,7 @@
 #define ENC_RST_TRIS		(TRISCbits.TRISC1)
 #define ENC_RST_IO			(LATCbits.LATC1)
 #define ENC_CS_TRIS			(TRISCbits.TRISC2)
-#define ENC_CS_IO			(LATCbits.LATC3)
+#define ENC_CS_IO			(LATCbits.LATC2)
 #define ENC_SCK_TRIS		(TRISCbits.TRISC3)
 #define ENC_SDI_TRIS		(TRISCbits.TRISC4)
 #define ENC_SDO_TRIS		(TRISCbits.TRISC5)

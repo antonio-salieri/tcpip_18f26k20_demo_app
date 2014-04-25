@@ -1669,26 +1669,26 @@ ROM BYTE HTML_DOWN_ARROW[] = "dn";
 void HTTPPrint_btn(WORD num)
 {
 	// Determine which button
-	switch(num)
-	{
-		case 0:
-			num = BUTTON0_IO;
-			break;
-		case 1:
-			num = BUTTON1_IO;
-			break;
-		case 2:
-			num = BUTTON2_IO;
-			break;
-		case 3:
-			num = BUTTON3_IO;
-			break;
-		default:
-			num = 0;
-	}
+//	switch(num)
+//	{
+//		case 0:
+//			num = BUTTON0_IO;
+//			break;
+//		case 1:
+//			num = BUTTON1_IO;
+//			break;
+//		case 2:
+//			num = BUTTON2_IO;
+//			break;
+//		case 3:
+//			num = BUTTON3_IO;
+//			break;
+//		default:
+//			num = 0;
+//	}
 
 	// Print the output
-	TCPPutROMString(sktHTTP, (num?HTML_UP_ARROW:HTML_DOWN_ARROW));
+//	TCPPutROMString(sktHTTP, (num?HTML_UP_ARROW:HTML_DOWN_ARROW));
 	return;
 }
 	

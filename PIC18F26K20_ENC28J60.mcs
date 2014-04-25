@@ -1,0 +1,695 @@
+[Header]
+MagicCookie={0b13fe8c-dfe0-40eb-8900-6712719559a7}
+Version=1.0
+[File000]
+Location=C:\microchip\mla\v2013-06-15\TCPIP\tcpip_18f26k20_demo_app\Announce.o
+Folder=Intermediary
+DeviceName=PIC18F26K20
+LanguageToolSuiteID={5B7D72DD-9861-47BD-9F60-2BE967BF8416}
+LanguageToolID={E56A1C86-9D32-4DF6-8C34-FE0388B1B644}
+LanguageToolLocation=C:\Program Files (x86)\Microchip\mplabc18\v3.37.01\bin\mcc18.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)|.;..\Microchip\Include;..\..\Microchip\Include||$(LIBDIR)|C:\MCC18\lib||$(LKRDIR)||
+SOLK=<src>|..\..\Microchip\TCPIP Stack\Announce.c|..\..\Microchip\TCPIP Stack\ARP.c|..\..\Microchip\TCPIP Stack\AutoIP.c|..\..\Microchip\TCPIP Stack\BerkeleyAPI.c|..\..\Microchip\TCPIP Stack\Delay.c|..\..\Microchip\TCPIP Stack\DHCP.c|..\..\Microchip\TCPIP Stack\DHCPs.c|..\..\Microchip\TCPIP Stack\DNS.c|..\..\Microchip\TCPIP Stack\DNSs.c|..\..\Microchip\TCPIP Stack\DynDNS.c|..\..\Microchip\TCPIP Stack\ENC28J60.c|..\..\Microchip\TCPIP Stack\FTP.c|..\..\Microchip\TCPIP Stack\Hashes.c|..\..\Microchip\TCPIP Stack\Helpers.c|..\..\Microchip\TCPIP Stack\HTTP2.c|..\..\Microchip\TCPIP Stack\ICMP.c|..\..\Microchip\TCPIP Stack\IP.c|..\..\Microchip\TCPIP Stack\LCDBlocking.c|..\..\Microchip\TCPIP Stack\MPFS2.c|..\..\Microchip\TCPIP Stack\NBNS.c|..\..\Microchip\TCPIP Stack\Reboot.c|..\..\Microchip\TCPIP Stack\SMTP.c|..\..\Microchip\TCPIP Stack\SNMP.c|..\..\Microchip\TCPIP Stack\SNTP.c|..\..\Microchip\TCPIP Stack\SPIEEPROM.c|..\..\Microchip\TCPIP Stack\SPIFlash.c|..\..\Microchip\TCPIP Stack\SPIRAM.c|..\..\Microchip\TCPIP Stack\StackTsk.c|..\..\Microchip\TCPIP Stack\TCP.c|..\..\Microchip\TCPIP Stack\TCPPerformanceTest.c|..\..\Microchip\TCPIP Stack\Telnet.c|..\..\Microchip\TCPIP Stack\TFTPc.c|..\..\Microchip\TCPIP Stack\Tick.c|..\..\Microchip\TCPIP Stack\UART2TCPBridge.c|..\..\Microchip\TCPIP Stack\UART.c|..\..\Microchip\TCPIP Stack\UDP.c|..\..\Microchip\TCPIP Stack\UDPPerformanceTest.c|CustomHTTPApp.c|CustomSNMPApp.c|MainDemo.c|BerkeleyTCPClientDemo.c|BerkeleyTCPServerDemo.c|BerkeleyUDPClientDemo.c|GenericTCPClient.c|GenericTCPServer.c|PingDemo.c|SMTPDemo.c|UARTConfig.c|..\..\Microchip\TCPIP Stack\ENCX24J600.c|DL_MPFSImg.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-k -sco -DCFG_INCLUDE_PIC18F26K20_ENC28 -mL -Ou- -Ot- -Ob- -Op- -Or- -Od- -Opa-
+TraceCmdString=
+DebugOptions=-D__DEBUG -D__MPLAB_DEBUGGER_ICD3=1
+[File001]
+Location=C:\microchip\mla\v2013-06-15\TCPIP\tcpip_18f26k20_demo_app\ARP.o
+Folder=Intermediary
+DeviceName=PIC18F26K20
+LanguageToolSuiteID={5B7D72DD-9861-47BD-9F60-2BE967BF8416}
+LanguageToolID={E56A1C86-9D32-4DF6-8C34-FE0388B1B644}
+LanguageToolLocation=C:\Program Files (x86)\Microchip\mplabc18\v3.37.01\bin\mcc18.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)|.;..\Microchip\Include;..\..\Microchip\Include||$(LIBDIR)|C:\MCC18\lib||$(LKRDIR)||
+SOLK=<src>|..\..\Microchip\TCPIP Stack\Announce.c|..\..\Microchip\TCPIP Stack\ARP.c|..\..\Microchip\TCPIP Stack\AutoIP.c|..\..\Microchip\TCPIP Stack\BerkeleyAPI.c|..\..\Microchip\TCPIP Stack\Delay.c|..\..\Microchip\TCPIP Stack\DHCP.c|..\..\Microchip\TCPIP Stack\DHCPs.c|..\..\Microchip\TCPIP Stack\DNS.c|..\..\Microchip\TCPIP Stack\DNSs.c|..\..\Microchip\TCPIP Stack\DynDNS.c|..\..\Microchip\TCPIP Stack\ENC28J60.c|..\..\Microchip\TCPIP Stack\FTP.c|..\..\Microchip\TCPIP Stack\Hashes.c|..\..\Microchip\TCPIP Stack\Helpers.c|..\..\Microchip\TCPIP Stack\HTTP2.c|..\..\Microchip\TCPIP Stack\ICMP.c|..\..\Microchip\TCPIP Stack\IP.c|..\..\Microchip\TCPIP Stack\LCDBlocking.c|..\..\Microchip\TCPIP Stack\MPFS2.c|..\..\Microchip\TCPIP Stack\NBNS.c|..\..\Microchip\TCPIP Stack\Reboot.c|..\..\Microchip\TCPIP Stack\SMTP.c|..\..\Microchip\TCPIP Stack\SNMP.c|..\..\Microchip\TCPIP Stack\SNTP.c|..\..\Microchip\TCPIP Stack\SPIEEPROM.c|..\..\Microchip\TCPIP Stack\SPIFlash.c|..\..\Microchip\TCPIP Stack\SPIRAM.c|..\..\Microchip\TCPIP Stack\StackTsk.c|..\..\Microchip\TCPIP Stack\TCP.c|..\..\Microchip\TCPIP Stack\TCPPerformanceTest.c|..\..\Microchip\TCPIP Stack\Telnet.c|..\..\Microchip\TCPIP Stack\TFTPc.c|..\..\Microchip\TCPIP Stack\Tick.c|..\..\Microchip\TCPIP Stack\UART2TCPBridge.c|..\..\Microchip\TCPIP Stack\UART.c|..\..\Microchip\TCPIP Stack\UDP.c|..\..\Microchip\TCPIP Stack\UDPPerformanceTest.c|CustomHTTPApp.c|CustomSNMPApp.c|MainDemo.c|BerkeleyTCPClientDemo.c|BerkeleyTCPServerDemo.c|BerkeleyUDPClientDemo.c|GenericTCPClient.c|GenericTCPServer.c|PingDemo.c|SMTPDemo.c|UARTConfig.c|..\..\Microchip\TCPIP Stack\ENCX24J600.c|DL_MPFSImg.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-k -sco -DCFG_INCLUDE_PIC18F26K20_ENC28 -mL -Ou- -Ot- -Ob- -Op- -Or- -Od- -Opa-
+TraceCmdString=
+DebugOptions=-D__DEBUG -D__MPLAB_DEBUGGER_ICD3=1
+[File002]
+Location=C:\microchip\mla\v2013-06-15\TCPIP\tcpip_18f26k20_demo_app\AutoIP.o
+Folder=Intermediary
+DeviceName=PIC18F26K20
+LanguageToolSuiteID={5B7D72DD-9861-47BD-9F60-2BE967BF8416}
+LanguageToolID={E56A1C86-9D32-4DF6-8C34-FE0388B1B644}
+LanguageToolLocation=C:\Program Files (x86)\Microchip\mplabc18\v3.37.01\bin\mcc18.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)|.;..\Microchip\Include;..\..\Microchip\Include||$(LIBDIR)|C:\MCC18\lib||$(LKRDIR)||
+SOLK=<src>|..\..\Microchip\TCPIP Stack\Announce.c|..\..\Microchip\TCPIP Stack\ARP.c|..\..\Microchip\TCPIP Stack\AutoIP.c|..\..\Microchip\TCPIP Stack\BerkeleyAPI.c|..\..\Microchip\TCPIP Stack\Delay.c|..\..\Microchip\TCPIP Stack\DHCP.c|..\..\Microchip\TCPIP Stack\DHCPs.c|..\..\Microchip\TCPIP Stack\DNS.c|..\..\Microchip\TCPIP Stack\DNSs.c|..\..\Microchip\TCPIP Stack\DynDNS.c|..\..\Microchip\TCPIP Stack\ENC28J60.c|..\..\Microchip\TCPIP Stack\FTP.c|..\..\Microchip\TCPIP Stack\Hashes.c|..\..\Microchip\TCPIP Stack\Helpers.c|..\..\Microchip\TCPIP Stack\HTTP2.c|..\..\Microchip\TCPIP Stack\ICMP.c|..\..\Microchip\TCPIP Stack\IP.c|..\..\Microchip\TCPIP Stack\LCDBlocking.c|..\..\Microchip\TCPIP Stack\MPFS2.c|..\..\Microchip\TCPIP Stack\NBNS.c|..\..\Microchip\TCPIP Stack\Reboot.c|..\..\Microchip\TCPIP Stack\SMTP.c|..\..\Microchip\TCPIP Stack\SNMP.c|..\..\Microchip\TCPIP Stack\SNTP.c|..\..\Microchip\TCPIP Stack\SPIEEPROM.c|..\..\Microchip\TCPIP Stack\SPIFlash.c|..\..\Microchip\TCPIP Stack\SPIRAM.c|..\..\Microchip\TCPIP Stack\StackTsk.c|..\..\Microchip\TCPIP Stack\TCP.c|..\..\Microchip\TCPIP Stack\TCPPerformanceTest.c|..\..\Microchip\TCPIP Stack\Telnet.c|..\..\Microchip\TCPIP Stack\TFTPc.c|..\..\Microchip\TCPIP Stack\Tick.c|..\..\Microchip\TCPIP Stack\UART2TCPBridge.c|..\..\Microchip\TCPIP Stack\UART.c|..\..\Microchip\TCPIP Stack\UDP.c|..\..\Microchip\TCPIP Stack\UDPPerformanceTest.c|CustomHTTPApp.c|CustomSNMPApp.c|MainDemo.c|BerkeleyTCPClientDemo.c|BerkeleyTCPServerDemo.c|BerkeleyUDPClientDemo.c|GenericTCPClient.c|GenericTCPServer.c|PingDemo.c|SMTPDemo.c|UARTConfig.c|..\..\Microchip\TCPIP Stack\ENCX24J600.c|DL_MPFSImg.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-k -sco -DCFG_INCLUDE_PIC18F26K20_ENC28 -mL -Ou- -Ot- -Ob- -Op- -Or- -Od- -Opa-
+TraceCmdString=
+DebugOptions=-D__DEBUG -D__MPLAB_DEBUGGER_ICD3=1
+[File003]
+Location=C:\microchip\mla\v2013-06-15\TCPIP\tcpip_18f26k20_demo_app\BerkeleyAPI.o
+Folder=Intermediary
+DeviceName=PIC18F26K20
+LanguageToolSuiteID={5B7D72DD-9861-47BD-9F60-2BE967BF8416}
+LanguageToolID={E56A1C86-9D32-4DF6-8C34-FE0388B1B644}
+LanguageToolLocation=C:\Program Files (x86)\Microchip\mplabc18\v3.37.01\bin\mcc18.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)|.;..\Microchip\Include;..\..\Microchip\Include||$(LIBDIR)|C:\MCC18\lib||$(LKRDIR)||
+SOLK=<src>|..\..\Microchip\TCPIP Stack\Announce.c|..\..\Microchip\TCPIP Stack\ARP.c|..\..\Microchip\TCPIP Stack\AutoIP.c|..\..\Microchip\TCPIP Stack\BerkeleyAPI.c|..\..\Microchip\TCPIP Stack\Delay.c|..\..\Microchip\TCPIP Stack\DHCP.c|..\..\Microchip\TCPIP Stack\DHCPs.c|..\..\Microchip\TCPIP Stack\DNS.c|..\..\Microchip\TCPIP Stack\DNSs.c|..\..\Microchip\TCPIP Stack\DynDNS.c|..\..\Microchip\TCPIP Stack\ENC28J60.c|..\..\Microchip\TCPIP Stack\FTP.c|..\..\Microchip\TCPIP Stack\Hashes.c|..\..\Microchip\TCPIP Stack\Helpers.c|..\..\Microchip\TCPIP Stack\HTTP2.c|..\..\Microchip\TCPIP Stack\ICMP.c|..\..\Microchip\TCPIP Stack\IP.c|..\..\Microchip\TCPIP Stack\LCDBlocking.c|..\..\Microchip\TCPIP Stack\MPFS2.c|..\..\Microchip\TCPIP Stack\NBNS.c|..\..\Microchip\TCPIP Stack\Reboot.c|..\..\Microchip\TCPIP Stack\SMTP.c|..\..\Microchip\TCPIP Stack\SNMP.c|..\..\Microchip\TCPIP Stack\SNTP.c|..\..\Microchip\TCPIP Stack\SPIEEPROM.c|..\..\Microchip\TCPIP Stack\SPIFlash.c|..\..\Microchip\TCPIP Stack\SPIRAM.c|..\..\Microchip\TCPIP Stack\StackTsk.c|..\..\Microchip\TCPIP Stack\TCP.c|..\..\Microchip\TCPIP Stack\TCPPerformanceTest.c|..\..\Microchip\TCPIP Stack\Telnet.c|..\..\Microchip\TCPIP Stack\TFTPc.c|..\..\Microchip\TCPIP Stack\Tick.c|..\..\Microchip\TCPIP Stack\UART2TCPBridge.c|..\..\Microchip\TCPIP Stack\UART.c|..\..\Microchip\TCPIP Stack\UDP.c|..\..\Microchip\TCPIP Stack\UDPPerformanceTest.c|CustomHTTPApp.c|CustomSNMPApp.c|MainDemo.c|BerkeleyTCPClientDemo.c|BerkeleyTCPServerDemo.c|BerkeleyUDPClientDemo.c|GenericTCPClient.c|GenericTCPServer.c|PingDemo.c|SMTPDemo.c|UARTConfig.c|..\..\Microchip\TCPIP Stack\ENCX24J600.c|DL_MPFSImg.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-k -sco -DCFG_INCLUDE_PIC18F26K20_ENC28 -mL -Ou- -Ot- -Ob- -Op- -Or- -Od- -Opa-
+TraceCmdString=
+DebugOptions=-D__DEBUG -D__MPLAB_DEBUGGER_ICD3=1
+[File004]
+Location=C:\microchip\mla\v2013-06-15\TCPIP\tcpip_18f26k20_demo_app\Delay.o
+Folder=Intermediary
+DeviceName=PIC18F26K20
+LanguageToolSuiteID={5B7D72DD-9861-47BD-9F60-2BE967BF8416}
+LanguageToolID={E56A1C86-9D32-4DF6-8C34-FE0388B1B644}
+LanguageToolLocation=C:\Program Files (x86)\Microchip\mplabc18\v3.37.01\bin\mcc18.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)|.;..\Microchip\Include;..\..\Microchip\Include||$(LIBDIR)|C:\MCC18\lib||$(LKRDIR)||
+SOLK=<src>|..\..\Microchip\TCPIP Stack\Announce.c|..\..\Microchip\TCPIP Stack\ARP.c|..\..\Microchip\TCPIP Stack\AutoIP.c|..\..\Microchip\TCPIP Stack\BerkeleyAPI.c|..\..\Microchip\TCPIP Stack\Delay.c|..\..\Microchip\TCPIP Stack\DHCP.c|..\..\Microchip\TCPIP Stack\DHCPs.c|..\..\Microchip\TCPIP Stack\DNS.c|..\..\Microchip\TCPIP Stack\DNSs.c|..\..\Microchip\TCPIP Stack\DynDNS.c|..\..\Microchip\TCPIP Stack\ENC28J60.c|..\..\Microchip\TCPIP Stack\FTP.c|..\..\Microchip\TCPIP Stack\Hashes.c|..\..\Microchip\TCPIP Stack\Helpers.c|..\..\Microchip\TCPIP Stack\HTTP2.c|..\..\Microchip\TCPIP Stack\ICMP.c|..\..\Microchip\TCPIP Stack\IP.c|..\..\Microchip\TCPIP Stack\LCDBlocking.c|..\..\Microchip\TCPIP Stack\MPFS2.c|..\..\Microchip\TCPIP Stack\NBNS.c|..\..\Microchip\TCPIP Stack\Reboot.c|..\..\Microchip\TCPIP Stack\SMTP.c|..\..\Microchip\TCPIP Stack\SNMP.c|..\..\Microchip\TCPIP Stack\SNTP.c|..\..\Microchip\TCPIP Stack\SPIEEPROM.c|..\..\Microchip\TCPIP Stack\SPIFlash.c|..\..\Microchip\TCPIP Stack\SPIRAM.c|..\..\Microchip\TCPIP Stack\StackTsk.c|..\..\Microchip\TCPIP Stack\TCP.c|..\..\Microchip\TCPIP Stack\TCPPerformanceTest.c|..\..\Microchip\TCPIP Stack\Telnet.c|..\..\Microchip\TCPIP Stack\TFTPc.c|..\..\Microchip\TCPIP Stack\Tick.c|..\..\Microchip\TCPIP Stack\UART2TCPBridge.c|..\..\Microchip\TCPIP Stack\UART.c|..\..\Microchip\TCPIP Stack\UDP.c|..\..\Microchip\TCPIP Stack\UDPPerformanceTest.c|CustomHTTPApp.c|CustomSNMPApp.c|MainDemo.c|BerkeleyTCPClientDemo.c|BerkeleyTCPServerDemo.c|BerkeleyUDPClientDemo.c|GenericTCPClient.c|GenericTCPServer.c|PingDemo.c|SMTPDemo.c|UARTConfig.c|..\..\Microchip\TCPIP Stack\ENCX24J600.c|DL_MPFSImg.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-k -sco -DCFG_INCLUDE_PIC18F26K20_ENC28 -mL -Ou- -Ot- -Ob- -Op- -Or- -Od- -Opa-
+TraceCmdString=
+DebugOptions=-D__DEBUG -D__MPLAB_DEBUGGER_ICD3=1
+[File005]
+Location=C:\microchip\mla\v2013-06-15\TCPIP\tcpip_18f26k20_demo_app\DHCP.o
+Folder=Intermediary
+DeviceName=PIC18F26K20
+LanguageToolSuiteID={5B7D72DD-9861-47BD-9F60-2BE967BF8416}
+LanguageToolID={E56A1C86-9D32-4DF6-8C34-FE0388B1B644}
+LanguageToolLocation=C:\Program Files (x86)\Microchip\mplabc18\v3.37.01\bin\mcc18.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)|.;..\Microchip\Include;..\..\Microchip\Include||$(LIBDIR)|C:\MCC18\lib||$(LKRDIR)||
+SOLK=<src>|..\..\Microchip\TCPIP Stack\Announce.c|..\..\Microchip\TCPIP Stack\ARP.c|..\..\Microchip\TCPIP Stack\AutoIP.c|..\..\Microchip\TCPIP Stack\BerkeleyAPI.c|..\..\Microchip\TCPIP Stack\Delay.c|..\..\Microchip\TCPIP Stack\DHCP.c|..\..\Microchip\TCPIP Stack\DHCPs.c|..\..\Microchip\TCPIP Stack\DNS.c|..\..\Microchip\TCPIP Stack\DNSs.c|..\..\Microchip\TCPIP Stack\DynDNS.c|..\..\Microchip\TCPIP Stack\ENC28J60.c|..\..\Microchip\TCPIP Stack\FTP.c|..\..\Microchip\TCPIP Stack\Hashes.c|..\..\Microchip\TCPIP Stack\Helpers.c|..\..\Microchip\TCPIP Stack\HTTP2.c|..\..\Microchip\TCPIP Stack\ICMP.c|..\..\Microchip\TCPIP Stack\IP.c|..\..\Microchip\TCPIP Stack\LCDBlocking.c|..\..\Microchip\TCPIP Stack\MPFS2.c|..\..\Microchip\TCPIP Stack\NBNS.c|..\..\Microchip\TCPIP Stack\Reboot.c|..\..\Microchip\TCPIP Stack\SMTP.c|..\..\Microchip\TCPIP Stack\SNMP.c|..\..\Microchip\TCPIP Stack\SNTP.c|..\..\Microchip\TCPIP Stack\SPIEEPROM.c|..\..\Microchip\TCPIP Stack\SPIFlash.c|..\..\Microchip\TCPIP Stack\SPIRAM.c|..\..\Microchip\TCPIP Stack\StackTsk.c|..\..\Microchip\TCPIP Stack\TCP.c|..\..\Microchip\TCPIP Stack\TCPPerformanceTest.c|..\..\Microchip\TCPIP Stack\Telnet.c|..\..\Microchip\TCPIP Stack\TFTPc.c|..\..\Microchip\TCPIP Stack\Tick.c|..\..\Microchip\TCPIP Stack\UART2TCPBridge.c|..\..\Microchip\TCPIP Stack\UART.c|..\..\Microchip\TCPIP Stack\UDP.c|..\..\Microchip\TCPIP Stack\UDPPerformanceTest.c|CustomHTTPApp.c|CustomSNMPApp.c|MainDemo.c|BerkeleyTCPClientDemo.c|BerkeleyTCPServerDemo.c|BerkeleyUDPClientDemo.c|GenericTCPClient.c|GenericTCPServer.c|PingDemo.c|SMTPDemo.c|UARTConfig.c|..\..\Microchip\TCPIP Stack\ENCX24J600.c|DL_MPFSImg.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-k -sco -DCFG_INCLUDE_PIC18F26K20_ENC28 -mL -Ou- -Ot- -Ob- -Op- -Or- -Od- -Opa-
+TraceCmdString=
+DebugOptions=-D__DEBUG -D__MPLAB_DEBUGGER_ICD3=1
+[File006]
+Location=C:\microchip\mla\v2013-06-15\TCPIP\tcpip_18f26k20_demo_app\DHCPs.o
+Folder=Intermediary
+DeviceName=PIC18F26K20
+LanguageToolSuiteID={5B7D72DD-9861-47BD-9F60-2BE967BF8416}
+LanguageToolID={E56A1C86-9D32-4DF6-8C34-FE0388B1B644}
+LanguageToolLocation=C:\Program Files (x86)\Microchip\mplabc18\v3.37.01\bin\mcc18.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)|.;..\Microchip\Include;..\..\Microchip\Include||$(LIBDIR)|C:\MCC18\lib||$(LKRDIR)||
+SOLK=<src>|..\..\Microchip\TCPIP Stack\Announce.c|..\..\Microchip\TCPIP Stack\ARP.c|..\..\Microchip\TCPIP Stack\AutoIP.c|..\..\Microchip\TCPIP Stack\BerkeleyAPI.c|..\..\Microchip\TCPIP Stack\Delay.c|..\..\Microchip\TCPIP Stack\DHCP.c|..\..\Microchip\TCPIP Stack\DHCPs.c|..\..\Microchip\TCPIP Stack\DNS.c|..\..\Microchip\TCPIP Stack\DNSs.c|..\..\Microchip\TCPIP Stack\DynDNS.c|..\..\Microchip\TCPIP Stack\ENC28J60.c|..\..\Microchip\TCPIP Stack\FTP.c|..\..\Microchip\TCPIP Stack\Hashes.c|..\..\Microchip\TCPIP Stack\Helpers.c|..\..\Microchip\TCPIP Stack\HTTP2.c|..\..\Microchip\TCPIP Stack\ICMP.c|..\..\Microchip\TCPIP Stack\IP.c|..\..\Microchip\TCPIP Stack\LCDBlocking.c|..\..\Microchip\TCPIP Stack\MPFS2.c|..\..\Microchip\TCPIP Stack\NBNS.c|..\..\Microchip\TCPIP Stack\Reboot.c|..\..\Microchip\TCPIP Stack\SMTP.c|..\..\Microchip\TCPIP Stack\SNMP.c|..\..\Microchip\TCPIP Stack\SNTP.c|..\..\Microchip\TCPIP Stack\SPIEEPROM.c|..\..\Microchip\TCPIP Stack\SPIFlash.c|..\..\Microchip\TCPIP Stack\SPIRAM.c|..\..\Microchip\TCPIP Stack\StackTsk.c|..\..\Microchip\TCPIP Stack\TCP.c|..\..\Microchip\TCPIP Stack\TCPPerformanceTest.c|..\..\Microchip\TCPIP Stack\Telnet.c|..\..\Microchip\TCPIP Stack\TFTPc.c|..\..\Microchip\TCPIP Stack\Tick.c|..\..\Microchip\TCPIP Stack\UART2TCPBridge.c|..\..\Microchip\TCPIP Stack\UART.c|..\..\Microchip\TCPIP Stack\UDP.c|..\..\Microchip\TCPIP Stack\UDPPerformanceTest.c|CustomHTTPApp.c|CustomSNMPApp.c|MainDemo.c|BerkeleyTCPClientDemo.c|BerkeleyTCPServerDemo.c|BerkeleyUDPClientDemo.c|GenericTCPClient.c|GenericTCPServer.c|PingDemo.c|SMTPDemo.c|UARTConfig.c|..\..\Microchip\TCPIP Stack\ENCX24J600.c|DL_MPFSImg.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-k -sco -DCFG_INCLUDE_PIC18F26K20_ENC28 -mL -Ou- -Ot- -Ob- -Op- -Or- -Od- -Opa-
+TraceCmdString=
+DebugOptions=-D__DEBUG -D__MPLAB_DEBUGGER_ICD3=1
+[File007]
+Location=C:\microchip\mla\v2013-06-15\TCPIP\tcpip_18f26k20_demo_app\DNS.o
+Folder=Intermediary
+DeviceName=PIC18F26K20
+LanguageToolSuiteID={5B7D72DD-9861-47BD-9F60-2BE967BF8416}
+LanguageToolID={E56A1C86-9D32-4DF6-8C34-FE0388B1B644}
+LanguageToolLocation=C:\Program Files (x86)\Microchip\mplabc18\v3.37.01\bin\mcc18.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)|.;..\Microchip\Include;..\..\Microchip\Include||$(LIBDIR)|C:\MCC18\lib||$(LKRDIR)||
+SOLK=<src>|..\..\Microchip\TCPIP Stack\Announce.c|..\..\Microchip\TCPIP Stack\ARP.c|..\..\Microchip\TCPIP Stack\AutoIP.c|..\..\Microchip\TCPIP Stack\BerkeleyAPI.c|..\..\Microchip\TCPIP Stack\Delay.c|..\..\Microchip\TCPIP Stack\DHCP.c|..\..\Microchip\TCPIP Stack\DHCPs.c|..\..\Microchip\TCPIP Stack\DNS.c|..\..\Microchip\TCPIP Stack\DNSs.c|..\..\Microchip\TCPIP Stack\DynDNS.c|..\..\Microchip\TCPIP Stack\ENC28J60.c|..\..\Microchip\TCPIP Stack\FTP.c|..\..\Microchip\TCPIP Stack\Hashes.c|..\..\Microchip\TCPIP Stack\Helpers.c|..\..\Microchip\TCPIP Stack\HTTP2.c|..\..\Microchip\TCPIP Stack\ICMP.c|..\..\Microchip\TCPIP Stack\IP.c|..\..\Microchip\TCPIP Stack\LCDBlocking.c|..\..\Microchip\TCPIP Stack\MPFS2.c|..\..\Microchip\TCPIP Stack\NBNS.c|..\..\Microchip\TCPIP Stack\Reboot.c|..\..\Microchip\TCPIP Stack\SMTP.c|..\..\Microchip\TCPIP Stack\SNMP.c|..\..\Microchip\TCPIP Stack\SNTP.c|..\..\Microchip\TCPIP Stack\SPIEEPROM.c|..\..\Microchip\TCPIP Stack\SPIFlash.c|..\..\Microchip\TCPIP Stack\SPIRAM.c|..\..\Microchip\TCPIP Stack\StackTsk.c|..\..\Microchip\TCPIP Stack\TCP.c|..\..\Microchip\TCPIP Stack\TCPPerformanceTest.c|..\..\Microchip\TCPIP Stack\Telnet.c|..\..\Microchip\TCPIP Stack\TFTPc.c|..\..\Microchip\TCPIP Stack\Tick.c|..\..\Microchip\TCPIP Stack\UART2TCPBridge.c|..\..\Microchip\TCPIP Stack\UART.c|..\..\Microchip\TCPIP Stack\UDP.c|..\..\Microchip\TCPIP Stack\UDPPerformanceTest.c|CustomHTTPApp.c|CustomSNMPApp.c|MainDemo.c|BerkeleyTCPClientDemo.c|BerkeleyTCPServerDemo.c|BerkeleyUDPClientDemo.c|GenericTCPClient.c|GenericTCPServer.c|PingDemo.c|SMTPDemo.c|UARTConfig.c|..\..\Microchip\TCPIP Stack\ENCX24J600.c|DL_MPFSImg.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-k -sco -DCFG_INCLUDE_PIC18F26K20_ENC28 -mL -Ou- -Ot- -Ob- -Op- -Or- -Od- -Opa-
+TraceCmdString=
+DebugOptions=-D__DEBUG -D__MPLAB_DEBUGGER_ICD3=1
+[File008]
+Location=C:\microchip\mla\v2013-06-15\TCPIP\tcpip_18f26k20_demo_app\DNSs.o
+Folder=Intermediary
+DeviceName=PIC18F26K20
+LanguageToolSuiteID={5B7D72DD-9861-47BD-9F60-2BE967BF8416}
+LanguageToolID={E56A1C86-9D32-4DF6-8C34-FE0388B1B644}
+LanguageToolLocation=C:\Program Files (x86)\Microchip\mplabc18\v3.37.01\bin\mcc18.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)|.;..\Microchip\Include;..\..\Microchip\Include||$(LIBDIR)|C:\MCC18\lib||$(LKRDIR)||
+SOLK=<src>|..\..\Microchip\TCPIP Stack\Announce.c|..\..\Microchip\TCPIP Stack\ARP.c|..\..\Microchip\TCPIP Stack\AutoIP.c|..\..\Microchip\TCPIP Stack\BerkeleyAPI.c|..\..\Microchip\TCPIP Stack\Delay.c|..\..\Microchip\TCPIP Stack\DHCP.c|..\..\Microchip\TCPIP Stack\DHCPs.c|..\..\Microchip\TCPIP Stack\DNS.c|..\..\Microchip\TCPIP Stack\DNSs.c|..\..\Microchip\TCPIP Stack\DynDNS.c|..\..\Microchip\TCPIP Stack\ENC28J60.c|..\..\Microchip\TCPIP Stack\FTP.c|..\..\Microchip\TCPIP Stack\Hashes.c|..\..\Microchip\TCPIP Stack\Helpers.c|..\..\Microchip\TCPIP Stack\HTTP2.c|..\..\Microchip\TCPIP Stack\ICMP.c|..\..\Microchip\TCPIP Stack\IP.c|..\..\Microchip\TCPIP Stack\LCDBlocking.c|..\..\Microchip\TCPIP Stack\MPFS2.c|..\..\Microchip\TCPIP Stack\NBNS.c|..\..\Microchip\TCPIP Stack\Reboot.c|..\..\Microchip\TCPIP Stack\SMTP.c|..\..\Microchip\TCPIP Stack\SNMP.c|..\..\Microchip\TCPIP Stack\SNTP.c|..\..\Microchip\TCPIP Stack\SPIEEPROM.c|..\..\Microchip\TCPIP Stack\SPIFlash.c|..\..\Microchip\TCPIP Stack\SPIRAM.c|..\..\Microchip\TCPIP Stack\StackTsk.c|..\..\Microchip\TCPIP Stack\TCP.c|..\..\Microchip\TCPIP Stack\TCPPerformanceTest.c|..\..\Microchip\TCPIP Stack\Telnet.c|..\..\Microchip\TCPIP Stack\TFTPc.c|..\..\Microchip\TCPIP Stack\Tick.c|..\..\Microchip\TCPIP Stack\UART2TCPBridge.c|..\..\Microchip\TCPIP Stack\UART.c|..\..\Microchip\TCPIP Stack\UDP.c|..\..\Microchip\TCPIP Stack\UDPPerformanceTest.c|CustomHTTPApp.c|CustomSNMPApp.c|MainDemo.c|BerkeleyTCPClientDemo.c|BerkeleyTCPServerDemo.c|BerkeleyUDPClientDemo.c|GenericTCPClient.c|GenericTCPServer.c|PingDemo.c|SMTPDemo.c|UARTConfig.c|..\..\Microchip\TCPIP Stack\ENCX24J600.c|DL_MPFSImg.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-k -sco -DCFG_INCLUDE_PIC18F26K20_ENC28 -mL -Ou- -Ot- -Ob- -Op- -Or- -Od- -Opa-
+TraceCmdString=
+DebugOptions=-D__DEBUG -D__MPLAB_DEBUGGER_ICD3=1
+[File009]
+Location=C:\microchip\mla\v2013-06-15\TCPIP\tcpip_18f26k20_demo_app\DynDNS.o
+Folder=Intermediary
+DeviceName=PIC18F26K20
+LanguageToolSuiteID={5B7D72DD-9861-47BD-9F60-2BE967BF8416}
+LanguageToolID={E56A1C86-9D32-4DF6-8C34-FE0388B1B644}
+LanguageToolLocation=C:\Program Files (x86)\Microchip\mplabc18\v3.37.01\bin\mcc18.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)|.;..\Microchip\Include;..\..\Microchip\Include||$(LIBDIR)|C:\MCC18\lib||$(LKRDIR)||
+SOLK=<src>|..\..\Microchip\TCPIP Stack\Announce.c|..\..\Microchip\TCPIP Stack\ARP.c|..\..\Microchip\TCPIP Stack\AutoIP.c|..\..\Microchip\TCPIP Stack\BerkeleyAPI.c|..\..\Microchip\TCPIP Stack\Delay.c|..\..\Microchip\TCPIP Stack\DHCP.c|..\..\Microchip\TCPIP Stack\DHCPs.c|..\..\Microchip\TCPIP Stack\DNS.c|..\..\Microchip\TCPIP Stack\DNSs.c|..\..\Microchip\TCPIP Stack\DynDNS.c|..\..\Microchip\TCPIP Stack\ENC28J60.c|..\..\Microchip\TCPIP Stack\FTP.c|..\..\Microchip\TCPIP Stack\Hashes.c|..\..\Microchip\TCPIP Stack\Helpers.c|..\..\Microchip\TCPIP Stack\HTTP2.c|..\..\Microchip\TCPIP Stack\ICMP.c|..\..\Microchip\TCPIP Stack\IP.c|..\..\Microchip\TCPIP Stack\LCDBlocking.c|..\..\Microchip\TCPIP Stack\MPFS2.c|..\..\Microchip\TCPIP Stack\NBNS.c|..\..\Microchip\TCPIP Stack\Reboot.c|..\..\Microchip\TCPIP Stack\SMTP.c|..\..\Microchip\TCPIP Stack\SNMP.c|..\..\Microchip\TCPIP Stack\SNTP.c|..\..\Microchip\TCPIP Stack\SPIEEPROM.c|..\..\Microchip\TCPIP Stack\SPIFlash.c|..\..\Microchip\TCPIP Stack\SPIRAM.c|..\..\Microchip\TCPIP Stack\StackTsk.c|..\..\Microchip\TCPIP Stack\TCP.c|..\..\Microchip\TCPIP Stack\TCPPerformanceTest.c|..\..\Microchip\TCPIP Stack\Telnet.c|..\..\Microchip\TCPIP Stack\TFTPc.c|..\..\Microchip\TCPIP Stack\Tick.c|..\..\Microchip\TCPIP Stack\UART2TCPBridge.c|..\..\Microchip\TCPIP Stack\UART.c|..\..\Microchip\TCPIP Stack\UDP.c|..\..\Microchip\TCPIP Stack\UDPPerformanceTest.c|CustomHTTPApp.c|CustomSNMPApp.c|MainDemo.c|BerkeleyTCPClientDemo.c|BerkeleyTCPServerDemo.c|BerkeleyUDPClientDemo.c|GenericTCPClient.c|GenericTCPServer.c|PingDemo.c|SMTPDemo.c|UARTConfig.c|..\..\Microchip\TCPIP Stack\ENCX24J600.c|DL_MPFSImg.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-k -sco -DCFG_INCLUDE_PIC18F26K20_ENC28 -mL -Ou- -Ot- -Ob- -Op- -Or- -Od- -Opa-
+TraceCmdString=
+DebugOptions=-D__DEBUG -D__MPLAB_DEBUGGER_ICD3=1
+[File010]
+Location=C:\microchip\mla\v2013-06-15\TCPIP\tcpip_18f26k20_demo_app\ENC28J60.o
+Folder=Intermediary
+DeviceName=PIC18F26K20
+LanguageToolSuiteID={5B7D72DD-9861-47BD-9F60-2BE967BF8416}
+LanguageToolID={E56A1C86-9D32-4DF6-8C34-FE0388B1B644}
+LanguageToolLocation=C:\Program Files (x86)\Microchip\mplabc18\v3.37.01\bin\mcc18.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)|.;..\Microchip\Include;..\..\Microchip\Include||$(LIBDIR)|C:\MCC18\lib||$(LKRDIR)||
+SOLK=<src>|..\..\Microchip\TCPIP Stack\Announce.c|..\..\Microchip\TCPIP Stack\ARP.c|..\..\Microchip\TCPIP Stack\AutoIP.c|..\..\Microchip\TCPIP Stack\BerkeleyAPI.c|..\..\Microchip\TCPIP Stack\Delay.c|..\..\Microchip\TCPIP Stack\DHCP.c|..\..\Microchip\TCPIP Stack\DHCPs.c|..\..\Microchip\TCPIP Stack\DNS.c|..\..\Microchip\TCPIP Stack\DNSs.c|..\..\Microchip\TCPIP Stack\DynDNS.c|..\..\Microchip\TCPIP Stack\ENC28J60.c|..\..\Microchip\TCPIP Stack\FTP.c|..\..\Microchip\TCPIP Stack\Hashes.c|..\..\Microchip\TCPIP Stack\Helpers.c|..\..\Microchip\TCPIP Stack\HTTP2.c|..\..\Microchip\TCPIP Stack\ICMP.c|..\..\Microchip\TCPIP Stack\IP.c|..\..\Microchip\TCPIP Stack\LCDBlocking.c|..\..\Microchip\TCPIP Stack\MPFS2.c|..\..\Microchip\TCPIP Stack\NBNS.c|..\..\Microchip\TCPIP Stack\Reboot.c|..\..\Microchip\TCPIP Stack\SMTP.c|..\..\Microchip\TCPIP Stack\SNMP.c|..\..\Microchip\TCPIP Stack\SNTP.c|..\..\Microchip\TCPIP Stack\SPIEEPROM.c|..\..\Microchip\TCPIP Stack\SPIFlash.c|..\..\Microchip\TCPIP Stack\SPIRAM.c|..\..\Microchip\TCPIP Stack\StackTsk.c|..\..\Microchip\TCPIP Stack\TCP.c|..\..\Microchip\TCPIP Stack\TCPPerformanceTest.c|..\..\Microchip\TCPIP Stack\Telnet.c|..\..\Microchip\TCPIP Stack\TFTPc.c|..\..\Microchip\TCPIP Stack\Tick.c|..\..\Microchip\TCPIP Stack\UART2TCPBridge.c|..\..\Microchip\TCPIP Stack\UART.c|..\..\Microchip\TCPIP Stack\UDP.c|..\..\Microchip\TCPIP Stack\UDPPerformanceTest.c|CustomHTTPApp.c|CustomSNMPApp.c|MainDemo.c|BerkeleyTCPClientDemo.c|BerkeleyTCPServerDemo.c|BerkeleyUDPClientDemo.c|GenericTCPClient.c|GenericTCPServer.c|PingDemo.c|SMTPDemo.c|UARTConfig.c|..\..\Microchip\TCPIP Stack\ENCX24J600.c|DL_MPFSImg.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-k -sco -DCFG_INCLUDE_PIC18F26K20_ENC28 -mL -Ou- -Ot- -Ob- -Op- -Or- -Od- -Opa-
+TraceCmdString=
+DebugOptions=-D__DEBUG -D__MPLAB_DEBUGGER_ICD3=1
+[File011]
+Location=C:\microchip\mla\v2013-06-15\TCPIP\tcpip_18f26k20_demo_app\FTP.o
+Folder=Intermediary
+DeviceName=PIC18F26K20
+LanguageToolSuiteID={5B7D72DD-9861-47BD-9F60-2BE967BF8416}
+LanguageToolID={E56A1C86-9D32-4DF6-8C34-FE0388B1B644}
+LanguageToolLocation=C:\Program Files (x86)\Microchip\mplabc18\v3.37.01\bin\mcc18.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)|.;..\Microchip\Include;..\..\Microchip\Include||$(LIBDIR)|C:\MCC18\lib||$(LKRDIR)||
+SOLK=<src>|..\..\Microchip\TCPIP Stack\Announce.c|..\..\Microchip\TCPIP Stack\ARP.c|..\..\Microchip\TCPIP Stack\AutoIP.c|..\..\Microchip\TCPIP Stack\BerkeleyAPI.c|..\..\Microchip\TCPIP Stack\Delay.c|..\..\Microchip\TCPIP Stack\DHCP.c|..\..\Microchip\TCPIP Stack\DHCPs.c|..\..\Microchip\TCPIP Stack\DNS.c|..\..\Microchip\TCPIP Stack\DNSs.c|..\..\Microchip\TCPIP Stack\DynDNS.c|..\..\Microchip\TCPIP Stack\ENC28J60.c|..\..\Microchip\TCPIP Stack\FTP.c|..\..\Microchip\TCPIP Stack\Hashes.c|..\..\Microchip\TCPIP Stack\Helpers.c|..\..\Microchip\TCPIP Stack\HTTP2.c|..\..\Microchip\TCPIP Stack\ICMP.c|..\..\Microchip\TCPIP Stack\IP.c|..\..\Microchip\TCPIP Stack\LCDBlocking.c|..\..\Microchip\TCPIP Stack\MPFS2.c|..\..\Microchip\TCPIP Stack\NBNS.c|..\..\Microchip\TCPIP Stack\Reboot.c|..\..\Microchip\TCPIP Stack\SMTP.c|..\..\Microchip\TCPIP Stack\SNMP.c|..\..\Microchip\TCPIP Stack\SNTP.c|..\..\Microchip\TCPIP Stack\SPIEEPROM.c|..\..\Microchip\TCPIP Stack\SPIFlash.c|..\..\Microchip\TCPIP Stack\SPIRAM.c|..\..\Microchip\TCPIP Stack\StackTsk.c|..\..\Microchip\TCPIP Stack\TCP.c|..\..\Microchip\TCPIP Stack\TCPPerformanceTest.c|..\..\Microchip\TCPIP Stack\Telnet.c|..\..\Microchip\TCPIP Stack\TFTPc.c|..\..\Microchip\TCPIP Stack\Tick.c|..\..\Microchip\TCPIP Stack\UART2TCPBridge.c|..\..\Microchip\TCPIP Stack\UART.c|..\..\Microchip\TCPIP Stack\UDP.c|..\..\Microchip\TCPIP Stack\UDPPerformanceTest.c|CustomHTTPApp.c|CustomSNMPApp.c|MainDemo.c|BerkeleyTCPClientDemo.c|BerkeleyTCPServerDemo.c|BerkeleyUDPClientDemo.c|GenericTCPClient.c|GenericTCPServer.c|PingDemo.c|SMTPDemo.c|UARTConfig.c|..\..\Microchip\TCPIP Stack\ENCX24J600.c|DL_MPFSImg.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-k -sco -DCFG_INCLUDE_PIC18F26K20_ENC28 -mL -Ou- -Ot- -Ob- -Op- -Or- -Od- -Opa-
+TraceCmdString=
+DebugOptions=-D__DEBUG -D__MPLAB_DEBUGGER_ICD3=1
+[File012]
+Location=C:\microchip\mla\v2013-06-15\TCPIP\tcpip_18f26k20_demo_app\Hashes.o
+Folder=Intermediary
+DeviceName=PIC18F26K20
+LanguageToolSuiteID={5B7D72DD-9861-47BD-9F60-2BE967BF8416}
+LanguageToolID={E56A1C86-9D32-4DF6-8C34-FE0388B1B644}
+LanguageToolLocation=C:\Program Files (x86)\Microchip\mplabc18\v3.37.01\bin\mcc18.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)|.;..\Microchip\Include;..\..\Microchip\Include||$(LIBDIR)|C:\MCC18\lib||$(LKRDIR)||
+SOLK=<src>|..\..\Microchip\TCPIP Stack\Announce.c|..\..\Microchip\TCPIP Stack\ARP.c|..\..\Microchip\TCPIP Stack\AutoIP.c|..\..\Microchip\TCPIP Stack\BerkeleyAPI.c|..\..\Microchip\TCPIP Stack\Delay.c|..\..\Microchip\TCPIP Stack\DHCP.c|..\..\Microchip\TCPIP Stack\DHCPs.c|..\..\Microchip\TCPIP Stack\DNS.c|..\..\Microchip\TCPIP Stack\DNSs.c|..\..\Microchip\TCPIP Stack\DynDNS.c|..\..\Microchip\TCPIP Stack\ENC28J60.c|..\..\Microchip\TCPIP Stack\FTP.c|..\..\Microchip\TCPIP Stack\Hashes.c|..\..\Microchip\TCPIP Stack\Helpers.c|..\..\Microchip\TCPIP Stack\HTTP2.c|..\..\Microchip\TCPIP Stack\ICMP.c|..\..\Microchip\TCPIP Stack\IP.c|..\..\Microchip\TCPIP Stack\LCDBlocking.c|..\..\Microchip\TCPIP Stack\MPFS2.c|..\..\Microchip\TCPIP Stack\NBNS.c|..\..\Microchip\TCPIP Stack\Reboot.c|..\..\Microchip\TCPIP Stack\SMTP.c|..\..\Microchip\TCPIP Stack\SNMP.c|..\..\Microchip\TCPIP Stack\SNTP.c|..\..\Microchip\TCPIP Stack\SPIEEPROM.c|..\..\Microchip\TCPIP Stack\SPIFlash.c|..\..\Microchip\TCPIP Stack\SPIRAM.c|..\..\Microchip\TCPIP Stack\StackTsk.c|..\..\Microchip\TCPIP Stack\TCP.c|..\..\Microchip\TCPIP Stack\TCPPerformanceTest.c|..\..\Microchip\TCPIP Stack\Telnet.c|..\..\Microchip\TCPIP Stack\TFTPc.c|..\..\Microchip\TCPIP Stack\Tick.c|..\..\Microchip\TCPIP Stack\UART2TCPBridge.c|..\..\Microchip\TCPIP Stack\UART.c|..\..\Microchip\TCPIP Stack\UDP.c|..\..\Microchip\TCPIP Stack\UDPPerformanceTest.c|CustomHTTPApp.c|CustomSNMPApp.c|MainDemo.c|BerkeleyTCPClientDemo.c|BerkeleyTCPServerDemo.c|BerkeleyUDPClientDemo.c|GenericTCPClient.c|GenericTCPServer.c|PingDemo.c|SMTPDemo.c|UARTConfig.c|..\..\Microchip\TCPIP Stack\ENCX24J600.c|DL_MPFSImg.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-k -sco -DCFG_INCLUDE_PIC18F26K20_ENC28 -mL -Ou- -Ot- -Ob- -Op- -Or- -Od- -Opa-
+TraceCmdString=
+DebugOptions=-D__DEBUG -D__MPLAB_DEBUGGER_ICD3=1
+[File013]
+Location=C:\microchip\mla\v2013-06-15\TCPIP\tcpip_18f26k20_demo_app\Helpers.o
+Folder=Intermediary
+DeviceName=PIC18F26K20
+LanguageToolSuiteID={5B7D72DD-9861-47BD-9F60-2BE967BF8416}
+LanguageToolID={E56A1C86-9D32-4DF6-8C34-FE0388B1B644}
+LanguageToolLocation=C:\Program Files (x86)\Microchip\mplabc18\v3.37.01\bin\mcc18.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)|.;..\Microchip\Include;..\..\Microchip\Include||$(LIBDIR)|C:\MCC18\lib||$(LKRDIR)||
+SOLK=<src>|..\..\Microchip\TCPIP Stack\Announce.c|..\..\Microchip\TCPIP Stack\ARP.c|..\..\Microchip\TCPIP Stack\AutoIP.c|..\..\Microchip\TCPIP Stack\BerkeleyAPI.c|..\..\Microchip\TCPIP Stack\Delay.c|..\..\Microchip\TCPIP Stack\DHCP.c|..\..\Microchip\TCPIP Stack\DHCPs.c|..\..\Microchip\TCPIP Stack\DNS.c|..\..\Microchip\TCPIP Stack\DNSs.c|..\..\Microchip\TCPIP Stack\DynDNS.c|..\..\Microchip\TCPIP Stack\ENC28J60.c|..\..\Microchip\TCPIP Stack\FTP.c|..\..\Microchip\TCPIP Stack\Hashes.c|..\..\Microchip\TCPIP Stack\Helpers.c|..\..\Microchip\TCPIP Stack\HTTP2.c|..\..\Microchip\TCPIP Stack\ICMP.c|..\..\Microchip\TCPIP Stack\IP.c|..\..\Microchip\TCPIP Stack\LCDBlocking.c|..\..\Microchip\TCPIP Stack\MPFS2.c|..\..\Microchip\TCPIP Stack\NBNS.c|..\..\Microchip\TCPIP Stack\Reboot.c|..\..\Microchip\TCPIP Stack\SMTP.c|..\..\Microchip\TCPIP Stack\SNMP.c|..\..\Microchip\TCPIP Stack\SNTP.c|..\..\Microchip\TCPIP Stack\SPIEEPROM.c|..\..\Microchip\TCPIP Stack\SPIFlash.c|..\..\Microchip\TCPIP Stack\SPIRAM.c|..\..\Microchip\TCPIP Stack\StackTsk.c|..\..\Microchip\TCPIP Stack\TCP.c|..\..\Microchip\TCPIP Stack\TCPPerformanceTest.c|..\..\Microchip\TCPIP Stack\Telnet.c|..\..\Microchip\TCPIP Stack\TFTPc.c|..\..\Microchip\TCPIP Stack\Tick.c|..\..\Microchip\TCPIP Stack\UART2TCPBridge.c|..\..\Microchip\TCPIP Stack\UART.c|..\..\Microchip\TCPIP Stack\UDP.c|..\..\Microchip\TCPIP Stack\UDPPerformanceTest.c|CustomHTTPApp.c|CustomSNMPApp.c|MainDemo.c|BerkeleyTCPClientDemo.c|BerkeleyTCPServerDemo.c|BerkeleyUDPClientDemo.c|GenericTCPClient.c|GenericTCPServer.c|PingDemo.c|SMTPDemo.c|UARTConfig.c|..\..\Microchip\TCPIP Stack\ENCX24J600.c|DL_MPFSImg.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-k -sco -DCFG_INCLUDE_PIC18F26K20_ENC28 -mL -Ou- -Ot- -Ob- -Op- -Or- -Od- -Opa-
+TraceCmdString=
+DebugOptions=-D__DEBUG -D__MPLAB_DEBUGGER_ICD3=1
+[File014]
+Location=C:\microchip\mla\v2013-06-15\TCPIP\tcpip_18f26k20_demo_app\HTTP2.o
+Folder=Intermediary
+DeviceName=PIC18F26K20
+LanguageToolSuiteID={5B7D72DD-9861-47BD-9F60-2BE967BF8416}
+LanguageToolID={E56A1C86-9D32-4DF6-8C34-FE0388B1B644}
+LanguageToolLocation=C:\Program Files (x86)\Microchip\mplabc18\v3.37.01\bin\mcc18.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)|.;..\Microchip\Include;..\..\Microchip\Include||$(LIBDIR)|C:\MCC18\lib||$(LKRDIR)||
+SOLK=<src>|..\..\Microchip\TCPIP Stack\Announce.c|..\..\Microchip\TCPIP Stack\ARP.c|..\..\Microchip\TCPIP Stack\AutoIP.c|..\..\Microchip\TCPIP Stack\BerkeleyAPI.c|..\..\Microchip\TCPIP Stack\Delay.c|..\..\Microchip\TCPIP Stack\DHCP.c|..\..\Microchip\TCPIP Stack\DHCPs.c|..\..\Microchip\TCPIP Stack\DNS.c|..\..\Microchip\TCPIP Stack\DNSs.c|..\..\Microchip\TCPIP Stack\DynDNS.c|..\..\Microchip\TCPIP Stack\ENC28J60.c|..\..\Microchip\TCPIP Stack\FTP.c|..\..\Microchip\TCPIP Stack\Hashes.c|..\..\Microchip\TCPIP Stack\Helpers.c|..\..\Microchip\TCPIP Stack\HTTP2.c|..\..\Microchip\TCPIP Stack\ICMP.c|..\..\Microchip\TCPIP Stack\IP.c|..\..\Microchip\TCPIP Stack\LCDBlocking.c|..\..\Microchip\TCPIP Stack\MPFS2.c|..\..\Microchip\TCPIP Stack\NBNS.c|..\..\Microchip\TCPIP Stack\Reboot.c|..\..\Microchip\TCPIP Stack\SMTP.c|..\..\Microchip\TCPIP Stack\SNMP.c|..\..\Microchip\TCPIP Stack\SNTP.c|..\..\Microchip\TCPIP Stack\SPIEEPROM.c|..\..\Microchip\TCPIP Stack\SPIFlash.c|..\..\Microchip\TCPIP Stack\SPIRAM.c|..\..\Microchip\TCPIP Stack\StackTsk.c|..\..\Microchip\TCPIP Stack\TCP.c|..\..\Microchip\TCPIP Stack\TCPPerformanceTest.c|..\..\Microchip\TCPIP Stack\Telnet.c|..\..\Microchip\TCPIP Stack\TFTPc.c|..\..\Microchip\TCPIP Stack\Tick.c|..\..\Microchip\TCPIP Stack\UART2TCPBridge.c|..\..\Microchip\TCPIP Stack\UART.c|..\..\Microchip\TCPIP Stack\UDP.c|..\..\Microchip\TCPIP Stack\UDPPerformanceTest.c|CustomHTTPApp.c|CustomSNMPApp.c|MainDemo.c|BerkeleyTCPClientDemo.c|BerkeleyTCPServerDemo.c|BerkeleyUDPClientDemo.c|GenericTCPClient.c|GenericTCPServer.c|PingDemo.c|SMTPDemo.c|UARTConfig.c|..\..\Microchip\TCPIP Stack\ENCX24J600.c|DL_MPFSImg.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-k -sco -DCFG_INCLUDE_PIC18F26K20_ENC28 -mL -Ou- -Ot- -Ob- -Op- -Or- -Od- -Opa-
+TraceCmdString=
+DebugOptions=-D__DEBUG -D__MPLAB_DEBUGGER_ICD3=1
+[File015]
+Location=C:\microchip\mla\v2013-06-15\TCPIP\tcpip_18f26k20_demo_app\ICMP.o
+Folder=Intermediary
+DeviceName=PIC18F26K20
+LanguageToolSuiteID={5B7D72DD-9861-47BD-9F60-2BE967BF8416}
+LanguageToolID={E56A1C86-9D32-4DF6-8C34-FE0388B1B644}
+LanguageToolLocation=C:\Program Files (x86)\Microchip\mplabc18\v3.37.01\bin\mcc18.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)|.;..\Microchip\Include;..\..\Microchip\Include||$(LIBDIR)|C:\MCC18\lib||$(LKRDIR)||
+SOLK=<src>|..\..\Microchip\TCPIP Stack\Announce.c|..\..\Microchip\TCPIP Stack\ARP.c|..\..\Microchip\TCPIP Stack\AutoIP.c|..\..\Microchip\TCPIP Stack\BerkeleyAPI.c|..\..\Microchip\TCPIP Stack\Delay.c|..\..\Microchip\TCPIP Stack\DHCP.c|..\..\Microchip\TCPIP Stack\DHCPs.c|..\..\Microchip\TCPIP Stack\DNS.c|..\..\Microchip\TCPIP Stack\DNSs.c|..\..\Microchip\TCPIP Stack\DynDNS.c|..\..\Microchip\TCPIP Stack\ENC28J60.c|..\..\Microchip\TCPIP Stack\FTP.c|..\..\Microchip\TCPIP Stack\Hashes.c|..\..\Microchip\TCPIP Stack\Helpers.c|..\..\Microchip\TCPIP Stack\HTTP2.c|..\..\Microchip\TCPIP Stack\ICMP.c|..\..\Microchip\TCPIP Stack\IP.c|..\..\Microchip\TCPIP Stack\LCDBlocking.c|..\..\Microchip\TCPIP Stack\MPFS2.c|..\..\Microchip\TCPIP Stack\NBNS.c|..\..\Microchip\TCPIP Stack\Reboot.c|..\..\Microchip\TCPIP Stack\SMTP.c|..\..\Microchip\TCPIP Stack\SNMP.c|..\..\Microchip\TCPIP Stack\SNTP.c|..\..\Microchip\TCPIP Stack\SPIEEPROM.c|..\..\Microchip\TCPIP Stack\SPIFlash.c|..\..\Microchip\TCPIP Stack\SPIRAM.c|..\..\Microchip\TCPIP Stack\StackTsk.c|..\..\Microchip\TCPIP Stack\TCP.c|..\..\Microchip\TCPIP Stack\TCPPerformanceTest.c|..\..\Microchip\TCPIP Stack\Telnet.c|..\..\Microchip\TCPIP Stack\TFTPc.c|..\..\Microchip\TCPIP Stack\Tick.c|..\..\Microchip\TCPIP Stack\UART2TCPBridge.c|..\..\Microchip\TCPIP Stack\UART.c|..\..\Microchip\TCPIP Stack\UDP.c|..\..\Microchip\TCPIP Stack\UDPPerformanceTest.c|CustomHTTPApp.c|CustomSNMPApp.c|MainDemo.c|BerkeleyTCPClientDemo.c|BerkeleyTCPServerDemo.c|BerkeleyUDPClientDemo.c|GenericTCPClient.c|GenericTCPServer.c|PingDemo.c|SMTPDemo.c|UARTConfig.c|..\..\Microchip\TCPIP Stack\ENCX24J600.c|DL_MPFSImg.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-k -sco -DCFG_INCLUDE_PIC18F26K20_ENC28 -mL -Ou- -Ot- -Ob- -Op- -Or- -Od- -Opa-
+TraceCmdString=
+DebugOptions=-D__DEBUG -D__MPLAB_DEBUGGER_ICD3=1
+[File016]
+Location=C:\microchip\mla\v2013-06-15\TCPIP\tcpip_18f26k20_demo_app\IP.o
+Folder=Intermediary
+DeviceName=PIC18F26K20
+LanguageToolSuiteID={5B7D72DD-9861-47BD-9F60-2BE967BF8416}
+LanguageToolID={E56A1C86-9D32-4DF6-8C34-FE0388B1B644}
+LanguageToolLocation=C:\Program Files (x86)\Microchip\mplabc18\v3.37.01\bin\mcc18.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)|.;..\Microchip\Include;..\..\Microchip\Include||$(LIBDIR)|C:\MCC18\lib||$(LKRDIR)||
+SOLK=<src>|..\..\Microchip\TCPIP Stack\Announce.c|..\..\Microchip\TCPIP Stack\ARP.c|..\..\Microchip\TCPIP Stack\AutoIP.c|..\..\Microchip\TCPIP Stack\BerkeleyAPI.c|..\..\Microchip\TCPIP Stack\Delay.c|..\..\Microchip\TCPIP Stack\DHCP.c|..\..\Microchip\TCPIP Stack\DHCPs.c|..\..\Microchip\TCPIP Stack\DNS.c|..\..\Microchip\TCPIP Stack\DNSs.c|..\..\Microchip\TCPIP Stack\DynDNS.c|..\..\Microchip\TCPIP Stack\ENC28J60.c|..\..\Microchip\TCPIP Stack\FTP.c|..\..\Microchip\TCPIP Stack\Hashes.c|..\..\Microchip\TCPIP Stack\Helpers.c|..\..\Microchip\TCPIP Stack\HTTP2.c|..\..\Microchip\TCPIP Stack\ICMP.c|..\..\Microchip\TCPIP Stack\IP.c|..\..\Microchip\TCPIP Stack\LCDBlocking.c|..\..\Microchip\TCPIP Stack\MPFS2.c|..\..\Microchip\TCPIP Stack\NBNS.c|..\..\Microchip\TCPIP Stack\Reboot.c|..\..\Microchip\TCPIP Stack\SMTP.c|..\..\Microchip\TCPIP Stack\SNMP.c|..\..\Microchip\TCPIP Stack\SNTP.c|..\..\Microchip\TCPIP Stack\SPIEEPROM.c|..\..\Microchip\TCPIP Stack\SPIFlash.c|..\..\Microchip\TCPIP Stack\SPIRAM.c|..\..\Microchip\TCPIP Stack\StackTsk.c|..\..\Microchip\TCPIP Stack\TCP.c|..\..\Microchip\TCPIP Stack\TCPPerformanceTest.c|..\..\Microchip\TCPIP Stack\Telnet.c|..\..\Microchip\TCPIP Stack\TFTPc.c|..\..\Microchip\TCPIP Stack\Tick.c|..\..\Microchip\TCPIP Stack\UART2TCPBridge.c|..\..\Microchip\TCPIP Stack\UART.c|..\..\Microchip\TCPIP Stack\UDP.c|..\..\Microchip\TCPIP Stack\UDPPerformanceTest.c|CustomHTTPApp.c|CustomSNMPApp.c|MainDemo.c|BerkeleyTCPClientDemo.c|BerkeleyTCPServerDemo.c|BerkeleyUDPClientDemo.c|GenericTCPClient.c|GenericTCPServer.c|PingDemo.c|SMTPDemo.c|UARTConfig.c|..\..\Microchip\TCPIP Stack\ENCX24J600.c|DL_MPFSImg.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-k -sco -DCFG_INCLUDE_PIC18F26K20_ENC28 -mL -Ou- -Ot- -Ob- -Op- -Or- -Od- -Opa-
+TraceCmdString=
+DebugOptions=-D__DEBUG -D__MPLAB_DEBUGGER_ICD3=1
+[File017]
+Location=C:\microchip\mla\v2013-06-15\TCPIP\tcpip_18f26k20_demo_app\LCDBlocking.o
+Folder=Intermediary
+DeviceName=PIC18F26K20
+LanguageToolSuiteID={5B7D72DD-9861-47BD-9F60-2BE967BF8416}
+LanguageToolID={E56A1C86-9D32-4DF6-8C34-FE0388B1B644}
+LanguageToolLocation=C:\Program Files (x86)\Microchip\mplabc18\v3.37.01\bin\mcc18.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)|.;..\Microchip\Include;..\..\Microchip\Include||$(LIBDIR)|C:\MCC18\lib||$(LKRDIR)||
+SOLK=<src>|..\..\Microchip\TCPIP Stack\Announce.c|..\..\Microchip\TCPIP Stack\ARP.c|..\..\Microchip\TCPIP Stack\AutoIP.c|..\..\Microchip\TCPIP Stack\BerkeleyAPI.c|..\..\Microchip\TCPIP Stack\Delay.c|..\..\Microchip\TCPIP Stack\DHCP.c|..\..\Microchip\TCPIP Stack\DHCPs.c|..\..\Microchip\TCPIP Stack\DNS.c|..\..\Microchip\TCPIP Stack\DNSs.c|..\..\Microchip\TCPIP Stack\DynDNS.c|..\..\Microchip\TCPIP Stack\ENC28J60.c|..\..\Microchip\TCPIP Stack\FTP.c|..\..\Microchip\TCPIP Stack\Hashes.c|..\..\Microchip\TCPIP Stack\Helpers.c|..\..\Microchip\TCPIP Stack\HTTP2.c|..\..\Microchip\TCPIP Stack\ICMP.c|..\..\Microchip\TCPIP Stack\IP.c|..\..\Microchip\TCPIP Stack\LCDBlocking.c|..\..\Microchip\TCPIP Stack\MPFS2.c|..\..\Microchip\TCPIP Stack\NBNS.c|..\..\Microchip\TCPIP Stack\Reboot.c|..\..\Microchip\TCPIP Stack\SMTP.c|..\..\Microchip\TCPIP Stack\SNMP.c|..\..\Microchip\TCPIP Stack\SNTP.c|..\..\Microchip\TCPIP Stack\SPIEEPROM.c|..\..\Microchip\TCPIP Stack\SPIFlash.c|..\..\Microchip\TCPIP Stack\SPIRAM.c|..\..\Microchip\TCPIP Stack\StackTsk.c|..\..\Microchip\TCPIP Stack\TCP.c|..\..\Microchip\TCPIP Stack\TCPPerformanceTest.c|..\..\Microchip\TCPIP Stack\Telnet.c|..\..\Microchip\TCPIP Stack\TFTPc.c|..\..\Microchip\TCPIP Stack\Tick.c|..\..\Microchip\TCPIP Stack\UART2TCPBridge.c|..\..\Microchip\TCPIP Stack\UART.c|..\..\Microchip\TCPIP Stack\UDP.c|..\..\Microchip\TCPIP Stack\UDPPerformanceTest.c|CustomHTTPApp.c|CustomSNMPApp.c|MainDemo.c|BerkeleyTCPClientDemo.c|BerkeleyTCPServerDemo.c|BerkeleyUDPClientDemo.c|GenericTCPClient.c|GenericTCPServer.c|PingDemo.c|SMTPDemo.c|UARTConfig.c|..\..\Microchip\TCPIP Stack\ENCX24J600.c|DL_MPFSImg.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-k -sco -DCFG_INCLUDE_PIC18F26K20_ENC28 -mL -Ou- -Ot- -Ob- -Op- -Or- -Od- -Opa-
+TraceCmdString=
+DebugOptions=-D__DEBUG -D__MPLAB_DEBUGGER_ICD3=1
+[File018]
+Location=C:\microchip\mla\v2013-06-15\TCPIP\tcpip_18f26k20_demo_app\MPFS2.o
+Folder=Intermediary
+DeviceName=PIC18F26K20
+LanguageToolSuiteID={5B7D72DD-9861-47BD-9F60-2BE967BF8416}
+LanguageToolID={E56A1C86-9D32-4DF6-8C34-FE0388B1B644}
+LanguageToolLocation=C:\Program Files (x86)\Microchip\mplabc18\v3.37.01\bin\mcc18.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)|.;..\Microchip\Include;..\..\Microchip\Include||$(LIBDIR)|C:\MCC18\lib||$(LKRDIR)||
+SOLK=<src>|..\..\Microchip\TCPIP Stack\Announce.c|..\..\Microchip\TCPIP Stack\ARP.c|..\..\Microchip\TCPIP Stack\AutoIP.c|..\..\Microchip\TCPIP Stack\BerkeleyAPI.c|..\..\Microchip\TCPIP Stack\Delay.c|..\..\Microchip\TCPIP Stack\DHCP.c|..\..\Microchip\TCPIP Stack\DHCPs.c|..\..\Microchip\TCPIP Stack\DNS.c|..\..\Microchip\TCPIP Stack\DNSs.c|..\..\Microchip\TCPIP Stack\DynDNS.c|..\..\Microchip\TCPIP Stack\ENC28J60.c|..\..\Microchip\TCPIP Stack\FTP.c|..\..\Microchip\TCPIP Stack\Hashes.c|..\..\Microchip\TCPIP Stack\Helpers.c|..\..\Microchip\TCPIP Stack\HTTP2.c|..\..\Microchip\TCPIP Stack\ICMP.c|..\..\Microchip\TCPIP Stack\IP.c|..\..\Microchip\TCPIP Stack\LCDBlocking.c|..\..\Microchip\TCPIP Stack\MPFS2.c|..\..\Microchip\TCPIP Stack\NBNS.c|..\..\Microchip\TCPIP Stack\Reboot.c|..\..\Microchip\TCPIP Stack\SMTP.c|..\..\Microchip\TCPIP Stack\SNMP.c|..\..\Microchip\TCPIP Stack\SNTP.c|..\..\Microchip\TCPIP Stack\SPIEEPROM.c|..\..\Microchip\TCPIP Stack\SPIFlash.c|..\..\Microchip\TCPIP Stack\SPIRAM.c|..\..\Microchip\TCPIP Stack\StackTsk.c|..\..\Microchip\TCPIP Stack\TCP.c|..\..\Microchip\TCPIP Stack\TCPPerformanceTest.c|..\..\Microchip\TCPIP Stack\Telnet.c|..\..\Microchip\TCPIP Stack\TFTPc.c|..\..\Microchip\TCPIP Stack\Tick.c|..\..\Microchip\TCPIP Stack\UART2TCPBridge.c|..\..\Microchip\TCPIP Stack\UART.c|..\..\Microchip\TCPIP Stack\UDP.c|..\..\Microchip\TCPIP Stack\UDPPerformanceTest.c|CustomHTTPApp.c|CustomSNMPApp.c|MainDemo.c|BerkeleyTCPClientDemo.c|BerkeleyTCPServerDemo.c|BerkeleyUDPClientDemo.c|GenericTCPClient.c|GenericTCPServer.c|PingDemo.c|SMTPDemo.c|UARTConfig.c|..\..\Microchip\TCPIP Stack\ENCX24J600.c|DL_MPFSImg.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-k -sco -DCFG_INCLUDE_PIC18F26K20_ENC28 -mL -Ou- -Ot- -Ob- -Op- -Or- -Od- -Opa-
+TraceCmdString=
+DebugOptions=-D__DEBUG -D__MPLAB_DEBUGGER_ICD3=1
+[File019]
+Location=C:\microchip\mla\v2013-06-15\TCPIP\tcpip_18f26k20_demo_app\NBNS.o
+Folder=Intermediary
+DeviceName=PIC18F26K20
+LanguageToolSuiteID={5B7D72DD-9861-47BD-9F60-2BE967BF8416}
+LanguageToolID={E56A1C86-9D32-4DF6-8C34-FE0388B1B644}
+LanguageToolLocation=C:\Program Files (x86)\Microchip\mplabc18\v3.37.01\bin\mcc18.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)|.;..\Microchip\Include;..\..\Microchip\Include||$(LIBDIR)|C:\MCC18\lib||$(LKRDIR)||
+SOLK=<src>|..\..\Microchip\TCPIP Stack\Announce.c|..\..\Microchip\TCPIP Stack\ARP.c|..\..\Microchip\TCPIP Stack\AutoIP.c|..\..\Microchip\TCPIP Stack\BerkeleyAPI.c|..\..\Microchip\TCPIP Stack\Delay.c|..\..\Microchip\TCPIP Stack\DHCP.c|..\..\Microchip\TCPIP Stack\DHCPs.c|..\..\Microchip\TCPIP Stack\DNS.c|..\..\Microchip\TCPIP Stack\DNSs.c|..\..\Microchip\TCPIP Stack\DynDNS.c|..\..\Microchip\TCPIP Stack\ENC28J60.c|..\..\Microchip\TCPIP Stack\FTP.c|..\..\Microchip\TCPIP Stack\Hashes.c|..\..\Microchip\TCPIP Stack\Helpers.c|..\..\Microchip\TCPIP Stack\HTTP2.c|..\..\Microchip\TCPIP Stack\ICMP.c|..\..\Microchip\TCPIP Stack\IP.c|..\..\Microchip\TCPIP Stack\LCDBlocking.c|..\..\Microchip\TCPIP Stack\MPFS2.c|..\..\Microchip\TCPIP Stack\NBNS.c|..\..\Microchip\TCPIP Stack\Reboot.c|..\..\Microchip\TCPIP Stack\SMTP.c|..\..\Microchip\TCPIP Stack\SNMP.c|..\..\Microchip\TCPIP Stack\SNTP.c|..\..\Microchip\TCPIP Stack\SPIEEPROM.c|..\..\Microchip\TCPIP Stack\SPIFlash.c|..\..\Microchip\TCPIP Stack\SPIRAM.c|..\..\Microchip\TCPIP Stack\StackTsk.c|..\..\Microchip\TCPIP Stack\TCP.c|..\..\Microchip\TCPIP Stack\TCPPerformanceTest.c|..\..\Microchip\TCPIP Stack\Telnet.c|..\..\Microchip\TCPIP Stack\TFTPc.c|..\..\Microchip\TCPIP Stack\Tick.c|..\..\Microchip\TCPIP Stack\UART2TCPBridge.c|..\..\Microchip\TCPIP Stack\UART.c|..\..\Microchip\TCPIP Stack\UDP.c|..\..\Microchip\TCPIP Stack\UDPPerformanceTest.c|CustomHTTPApp.c|CustomSNMPApp.c|MainDemo.c|BerkeleyTCPClientDemo.c|BerkeleyTCPServerDemo.c|BerkeleyUDPClientDemo.c|GenericTCPClient.c|GenericTCPServer.c|PingDemo.c|SMTPDemo.c|UARTConfig.c|..\..\Microchip\TCPIP Stack\ENCX24J600.c|DL_MPFSImg.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-k -sco -DCFG_INCLUDE_PIC18F26K20_ENC28 -mL -Ou- -Ot- -Ob- -Op- -Or- -Od- -Opa-
+TraceCmdString=
+DebugOptions=-D__DEBUG -D__MPLAB_DEBUGGER_ICD3=1
+[File020]
+Location=C:\microchip\mla\v2013-06-15\TCPIP\tcpip_18f26k20_demo_app\Reboot.o
+Folder=Intermediary
+DeviceName=PIC18F26K20
+LanguageToolSuiteID={5B7D72DD-9861-47BD-9F60-2BE967BF8416}
+LanguageToolID={E56A1C86-9D32-4DF6-8C34-FE0388B1B644}
+LanguageToolLocation=C:\Program Files (x86)\Microchip\mplabc18\v3.37.01\bin\mcc18.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)|.;..\Microchip\Include;..\..\Microchip\Include||$(LIBDIR)|C:\MCC18\lib||$(LKRDIR)||
+SOLK=<src>|..\..\Microchip\TCPIP Stack\Announce.c|..\..\Microchip\TCPIP Stack\ARP.c|..\..\Microchip\TCPIP Stack\AutoIP.c|..\..\Microchip\TCPIP Stack\BerkeleyAPI.c|..\..\Microchip\TCPIP Stack\Delay.c|..\..\Microchip\TCPIP Stack\DHCP.c|..\..\Microchip\TCPIP Stack\DHCPs.c|..\..\Microchip\TCPIP Stack\DNS.c|..\..\Microchip\TCPIP Stack\DNSs.c|..\..\Microchip\TCPIP Stack\DynDNS.c|..\..\Microchip\TCPIP Stack\ENC28J60.c|..\..\Microchip\TCPIP Stack\FTP.c|..\..\Microchip\TCPIP Stack\Hashes.c|..\..\Microchip\TCPIP Stack\Helpers.c|..\..\Microchip\TCPIP Stack\HTTP2.c|..\..\Microchip\TCPIP Stack\ICMP.c|..\..\Microchip\TCPIP Stack\IP.c|..\..\Microchip\TCPIP Stack\LCDBlocking.c|..\..\Microchip\TCPIP Stack\MPFS2.c|..\..\Microchip\TCPIP Stack\NBNS.c|..\..\Microchip\TCPIP Stack\Reboot.c|..\..\Microchip\TCPIP Stack\SMTP.c|..\..\Microchip\TCPIP Stack\SNMP.c|..\..\Microchip\TCPIP Stack\SNTP.c|..\..\Microchip\TCPIP Stack\SPIEEPROM.c|..\..\Microchip\TCPIP Stack\SPIFlash.c|..\..\Microchip\TCPIP Stack\SPIRAM.c|..\..\Microchip\TCPIP Stack\StackTsk.c|..\..\Microchip\TCPIP Stack\TCP.c|..\..\Microchip\TCPIP Stack\TCPPerformanceTest.c|..\..\Microchip\TCPIP Stack\Telnet.c|..\..\Microchip\TCPIP Stack\TFTPc.c|..\..\Microchip\TCPIP Stack\Tick.c|..\..\Microchip\TCPIP Stack\UART2TCPBridge.c|..\..\Microchip\TCPIP Stack\UART.c|..\..\Microchip\TCPIP Stack\UDP.c|..\..\Microchip\TCPIP Stack\UDPPerformanceTest.c|CustomHTTPApp.c|CustomSNMPApp.c|MainDemo.c|BerkeleyTCPClientDemo.c|BerkeleyTCPServerDemo.c|BerkeleyUDPClientDemo.c|GenericTCPClient.c|GenericTCPServer.c|PingDemo.c|SMTPDemo.c|UARTConfig.c|..\..\Microchip\TCPIP Stack\ENCX24J600.c|DL_MPFSImg.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-k -sco -DCFG_INCLUDE_PIC18F26K20_ENC28 -mL -Ou- -Ot- -Ob- -Op- -Or- -Od- -Opa-
+TraceCmdString=
+DebugOptions=-D__DEBUG -D__MPLAB_DEBUGGER_ICD3=1
+[File021]
+Location=C:\microchip\mla\v2013-06-15\TCPIP\tcpip_18f26k20_demo_app\SMTP.o
+Folder=Intermediary
+DeviceName=PIC18F26K20
+LanguageToolSuiteID={5B7D72DD-9861-47BD-9F60-2BE967BF8416}
+LanguageToolID={E56A1C86-9D32-4DF6-8C34-FE0388B1B644}
+LanguageToolLocation=C:\Program Files (x86)\Microchip\mplabc18\v3.37.01\bin\mcc18.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)|.;..\Microchip\Include;..\..\Microchip\Include||$(LIBDIR)|C:\MCC18\lib||$(LKRDIR)||
+SOLK=<src>|..\..\Microchip\TCPIP Stack\Announce.c|..\..\Microchip\TCPIP Stack\ARP.c|..\..\Microchip\TCPIP Stack\AutoIP.c|..\..\Microchip\TCPIP Stack\BerkeleyAPI.c|..\..\Microchip\TCPIP Stack\Delay.c|..\..\Microchip\TCPIP Stack\DHCP.c|..\..\Microchip\TCPIP Stack\DHCPs.c|..\..\Microchip\TCPIP Stack\DNS.c|..\..\Microchip\TCPIP Stack\DNSs.c|..\..\Microchip\TCPIP Stack\DynDNS.c|..\..\Microchip\TCPIP Stack\ENC28J60.c|..\..\Microchip\TCPIP Stack\FTP.c|..\..\Microchip\TCPIP Stack\Hashes.c|..\..\Microchip\TCPIP Stack\Helpers.c|..\..\Microchip\TCPIP Stack\HTTP2.c|..\..\Microchip\TCPIP Stack\ICMP.c|..\..\Microchip\TCPIP Stack\IP.c|..\..\Microchip\TCPIP Stack\LCDBlocking.c|..\..\Microchip\TCPIP Stack\MPFS2.c|..\..\Microchip\TCPIP Stack\NBNS.c|..\..\Microchip\TCPIP Stack\Reboot.c|..\..\Microchip\TCPIP Stack\SMTP.c|..\..\Microchip\TCPIP Stack\SNMP.c|..\..\Microchip\TCPIP Stack\SNTP.c|..\..\Microchip\TCPIP Stack\SPIEEPROM.c|..\..\Microchip\TCPIP Stack\SPIFlash.c|..\..\Microchip\TCPIP Stack\SPIRAM.c|..\..\Microchip\TCPIP Stack\StackTsk.c|..\..\Microchip\TCPIP Stack\TCP.c|..\..\Microchip\TCPIP Stack\TCPPerformanceTest.c|..\..\Microchip\TCPIP Stack\Telnet.c|..\..\Microchip\TCPIP Stack\TFTPc.c|..\..\Microchip\TCPIP Stack\Tick.c|..\..\Microchip\TCPIP Stack\UART2TCPBridge.c|..\..\Microchip\TCPIP Stack\UART.c|..\..\Microchip\TCPIP Stack\UDP.c|..\..\Microchip\TCPIP Stack\UDPPerformanceTest.c|CustomHTTPApp.c|CustomSNMPApp.c|MainDemo.c|BerkeleyTCPClientDemo.c|BerkeleyTCPServerDemo.c|BerkeleyUDPClientDemo.c|GenericTCPClient.c|GenericTCPServer.c|PingDemo.c|SMTPDemo.c|UARTConfig.c|..\..\Microchip\TCPIP Stack\ENCX24J600.c|DL_MPFSImg.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-k -sco -DCFG_INCLUDE_PIC18F26K20_ENC28 -mL -Ou- -Ot- -Ob- -Op- -Or- -Od- -Opa-
+TraceCmdString=
+DebugOptions=-D__DEBUG -D__MPLAB_DEBUGGER_ICD3=1
+[File022]
+Location=C:\microchip\mla\v2013-06-15\TCPIP\tcpip_18f26k20_demo_app\SNMP.o
+Folder=Intermediary
+DeviceName=PIC18F26K20
+LanguageToolSuiteID={5B7D72DD-9861-47BD-9F60-2BE967BF8416}
+LanguageToolID={E56A1C86-9D32-4DF6-8C34-FE0388B1B644}
+LanguageToolLocation=C:\Program Files (x86)\Microchip\mplabc18\v3.37.01\bin\mcc18.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)|.;..\Microchip\Include;..\..\Microchip\Include||$(LIBDIR)|C:\MCC18\lib||$(LKRDIR)||
+SOLK=<src>|..\..\Microchip\TCPIP Stack\Announce.c|..\..\Microchip\TCPIP Stack\ARP.c|..\..\Microchip\TCPIP Stack\AutoIP.c|..\..\Microchip\TCPIP Stack\BerkeleyAPI.c|..\..\Microchip\TCPIP Stack\Delay.c|..\..\Microchip\TCPIP Stack\DHCP.c|..\..\Microchip\TCPIP Stack\DHCPs.c|..\..\Microchip\TCPIP Stack\DNS.c|..\..\Microchip\TCPIP Stack\DNSs.c|..\..\Microchip\TCPIP Stack\DynDNS.c|..\..\Microchip\TCPIP Stack\ENC28J60.c|..\..\Microchip\TCPIP Stack\FTP.c|..\..\Microchip\TCPIP Stack\Hashes.c|..\..\Microchip\TCPIP Stack\Helpers.c|..\..\Microchip\TCPIP Stack\HTTP2.c|..\..\Microchip\TCPIP Stack\ICMP.c|..\..\Microchip\TCPIP Stack\IP.c|..\..\Microchip\TCPIP Stack\LCDBlocking.c|..\..\Microchip\TCPIP Stack\MPFS2.c|..\..\Microchip\TCPIP Stack\NBNS.c|..\..\Microchip\TCPIP Stack\Reboot.c|..\..\Microchip\TCPIP Stack\SMTP.c|..\..\Microchip\TCPIP Stack\SNMP.c|..\..\Microchip\TCPIP Stack\SNTP.c|..\..\Microchip\TCPIP Stack\SPIEEPROM.c|..\..\Microchip\TCPIP Stack\SPIFlash.c|..\..\Microchip\TCPIP Stack\SPIRAM.c|..\..\Microchip\TCPIP Stack\StackTsk.c|..\..\Microchip\TCPIP Stack\TCP.c|..\..\Microchip\TCPIP Stack\TCPPerformanceTest.c|..\..\Microchip\TCPIP Stack\Telnet.c|..\..\Microchip\TCPIP Stack\TFTPc.c|..\..\Microchip\TCPIP Stack\Tick.c|..\..\Microchip\TCPIP Stack\UART2TCPBridge.c|..\..\Microchip\TCPIP Stack\UART.c|..\..\Microchip\TCPIP Stack\UDP.c|..\..\Microchip\TCPIP Stack\UDPPerformanceTest.c|CustomHTTPApp.c|CustomSNMPApp.c|MainDemo.c|BerkeleyTCPClientDemo.c|BerkeleyTCPServerDemo.c|BerkeleyUDPClientDemo.c|GenericTCPClient.c|GenericTCPServer.c|PingDemo.c|SMTPDemo.c|UARTConfig.c|..\..\Microchip\TCPIP Stack\ENCX24J600.c|DL_MPFSImg.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-k -sco -DCFG_INCLUDE_PIC18F26K20_ENC28 -mL -Ou- -Ot- -Ob- -Op- -Or- -Od- -Opa-
+TraceCmdString=
+DebugOptions=-D__DEBUG -D__MPLAB_DEBUGGER_ICD3=1
+[File023]
+Location=C:\microchip\mla\v2013-06-15\TCPIP\tcpip_18f26k20_demo_app\SNTP.o
+Folder=Intermediary
+DeviceName=PIC18F26K20
+LanguageToolSuiteID={5B7D72DD-9861-47BD-9F60-2BE967BF8416}
+LanguageToolID={E56A1C86-9D32-4DF6-8C34-FE0388B1B644}
+LanguageToolLocation=C:\Program Files (x86)\Microchip\mplabc18\v3.37.01\bin\mcc18.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)|.;..\Microchip\Include;..\..\Microchip\Include||$(LIBDIR)|C:\MCC18\lib||$(LKRDIR)||
+SOLK=<src>|..\..\Microchip\TCPIP Stack\Announce.c|..\..\Microchip\TCPIP Stack\ARP.c|..\..\Microchip\TCPIP Stack\AutoIP.c|..\..\Microchip\TCPIP Stack\BerkeleyAPI.c|..\..\Microchip\TCPIP Stack\Delay.c|..\..\Microchip\TCPIP Stack\DHCP.c|..\..\Microchip\TCPIP Stack\DHCPs.c|..\..\Microchip\TCPIP Stack\DNS.c|..\..\Microchip\TCPIP Stack\DNSs.c|..\..\Microchip\TCPIP Stack\DynDNS.c|..\..\Microchip\TCPIP Stack\ENC28J60.c|..\..\Microchip\TCPIP Stack\FTP.c|..\..\Microchip\TCPIP Stack\Hashes.c|..\..\Microchip\TCPIP Stack\Helpers.c|..\..\Microchip\TCPIP Stack\HTTP2.c|..\..\Microchip\TCPIP Stack\ICMP.c|..\..\Microchip\TCPIP Stack\IP.c|..\..\Microchip\TCPIP Stack\LCDBlocking.c|..\..\Microchip\TCPIP Stack\MPFS2.c|..\..\Microchip\TCPIP Stack\NBNS.c|..\..\Microchip\TCPIP Stack\Reboot.c|..\..\Microchip\TCPIP Stack\SMTP.c|..\..\Microchip\TCPIP Stack\SNMP.c|..\..\Microchip\TCPIP Stack\SNTP.c|..\..\Microchip\TCPIP Stack\SPIEEPROM.c|..\..\Microchip\TCPIP Stack\SPIFlash.c|..\..\Microchip\TCPIP Stack\SPIRAM.c|..\..\Microchip\TCPIP Stack\StackTsk.c|..\..\Microchip\TCPIP Stack\TCP.c|..\..\Microchip\TCPIP Stack\TCPPerformanceTest.c|..\..\Microchip\TCPIP Stack\Telnet.c|..\..\Microchip\TCPIP Stack\TFTPc.c|..\..\Microchip\TCPIP Stack\Tick.c|..\..\Microchip\TCPIP Stack\UART2TCPBridge.c|..\..\Microchip\TCPIP Stack\UART.c|..\..\Microchip\TCPIP Stack\UDP.c|..\..\Microchip\TCPIP Stack\UDPPerformanceTest.c|CustomHTTPApp.c|CustomSNMPApp.c|MainDemo.c|BerkeleyTCPClientDemo.c|BerkeleyTCPServerDemo.c|BerkeleyUDPClientDemo.c|GenericTCPClient.c|GenericTCPServer.c|PingDemo.c|SMTPDemo.c|UARTConfig.c|..\..\Microchip\TCPIP Stack\ENCX24J600.c|DL_MPFSImg.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-k -sco -DCFG_INCLUDE_PIC18F26K20_ENC28 -mL -Ou- -Ot- -Ob- -Op- -Or- -Od- -Opa-
+TraceCmdString=
+DebugOptions=-D__DEBUG -D__MPLAB_DEBUGGER_ICD3=1
+[File024]
+Location=C:\microchip\mla\v2013-06-15\TCPIP\tcpip_18f26k20_demo_app\SPIEEPROM.o
+Folder=Intermediary
+DeviceName=PIC18F26K20
+LanguageToolSuiteID={5B7D72DD-9861-47BD-9F60-2BE967BF8416}
+LanguageToolID={E56A1C86-9D32-4DF6-8C34-FE0388B1B644}
+LanguageToolLocation=C:\Program Files (x86)\Microchip\mplabc18\v3.37.01\bin\mcc18.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)|.;..\Microchip\Include;..\..\Microchip\Include||$(LIBDIR)|C:\MCC18\lib||$(LKRDIR)||
+SOLK=<src>|..\..\Microchip\TCPIP Stack\Announce.c|..\..\Microchip\TCPIP Stack\ARP.c|..\..\Microchip\TCPIP Stack\AutoIP.c|..\..\Microchip\TCPIP Stack\BerkeleyAPI.c|..\..\Microchip\TCPIP Stack\Delay.c|..\..\Microchip\TCPIP Stack\DHCP.c|..\..\Microchip\TCPIP Stack\DHCPs.c|..\..\Microchip\TCPIP Stack\DNS.c|..\..\Microchip\TCPIP Stack\DNSs.c|..\..\Microchip\TCPIP Stack\DynDNS.c|..\..\Microchip\TCPIP Stack\ENC28J60.c|..\..\Microchip\TCPIP Stack\FTP.c|..\..\Microchip\TCPIP Stack\Hashes.c|..\..\Microchip\TCPIP Stack\Helpers.c|..\..\Microchip\TCPIP Stack\HTTP2.c|..\..\Microchip\TCPIP Stack\ICMP.c|..\..\Microchip\TCPIP Stack\IP.c|..\..\Microchip\TCPIP Stack\LCDBlocking.c|..\..\Microchip\TCPIP Stack\MPFS2.c|..\..\Microchip\TCPIP Stack\NBNS.c|..\..\Microchip\TCPIP Stack\Reboot.c|..\..\Microchip\TCPIP Stack\SMTP.c|..\..\Microchip\TCPIP Stack\SNMP.c|..\..\Microchip\TCPIP Stack\SNTP.c|..\..\Microchip\TCPIP Stack\SPIEEPROM.c|..\..\Microchip\TCPIP Stack\SPIFlash.c|..\..\Microchip\TCPIP Stack\SPIRAM.c|..\..\Microchip\TCPIP Stack\StackTsk.c|..\..\Microchip\TCPIP Stack\TCP.c|..\..\Microchip\TCPIP Stack\TCPPerformanceTest.c|..\..\Microchip\TCPIP Stack\Telnet.c|..\..\Microchip\TCPIP Stack\TFTPc.c|..\..\Microchip\TCPIP Stack\Tick.c|..\..\Microchip\TCPIP Stack\UART2TCPBridge.c|..\..\Microchip\TCPIP Stack\UART.c|..\..\Microchip\TCPIP Stack\UDP.c|..\..\Microchip\TCPIP Stack\UDPPerformanceTest.c|CustomHTTPApp.c|CustomSNMPApp.c|MainDemo.c|BerkeleyTCPClientDemo.c|BerkeleyTCPServerDemo.c|BerkeleyUDPClientDemo.c|GenericTCPClient.c|GenericTCPServer.c|PingDemo.c|SMTPDemo.c|UARTConfig.c|..\..\Microchip\TCPIP Stack\ENCX24J600.c|DL_MPFSImg.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-k -sco -DCFG_INCLUDE_PIC18F26K20_ENC28 -mL -Ou- -Ot- -Ob- -Op- -Or- -Od- -Opa-
+TraceCmdString=
+DebugOptions=-D__DEBUG -D__MPLAB_DEBUGGER_ICD3=1
+[File025]
+Location=C:\microchip\mla\v2013-06-15\TCPIP\tcpip_18f26k20_demo_app\SPIFlash.o
+Folder=Intermediary
+DeviceName=PIC18F26K20
+LanguageToolSuiteID={5B7D72DD-9861-47BD-9F60-2BE967BF8416}
+LanguageToolID={E56A1C86-9D32-4DF6-8C34-FE0388B1B644}
+LanguageToolLocation=C:\Program Files (x86)\Microchip\mplabc18\v3.37.01\bin\mcc18.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)|.;..\Microchip\Include;..\..\Microchip\Include||$(LIBDIR)|C:\MCC18\lib||$(LKRDIR)||
+SOLK=<src>|..\..\Microchip\TCPIP Stack\Announce.c|..\..\Microchip\TCPIP Stack\ARP.c|..\..\Microchip\TCPIP Stack\AutoIP.c|..\..\Microchip\TCPIP Stack\BerkeleyAPI.c|..\..\Microchip\TCPIP Stack\Delay.c|..\..\Microchip\TCPIP Stack\DHCP.c|..\..\Microchip\TCPIP Stack\DHCPs.c|..\..\Microchip\TCPIP Stack\DNS.c|..\..\Microchip\TCPIP Stack\DNSs.c|..\..\Microchip\TCPIP Stack\DynDNS.c|..\..\Microchip\TCPIP Stack\ENC28J60.c|..\..\Microchip\TCPIP Stack\FTP.c|..\..\Microchip\TCPIP Stack\Hashes.c|..\..\Microchip\TCPIP Stack\Helpers.c|..\..\Microchip\TCPIP Stack\HTTP2.c|..\..\Microchip\TCPIP Stack\ICMP.c|..\..\Microchip\TCPIP Stack\IP.c|..\..\Microchip\TCPIP Stack\LCDBlocking.c|..\..\Microchip\TCPIP Stack\MPFS2.c|..\..\Microchip\TCPIP Stack\NBNS.c|..\..\Microchip\TCPIP Stack\Reboot.c|..\..\Microchip\TCPIP Stack\SMTP.c|..\..\Microchip\TCPIP Stack\SNMP.c|..\..\Microchip\TCPIP Stack\SNTP.c|..\..\Microchip\TCPIP Stack\SPIEEPROM.c|..\..\Microchip\TCPIP Stack\SPIFlash.c|..\..\Microchip\TCPIP Stack\SPIRAM.c|..\..\Microchip\TCPIP Stack\StackTsk.c|..\..\Microchip\TCPIP Stack\TCP.c|..\..\Microchip\TCPIP Stack\TCPPerformanceTest.c|..\..\Microchip\TCPIP Stack\Telnet.c|..\..\Microchip\TCPIP Stack\TFTPc.c|..\..\Microchip\TCPIP Stack\Tick.c|..\..\Microchip\TCPIP Stack\UART2TCPBridge.c|..\..\Microchip\TCPIP Stack\UART.c|..\..\Microchip\TCPIP Stack\UDP.c|..\..\Microchip\TCPIP Stack\UDPPerformanceTest.c|CustomHTTPApp.c|CustomSNMPApp.c|MainDemo.c|BerkeleyTCPClientDemo.c|BerkeleyTCPServerDemo.c|BerkeleyUDPClientDemo.c|GenericTCPClient.c|GenericTCPServer.c|PingDemo.c|SMTPDemo.c|UARTConfig.c|..\..\Microchip\TCPIP Stack\ENCX24J600.c|DL_MPFSImg.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-k -sco -DCFG_INCLUDE_PIC18F26K20_ENC28 -mL -Ou- -Ot- -Ob- -Op- -Or- -Od- -Opa-
+TraceCmdString=
+DebugOptions=-D__DEBUG -D__MPLAB_DEBUGGER_ICD3=1
+[File026]
+Location=C:\microchip\mla\v2013-06-15\TCPIP\tcpip_18f26k20_demo_app\SPIRAM.o
+Folder=Intermediary
+DeviceName=PIC18F26K20
+LanguageToolSuiteID={5B7D72DD-9861-47BD-9F60-2BE967BF8416}
+LanguageToolID={E56A1C86-9D32-4DF6-8C34-FE0388B1B644}
+LanguageToolLocation=C:\Program Files (x86)\Microchip\mplabc18\v3.37.01\bin\mcc18.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)|.;..\Microchip\Include;..\..\Microchip\Include||$(LIBDIR)|C:\MCC18\lib||$(LKRDIR)||
+SOLK=<src>|..\..\Microchip\TCPIP Stack\Announce.c|..\..\Microchip\TCPIP Stack\ARP.c|..\..\Microchip\TCPIP Stack\AutoIP.c|..\..\Microchip\TCPIP Stack\BerkeleyAPI.c|..\..\Microchip\TCPIP Stack\Delay.c|..\..\Microchip\TCPIP Stack\DHCP.c|..\..\Microchip\TCPIP Stack\DHCPs.c|..\..\Microchip\TCPIP Stack\DNS.c|..\..\Microchip\TCPIP Stack\DNSs.c|..\..\Microchip\TCPIP Stack\DynDNS.c|..\..\Microchip\TCPIP Stack\ENC28J60.c|..\..\Microchip\TCPIP Stack\FTP.c|..\..\Microchip\TCPIP Stack\Hashes.c|..\..\Microchip\TCPIP Stack\Helpers.c|..\..\Microchip\TCPIP Stack\HTTP2.c|..\..\Microchip\TCPIP Stack\ICMP.c|..\..\Microchip\TCPIP Stack\IP.c|..\..\Microchip\TCPIP Stack\LCDBlocking.c|..\..\Microchip\TCPIP Stack\MPFS2.c|..\..\Microchip\TCPIP Stack\NBNS.c|..\..\Microchip\TCPIP Stack\Reboot.c|..\..\Microchip\TCPIP Stack\SMTP.c|..\..\Microchip\TCPIP Stack\SNMP.c|..\..\Microchip\TCPIP Stack\SNTP.c|..\..\Microchip\TCPIP Stack\SPIEEPROM.c|..\..\Microchip\TCPIP Stack\SPIFlash.c|..\..\Microchip\TCPIP Stack\SPIRAM.c|..\..\Microchip\TCPIP Stack\StackTsk.c|..\..\Microchip\TCPIP Stack\TCP.c|..\..\Microchip\TCPIP Stack\TCPPerformanceTest.c|..\..\Microchip\TCPIP Stack\Telnet.c|..\..\Microchip\TCPIP Stack\TFTPc.c|..\..\Microchip\TCPIP Stack\Tick.c|..\..\Microchip\TCPIP Stack\UART2TCPBridge.c|..\..\Microchip\TCPIP Stack\UART.c|..\..\Microchip\TCPIP Stack\UDP.c|..\..\Microchip\TCPIP Stack\UDPPerformanceTest.c|CustomHTTPApp.c|CustomSNMPApp.c|MainDemo.c|BerkeleyTCPClientDemo.c|BerkeleyTCPServerDemo.c|BerkeleyUDPClientDemo.c|GenericTCPClient.c|GenericTCPServer.c|PingDemo.c|SMTPDemo.c|UARTConfig.c|..\..\Microchip\TCPIP Stack\ENCX24J600.c|DL_MPFSImg.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-k -sco -DCFG_INCLUDE_PIC18F26K20_ENC28 -mL -Ou- -Ot- -Ob- -Op- -Or- -Od- -Opa-
+TraceCmdString=
+DebugOptions=-D__DEBUG -D__MPLAB_DEBUGGER_ICD3=1
+[File027]
+Location=C:\microchip\mla\v2013-06-15\TCPIP\tcpip_18f26k20_demo_app\StackTsk.o
+Folder=Intermediary
+DeviceName=PIC18F26K20
+LanguageToolSuiteID={5B7D72DD-9861-47BD-9F60-2BE967BF8416}
+LanguageToolID={E56A1C86-9D32-4DF6-8C34-FE0388B1B644}
+LanguageToolLocation=C:\Program Files (x86)\Microchip\mplabc18\v3.37.01\bin\mcc18.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)|.;..\Microchip\Include;..\..\Microchip\Include||$(LIBDIR)|C:\MCC18\lib||$(LKRDIR)||
+SOLK=<src>|..\..\Microchip\TCPIP Stack\Announce.c|..\..\Microchip\TCPIP Stack\ARP.c|..\..\Microchip\TCPIP Stack\AutoIP.c|..\..\Microchip\TCPIP Stack\BerkeleyAPI.c|..\..\Microchip\TCPIP Stack\Delay.c|..\..\Microchip\TCPIP Stack\DHCP.c|..\..\Microchip\TCPIP Stack\DHCPs.c|..\..\Microchip\TCPIP Stack\DNS.c|..\..\Microchip\TCPIP Stack\DNSs.c|..\..\Microchip\TCPIP Stack\DynDNS.c|..\..\Microchip\TCPIP Stack\ENC28J60.c|..\..\Microchip\TCPIP Stack\FTP.c|..\..\Microchip\TCPIP Stack\Hashes.c|..\..\Microchip\TCPIP Stack\Helpers.c|..\..\Microchip\TCPIP Stack\HTTP2.c|..\..\Microchip\TCPIP Stack\ICMP.c|..\..\Microchip\TCPIP Stack\IP.c|..\..\Microchip\TCPIP Stack\LCDBlocking.c|..\..\Microchip\TCPIP Stack\MPFS2.c|..\..\Microchip\TCPIP Stack\NBNS.c|..\..\Microchip\TCPIP Stack\Reboot.c|..\..\Microchip\TCPIP Stack\SMTP.c|..\..\Microchip\TCPIP Stack\SNMP.c|..\..\Microchip\TCPIP Stack\SNTP.c|..\..\Microchip\TCPIP Stack\SPIEEPROM.c|..\..\Microchip\TCPIP Stack\SPIFlash.c|..\..\Microchip\TCPIP Stack\SPIRAM.c|..\..\Microchip\TCPIP Stack\StackTsk.c|..\..\Microchip\TCPIP Stack\TCP.c|..\..\Microchip\TCPIP Stack\TCPPerformanceTest.c|..\..\Microchip\TCPIP Stack\Telnet.c|..\..\Microchip\TCPIP Stack\TFTPc.c|..\..\Microchip\TCPIP Stack\Tick.c|..\..\Microchip\TCPIP Stack\UART2TCPBridge.c|..\..\Microchip\TCPIP Stack\UART.c|..\..\Microchip\TCPIP Stack\UDP.c|..\..\Microchip\TCPIP Stack\UDPPerformanceTest.c|CustomHTTPApp.c|CustomSNMPApp.c|MainDemo.c|BerkeleyTCPClientDemo.c|BerkeleyTCPServerDemo.c|BerkeleyUDPClientDemo.c|GenericTCPClient.c|GenericTCPServer.c|PingDemo.c|SMTPDemo.c|UARTConfig.c|..\..\Microchip\TCPIP Stack\ENCX24J600.c|DL_MPFSImg.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-k -sco -DCFG_INCLUDE_PIC18F26K20_ENC28 -mL -Ou- -Ot- -Ob- -Op- -Or- -Od- -Opa-
+TraceCmdString=
+DebugOptions=-D__DEBUG -D__MPLAB_DEBUGGER_ICD3=1
+[File028]
+Location=C:\microchip\mla\v2013-06-15\TCPIP\tcpip_18f26k20_demo_app\TCP.o
+Folder=Intermediary
+DeviceName=PIC18F26K20
+LanguageToolSuiteID={5B7D72DD-9861-47BD-9F60-2BE967BF8416}
+LanguageToolID={E56A1C86-9D32-4DF6-8C34-FE0388B1B644}
+LanguageToolLocation=C:\Program Files (x86)\Microchip\mplabc18\v3.37.01\bin\mcc18.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)|.;..\Microchip\Include;..\..\Microchip\Include||$(LIBDIR)|C:\MCC18\lib||$(LKRDIR)||
+SOLK=<src>|..\..\Microchip\TCPIP Stack\Announce.c|..\..\Microchip\TCPIP Stack\ARP.c|..\..\Microchip\TCPIP Stack\AutoIP.c|..\..\Microchip\TCPIP Stack\BerkeleyAPI.c|..\..\Microchip\TCPIP Stack\Delay.c|..\..\Microchip\TCPIP Stack\DHCP.c|..\..\Microchip\TCPIP Stack\DHCPs.c|..\..\Microchip\TCPIP Stack\DNS.c|..\..\Microchip\TCPIP Stack\DNSs.c|..\..\Microchip\TCPIP Stack\DynDNS.c|..\..\Microchip\TCPIP Stack\ENC28J60.c|..\..\Microchip\TCPIP Stack\FTP.c|..\..\Microchip\TCPIP Stack\Hashes.c|..\..\Microchip\TCPIP Stack\Helpers.c|..\..\Microchip\TCPIP Stack\HTTP2.c|..\..\Microchip\TCPIP Stack\ICMP.c|..\..\Microchip\TCPIP Stack\IP.c|..\..\Microchip\TCPIP Stack\LCDBlocking.c|..\..\Microchip\TCPIP Stack\MPFS2.c|..\..\Microchip\TCPIP Stack\NBNS.c|..\..\Microchip\TCPIP Stack\Reboot.c|..\..\Microchip\TCPIP Stack\SMTP.c|..\..\Microchip\TCPIP Stack\SNMP.c|..\..\Microchip\TCPIP Stack\SNTP.c|..\..\Microchip\TCPIP Stack\SPIEEPROM.c|..\..\Microchip\TCPIP Stack\SPIFlash.c|..\..\Microchip\TCPIP Stack\SPIRAM.c|..\..\Microchip\TCPIP Stack\StackTsk.c|..\..\Microchip\TCPIP Stack\TCP.c|..\..\Microchip\TCPIP Stack\TCPPerformanceTest.c|..\..\Microchip\TCPIP Stack\Telnet.c|..\..\Microchip\TCPIP Stack\TFTPc.c|..\..\Microchip\TCPIP Stack\Tick.c|..\..\Microchip\TCPIP Stack\UART2TCPBridge.c|..\..\Microchip\TCPIP Stack\UART.c|..\..\Microchip\TCPIP Stack\UDP.c|..\..\Microchip\TCPIP Stack\UDPPerformanceTest.c|CustomHTTPApp.c|CustomSNMPApp.c|MainDemo.c|BerkeleyTCPClientDemo.c|BerkeleyTCPServerDemo.c|BerkeleyUDPClientDemo.c|GenericTCPClient.c|GenericTCPServer.c|PingDemo.c|SMTPDemo.c|UARTConfig.c|..\..\Microchip\TCPIP Stack\ENCX24J600.c|DL_MPFSImg.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-k -sco -DCFG_INCLUDE_PIC18F26K20_ENC28 -mL -Ou- -Ot- -Ob- -Op- -Or- -Od- -Opa-
+TraceCmdString=
+DebugOptions=-D__DEBUG -D__MPLAB_DEBUGGER_ICD3=1
+[File029]
+Location=C:\microchip\mla\v2013-06-15\TCPIP\tcpip_18f26k20_demo_app\TCPPerformanceTest.o
+Folder=Intermediary
+DeviceName=PIC18F26K20
+LanguageToolSuiteID={5B7D72DD-9861-47BD-9F60-2BE967BF8416}
+LanguageToolID={E56A1C86-9D32-4DF6-8C34-FE0388B1B644}
+LanguageToolLocation=C:\Program Files (x86)\Microchip\mplabc18\v3.37.01\bin\mcc18.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)|.;..\Microchip\Include;..\..\Microchip\Include||$(LIBDIR)|C:\MCC18\lib||$(LKRDIR)||
+SOLK=<src>|..\..\Microchip\TCPIP Stack\Announce.c|..\..\Microchip\TCPIP Stack\ARP.c|..\..\Microchip\TCPIP Stack\AutoIP.c|..\..\Microchip\TCPIP Stack\BerkeleyAPI.c|..\..\Microchip\TCPIP Stack\Delay.c|..\..\Microchip\TCPIP Stack\DHCP.c|..\..\Microchip\TCPIP Stack\DHCPs.c|..\..\Microchip\TCPIP Stack\DNS.c|..\..\Microchip\TCPIP Stack\DNSs.c|..\..\Microchip\TCPIP Stack\DynDNS.c|..\..\Microchip\TCPIP Stack\ENC28J60.c|..\..\Microchip\TCPIP Stack\FTP.c|..\..\Microchip\TCPIP Stack\Hashes.c|..\..\Microchip\TCPIP Stack\Helpers.c|..\..\Microchip\TCPIP Stack\HTTP2.c|..\..\Microchip\TCPIP Stack\ICMP.c|..\..\Microchip\TCPIP Stack\IP.c|..\..\Microchip\TCPIP Stack\LCDBlocking.c|..\..\Microchip\TCPIP Stack\MPFS2.c|..\..\Microchip\TCPIP Stack\NBNS.c|..\..\Microchip\TCPIP Stack\Reboot.c|..\..\Microchip\TCPIP Stack\SMTP.c|..\..\Microchip\TCPIP Stack\SNMP.c|..\..\Microchip\TCPIP Stack\SNTP.c|..\..\Microchip\TCPIP Stack\SPIEEPROM.c|..\..\Microchip\TCPIP Stack\SPIFlash.c|..\..\Microchip\TCPIP Stack\SPIRAM.c|..\..\Microchip\TCPIP Stack\StackTsk.c|..\..\Microchip\TCPIP Stack\TCP.c|..\..\Microchip\TCPIP Stack\TCPPerformanceTest.c|..\..\Microchip\TCPIP Stack\Telnet.c|..\..\Microchip\TCPIP Stack\TFTPc.c|..\..\Microchip\TCPIP Stack\Tick.c|..\..\Microchip\TCPIP Stack\UART2TCPBridge.c|..\..\Microchip\TCPIP Stack\UART.c|..\..\Microchip\TCPIP Stack\UDP.c|..\..\Microchip\TCPIP Stack\UDPPerformanceTest.c|CustomHTTPApp.c|CustomSNMPApp.c|MainDemo.c|BerkeleyTCPClientDemo.c|BerkeleyTCPServerDemo.c|BerkeleyUDPClientDemo.c|GenericTCPClient.c|GenericTCPServer.c|PingDemo.c|SMTPDemo.c|UARTConfig.c|..\..\Microchip\TCPIP Stack\ENCX24J600.c|DL_MPFSImg.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-k -sco -DCFG_INCLUDE_PIC18F26K20_ENC28 -mL -Ou- -Ot- -Ob- -Op- -Or- -Od- -Opa-
+TraceCmdString=
+DebugOptions=-D__DEBUG -D__MPLAB_DEBUGGER_ICD3=1
+[File030]
+Location=C:\microchip\mla\v2013-06-15\TCPIP\tcpip_18f26k20_demo_app\Telnet.o
+Folder=Intermediary
+DeviceName=PIC18F26K20
+LanguageToolSuiteID={5B7D72DD-9861-47BD-9F60-2BE967BF8416}
+LanguageToolID={E56A1C86-9D32-4DF6-8C34-FE0388B1B644}
+LanguageToolLocation=C:\Program Files (x86)\Microchip\mplabc18\v3.37.01\bin\mcc18.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)|.;..\Microchip\Include;..\..\Microchip\Include||$(LIBDIR)|C:\MCC18\lib||$(LKRDIR)||
+SOLK=<src>|..\..\Microchip\TCPIP Stack\Announce.c|..\..\Microchip\TCPIP Stack\ARP.c|..\..\Microchip\TCPIP Stack\AutoIP.c|..\..\Microchip\TCPIP Stack\BerkeleyAPI.c|..\..\Microchip\TCPIP Stack\Delay.c|..\..\Microchip\TCPIP Stack\DHCP.c|..\..\Microchip\TCPIP Stack\DHCPs.c|..\..\Microchip\TCPIP Stack\DNS.c|..\..\Microchip\TCPIP Stack\DNSs.c|..\..\Microchip\TCPIP Stack\DynDNS.c|..\..\Microchip\TCPIP Stack\ENC28J60.c|..\..\Microchip\TCPIP Stack\FTP.c|..\..\Microchip\TCPIP Stack\Hashes.c|..\..\Microchip\TCPIP Stack\Helpers.c|..\..\Microchip\TCPIP Stack\HTTP2.c|..\..\Microchip\TCPIP Stack\ICMP.c|..\..\Microchip\TCPIP Stack\IP.c|..\..\Microchip\TCPIP Stack\LCDBlocking.c|..\..\Microchip\TCPIP Stack\MPFS2.c|..\..\Microchip\TCPIP Stack\NBNS.c|..\..\Microchip\TCPIP Stack\Reboot.c|..\..\Microchip\TCPIP Stack\SMTP.c|..\..\Microchip\TCPIP Stack\SNMP.c|..\..\Microchip\TCPIP Stack\SNTP.c|..\..\Microchip\TCPIP Stack\SPIEEPROM.c|..\..\Microchip\TCPIP Stack\SPIFlash.c|..\..\Microchip\TCPIP Stack\SPIRAM.c|..\..\Microchip\TCPIP Stack\StackTsk.c|..\..\Microchip\TCPIP Stack\TCP.c|..\..\Microchip\TCPIP Stack\TCPPerformanceTest.c|..\..\Microchip\TCPIP Stack\Telnet.c|..\..\Microchip\TCPIP Stack\TFTPc.c|..\..\Microchip\TCPIP Stack\Tick.c|..\..\Microchip\TCPIP Stack\UART2TCPBridge.c|..\..\Microchip\TCPIP Stack\UART.c|..\..\Microchip\TCPIP Stack\UDP.c|..\..\Microchip\TCPIP Stack\UDPPerformanceTest.c|CustomHTTPApp.c|CustomSNMPApp.c|MainDemo.c|BerkeleyTCPClientDemo.c|BerkeleyTCPServerDemo.c|BerkeleyUDPClientDemo.c|GenericTCPClient.c|GenericTCPServer.c|PingDemo.c|SMTPDemo.c|UARTConfig.c|..\..\Microchip\TCPIP Stack\ENCX24J600.c|DL_MPFSImg.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-k -sco -DCFG_INCLUDE_PIC18F26K20_ENC28 -mL -Ou- -Ot- -Ob- -Op- -Or- -Od- -Opa-
+TraceCmdString=
+DebugOptions=-D__DEBUG -D__MPLAB_DEBUGGER_ICD3=1
+[File031]
+Location=C:\microchip\mla\v2013-06-15\TCPIP\tcpip_18f26k20_demo_app\TFTPc.o
+Folder=Intermediary
+DeviceName=PIC18F26K20
+LanguageToolSuiteID={5B7D72DD-9861-47BD-9F60-2BE967BF8416}
+LanguageToolID={E56A1C86-9D32-4DF6-8C34-FE0388B1B644}
+LanguageToolLocation=C:\Program Files (x86)\Microchip\mplabc18\v3.37.01\bin\mcc18.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)|.;..\Microchip\Include;..\..\Microchip\Include||$(LIBDIR)|C:\MCC18\lib||$(LKRDIR)||
+SOLK=<src>|..\..\Microchip\TCPIP Stack\Announce.c|..\..\Microchip\TCPIP Stack\ARP.c|..\..\Microchip\TCPIP Stack\AutoIP.c|..\..\Microchip\TCPIP Stack\BerkeleyAPI.c|..\..\Microchip\TCPIP Stack\Delay.c|..\..\Microchip\TCPIP Stack\DHCP.c|..\..\Microchip\TCPIP Stack\DHCPs.c|..\..\Microchip\TCPIP Stack\DNS.c|..\..\Microchip\TCPIP Stack\DNSs.c|..\..\Microchip\TCPIP Stack\DynDNS.c|..\..\Microchip\TCPIP Stack\ENC28J60.c|..\..\Microchip\TCPIP Stack\FTP.c|..\..\Microchip\TCPIP Stack\Hashes.c|..\..\Microchip\TCPIP Stack\Helpers.c|..\..\Microchip\TCPIP Stack\HTTP2.c|..\..\Microchip\TCPIP Stack\ICMP.c|..\..\Microchip\TCPIP Stack\IP.c|..\..\Microchip\TCPIP Stack\LCDBlocking.c|..\..\Microchip\TCPIP Stack\MPFS2.c|..\..\Microchip\TCPIP Stack\NBNS.c|..\..\Microchip\TCPIP Stack\Reboot.c|..\..\Microchip\TCPIP Stack\SMTP.c|..\..\Microchip\TCPIP Stack\SNMP.c|..\..\Microchip\TCPIP Stack\SNTP.c|..\..\Microchip\TCPIP Stack\SPIEEPROM.c|..\..\Microchip\TCPIP Stack\SPIFlash.c|..\..\Microchip\TCPIP Stack\SPIRAM.c|..\..\Microchip\TCPIP Stack\StackTsk.c|..\..\Microchip\TCPIP Stack\TCP.c|..\..\Microchip\TCPIP Stack\TCPPerformanceTest.c|..\..\Microchip\TCPIP Stack\Telnet.c|..\..\Microchip\TCPIP Stack\TFTPc.c|..\..\Microchip\TCPIP Stack\Tick.c|..\..\Microchip\TCPIP Stack\UART2TCPBridge.c|..\..\Microchip\TCPIP Stack\UART.c|..\..\Microchip\TCPIP Stack\UDP.c|..\..\Microchip\TCPIP Stack\UDPPerformanceTest.c|CustomHTTPApp.c|CustomSNMPApp.c|MainDemo.c|BerkeleyTCPClientDemo.c|BerkeleyTCPServerDemo.c|BerkeleyUDPClientDemo.c|GenericTCPClient.c|GenericTCPServer.c|PingDemo.c|SMTPDemo.c|UARTConfig.c|..\..\Microchip\TCPIP Stack\ENCX24J600.c|DL_MPFSImg.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-k -sco -DCFG_INCLUDE_PIC18F26K20_ENC28 -mL -Ou- -Ot- -Ob- -Op- -Or- -Od- -Opa-
+TraceCmdString=
+DebugOptions=-D__DEBUG -D__MPLAB_DEBUGGER_ICD3=1
+[File032]
+Location=C:\microchip\mla\v2013-06-15\TCPIP\tcpip_18f26k20_demo_app\Tick.o
+Folder=Intermediary
+DeviceName=PIC18F26K20
+LanguageToolSuiteID={5B7D72DD-9861-47BD-9F60-2BE967BF8416}
+LanguageToolID={E56A1C86-9D32-4DF6-8C34-FE0388B1B644}
+LanguageToolLocation=C:\Program Files (x86)\Microchip\mplabc18\v3.37.01\bin\mcc18.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)|.;..\Microchip\Include;..\..\Microchip\Include||$(LIBDIR)|C:\MCC18\lib||$(LKRDIR)||
+SOLK=<src>|..\..\Microchip\TCPIP Stack\Announce.c|..\..\Microchip\TCPIP Stack\ARP.c|..\..\Microchip\TCPIP Stack\AutoIP.c|..\..\Microchip\TCPIP Stack\BerkeleyAPI.c|..\..\Microchip\TCPIP Stack\Delay.c|..\..\Microchip\TCPIP Stack\DHCP.c|..\..\Microchip\TCPIP Stack\DHCPs.c|..\..\Microchip\TCPIP Stack\DNS.c|..\..\Microchip\TCPIP Stack\DNSs.c|..\..\Microchip\TCPIP Stack\DynDNS.c|..\..\Microchip\TCPIP Stack\ENC28J60.c|..\..\Microchip\TCPIP Stack\FTP.c|..\..\Microchip\TCPIP Stack\Hashes.c|..\..\Microchip\TCPIP Stack\Helpers.c|..\..\Microchip\TCPIP Stack\HTTP2.c|..\..\Microchip\TCPIP Stack\ICMP.c|..\..\Microchip\TCPIP Stack\IP.c|..\..\Microchip\TCPIP Stack\LCDBlocking.c|..\..\Microchip\TCPIP Stack\MPFS2.c|..\..\Microchip\TCPIP Stack\NBNS.c|..\..\Microchip\TCPIP Stack\Reboot.c|..\..\Microchip\TCPIP Stack\SMTP.c|..\..\Microchip\TCPIP Stack\SNMP.c|..\..\Microchip\TCPIP Stack\SNTP.c|..\..\Microchip\TCPIP Stack\SPIEEPROM.c|..\..\Microchip\TCPIP Stack\SPIFlash.c|..\..\Microchip\TCPIP Stack\SPIRAM.c|..\..\Microchip\TCPIP Stack\StackTsk.c|..\..\Microchip\TCPIP Stack\TCP.c|..\..\Microchip\TCPIP Stack\TCPPerformanceTest.c|..\..\Microchip\TCPIP Stack\Telnet.c|..\..\Microchip\TCPIP Stack\TFTPc.c|..\..\Microchip\TCPIP Stack\Tick.c|..\..\Microchip\TCPIP Stack\UART2TCPBridge.c|..\..\Microchip\TCPIP Stack\UART.c|..\..\Microchip\TCPIP Stack\UDP.c|..\..\Microchip\TCPIP Stack\UDPPerformanceTest.c|CustomHTTPApp.c|CustomSNMPApp.c|MainDemo.c|BerkeleyTCPClientDemo.c|BerkeleyTCPServerDemo.c|BerkeleyUDPClientDemo.c|GenericTCPClient.c|GenericTCPServer.c|PingDemo.c|SMTPDemo.c|UARTConfig.c|..\..\Microchip\TCPIP Stack\ENCX24J600.c|DL_MPFSImg.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-k -sco -DCFG_INCLUDE_PIC18F26K20_ENC28 -mL -Ou- -Ot- -Ob- -Op- -Or- -Od- -Opa-
+TraceCmdString=
+DebugOptions=-D__DEBUG -D__MPLAB_DEBUGGER_ICD3=1
+[File033]
+Location=C:\microchip\mla\v2013-06-15\TCPIP\tcpip_18f26k20_demo_app\UART2TCPBridge.o
+Folder=Intermediary
+DeviceName=PIC18F26K20
+LanguageToolSuiteID={5B7D72DD-9861-47BD-9F60-2BE967BF8416}
+LanguageToolID={E56A1C86-9D32-4DF6-8C34-FE0388B1B644}
+LanguageToolLocation=C:\Program Files (x86)\Microchip\mplabc18\v3.37.01\bin\mcc18.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)|.;..\Microchip\Include;..\..\Microchip\Include||$(LIBDIR)|C:\MCC18\lib||$(LKRDIR)||
+SOLK=<src>|..\..\Microchip\TCPIP Stack\Announce.c|..\..\Microchip\TCPIP Stack\ARP.c|..\..\Microchip\TCPIP Stack\AutoIP.c|..\..\Microchip\TCPIP Stack\BerkeleyAPI.c|..\..\Microchip\TCPIP Stack\Delay.c|..\..\Microchip\TCPIP Stack\DHCP.c|..\..\Microchip\TCPIP Stack\DHCPs.c|..\..\Microchip\TCPIP Stack\DNS.c|..\..\Microchip\TCPIP Stack\DNSs.c|..\..\Microchip\TCPIP Stack\DynDNS.c|..\..\Microchip\TCPIP Stack\ENC28J60.c|..\..\Microchip\TCPIP Stack\FTP.c|..\..\Microchip\TCPIP Stack\Hashes.c|..\..\Microchip\TCPIP Stack\Helpers.c|..\..\Microchip\TCPIP Stack\HTTP2.c|..\..\Microchip\TCPIP Stack\ICMP.c|..\..\Microchip\TCPIP Stack\IP.c|..\..\Microchip\TCPIP Stack\LCDBlocking.c|..\..\Microchip\TCPIP Stack\MPFS2.c|..\..\Microchip\TCPIP Stack\NBNS.c|..\..\Microchip\TCPIP Stack\Reboot.c|..\..\Microchip\TCPIP Stack\SMTP.c|..\..\Microchip\TCPIP Stack\SNMP.c|..\..\Microchip\TCPIP Stack\SNTP.c|..\..\Microchip\TCPIP Stack\SPIEEPROM.c|..\..\Microchip\TCPIP Stack\SPIFlash.c|..\..\Microchip\TCPIP Stack\SPIRAM.c|..\..\Microchip\TCPIP Stack\StackTsk.c|..\..\Microchip\TCPIP Stack\TCP.c|..\..\Microchip\TCPIP Stack\TCPPerformanceTest.c|..\..\Microchip\TCPIP Stack\Telnet.c|..\..\Microchip\TCPIP Stack\TFTPc.c|..\..\Microchip\TCPIP Stack\Tick.c|..\..\Microchip\TCPIP Stack\UART2TCPBridge.c|..\..\Microchip\TCPIP Stack\UART.c|..\..\Microchip\TCPIP Stack\UDP.c|..\..\Microchip\TCPIP Stack\UDPPerformanceTest.c|CustomHTTPApp.c|CustomSNMPApp.c|MainDemo.c|BerkeleyTCPClientDemo.c|BerkeleyTCPServerDemo.c|BerkeleyUDPClientDemo.c|GenericTCPClient.c|GenericTCPServer.c|PingDemo.c|SMTPDemo.c|UARTConfig.c|..\..\Microchip\TCPIP Stack\ENCX24J600.c|DL_MPFSImg.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-k -sco -DCFG_INCLUDE_PIC18F26K20_ENC28 -mL -Ou- -Ot- -Ob- -Op- -Or- -Od- -Opa-
+TraceCmdString=
+DebugOptions=-D__DEBUG -D__MPLAB_DEBUGGER_ICD3=1
+[File034]
+Location=C:\microchip\mla\v2013-06-15\TCPIP\tcpip_18f26k20_demo_app\UART.o
+Folder=Intermediary
+DeviceName=PIC18F26K20
+LanguageToolSuiteID={5B7D72DD-9861-47BD-9F60-2BE967BF8416}
+LanguageToolID={E56A1C86-9D32-4DF6-8C34-FE0388B1B644}
+LanguageToolLocation=C:\Program Files (x86)\Microchip\mplabc18\v3.37.01\bin\mcc18.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)|.;..\Microchip\Include;..\..\Microchip\Include||$(LIBDIR)|C:\MCC18\lib||$(LKRDIR)||
+SOLK=<src>|..\..\Microchip\TCPIP Stack\Announce.c|..\..\Microchip\TCPIP Stack\ARP.c|..\..\Microchip\TCPIP Stack\AutoIP.c|..\..\Microchip\TCPIP Stack\BerkeleyAPI.c|..\..\Microchip\TCPIP Stack\Delay.c|..\..\Microchip\TCPIP Stack\DHCP.c|..\..\Microchip\TCPIP Stack\DHCPs.c|..\..\Microchip\TCPIP Stack\DNS.c|..\..\Microchip\TCPIP Stack\DNSs.c|..\..\Microchip\TCPIP Stack\DynDNS.c|..\..\Microchip\TCPIP Stack\ENC28J60.c|..\..\Microchip\TCPIP Stack\FTP.c|..\..\Microchip\TCPIP Stack\Hashes.c|..\..\Microchip\TCPIP Stack\Helpers.c|..\..\Microchip\TCPIP Stack\HTTP2.c|..\..\Microchip\TCPIP Stack\ICMP.c|..\..\Microchip\TCPIP Stack\IP.c|..\..\Microchip\TCPIP Stack\LCDBlocking.c|..\..\Microchip\TCPIP Stack\MPFS2.c|..\..\Microchip\TCPIP Stack\NBNS.c|..\..\Microchip\TCPIP Stack\Reboot.c|..\..\Microchip\TCPIP Stack\SMTP.c|..\..\Microchip\TCPIP Stack\SNMP.c|..\..\Microchip\TCPIP Stack\SNTP.c|..\..\Microchip\TCPIP Stack\SPIEEPROM.c|..\..\Microchip\TCPIP Stack\SPIFlash.c|..\..\Microchip\TCPIP Stack\SPIRAM.c|..\..\Microchip\TCPIP Stack\StackTsk.c|..\..\Microchip\TCPIP Stack\TCP.c|..\..\Microchip\TCPIP Stack\TCPPerformanceTest.c|..\..\Microchip\TCPIP Stack\Telnet.c|..\..\Microchip\TCPIP Stack\TFTPc.c|..\..\Microchip\TCPIP Stack\Tick.c|..\..\Microchip\TCPIP Stack\UART2TCPBridge.c|..\..\Microchip\TCPIP Stack\UART.c|..\..\Microchip\TCPIP Stack\UDP.c|..\..\Microchip\TCPIP Stack\UDPPerformanceTest.c|CustomHTTPApp.c|CustomSNMPApp.c|MainDemo.c|BerkeleyTCPClientDemo.c|BerkeleyTCPServerDemo.c|BerkeleyUDPClientDemo.c|GenericTCPClient.c|GenericTCPServer.c|PingDemo.c|SMTPDemo.c|UARTConfig.c|..\..\Microchip\TCPIP Stack\ENCX24J600.c|DL_MPFSImg.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-k -sco -DCFG_INCLUDE_PIC18F26K20_ENC28 -mL -Ou- -Ot- -Ob- -Op- -Or- -Od- -Opa-
+TraceCmdString=
+DebugOptions=-D__DEBUG -D__MPLAB_DEBUGGER_ICD3=1
+[File035]
+Location=C:\microchip\mla\v2013-06-15\TCPIP\tcpip_18f26k20_demo_app\UDP.o
+Folder=Intermediary
+DeviceName=PIC18F26K20
+LanguageToolSuiteID={5B7D72DD-9861-47BD-9F60-2BE967BF8416}
+LanguageToolID={E56A1C86-9D32-4DF6-8C34-FE0388B1B644}
+LanguageToolLocation=C:\Program Files (x86)\Microchip\mplabc18\v3.37.01\bin\mcc18.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)|.;..\Microchip\Include;..\..\Microchip\Include||$(LIBDIR)|C:\MCC18\lib||$(LKRDIR)||
+SOLK=<src>|..\..\Microchip\TCPIP Stack\Announce.c|..\..\Microchip\TCPIP Stack\ARP.c|..\..\Microchip\TCPIP Stack\AutoIP.c|..\..\Microchip\TCPIP Stack\BerkeleyAPI.c|..\..\Microchip\TCPIP Stack\Delay.c|..\..\Microchip\TCPIP Stack\DHCP.c|..\..\Microchip\TCPIP Stack\DHCPs.c|..\..\Microchip\TCPIP Stack\DNS.c|..\..\Microchip\TCPIP Stack\DNSs.c|..\..\Microchip\TCPIP Stack\DynDNS.c|..\..\Microchip\TCPIP Stack\ENC28J60.c|..\..\Microchip\TCPIP Stack\FTP.c|..\..\Microchip\TCPIP Stack\Hashes.c|..\..\Microchip\TCPIP Stack\Helpers.c|..\..\Microchip\TCPIP Stack\HTTP2.c|..\..\Microchip\TCPIP Stack\ICMP.c|..\..\Microchip\TCPIP Stack\IP.c|..\..\Microchip\TCPIP Stack\LCDBlocking.c|..\..\Microchip\TCPIP Stack\MPFS2.c|..\..\Microchip\TCPIP Stack\NBNS.c|..\..\Microchip\TCPIP Stack\Reboot.c|..\..\Microchip\TCPIP Stack\SMTP.c|..\..\Microchip\TCPIP Stack\SNMP.c|..\..\Microchip\TCPIP Stack\SNTP.c|..\..\Microchip\TCPIP Stack\SPIEEPROM.c|..\..\Microchip\TCPIP Stack\SPIFlash.c|..\..\Microchip\TCPIP Stack\SPIRAM.c|..\..\Microchip\TCPIP Stack\StackTsk.c|..\..\Microchip\TCPIP Stack\TCP.c|..\..\Microchip\TCPIP Stack\TCPPerformanceTest.c|..\..\Microchip\TCPIP Stack\Telnet.c|..\..\Microchip\TCPIP Stack\TFTPc.c|..\..\Microchip\TCPIP Stack\Tick.c|..\..\Microchip\TCPIP Stack\UART2TCPBridge.c|..\..\Microchip\TCPIP Stack\UART.c|..\..\Microchip\TCPIP Stack\UDP.c|..\..\Microchip\TCPIP Stack\UDPPerformanceTest.c|CustomHTTPApp.c|CustomSNMPApp.c|MainDemo.c|BerkeleyTCPClientDemo.c|BerkeleyTCPServerDemo.c|BerkeleyUDPClientDemo.c|GenericTCPClient.c|GenericTCPServer.c|PingDemo.c|SMTPDemo.c|UARTConfig.c|..\..\Microchip\TCPIP Stack\ENCX24J600.c|DL_MPFSImg.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-k -sco -DCFG_INCLUDE_PIC18F26K20_ENC28 -mL -Ou- -Ot- -Ob- -Op- -Or- -Od- -Opa-
+TraceCmdString=
+DebugOptions=-D__DEBUG -D__MPLAB_DEBUGGER_ICD3=1
+[File036]
+Location=C:\microchip\mla\v2013-06-15\TCPIP\tcpip_18f26k20_demo_app\UDPPerformanceTest.o
+Folder=Intermediary
+DeviceName=PIC18F26K20
+LanguageToolSuiteID={5B7D72DD-9861-47BD-9F60-2BE967BF8416}
+LanguageToolID={E56A1C86-9D32-4DF6-8C34-FE0388B1B644}
+LanguageToolLocation=C:\Program Files (x86)\Microchip\mplabc18\v3.37.01\bin\mcc18.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)|.;..\Microchip\Include;..\..\Microchip\Include||$(LIBDIR)|C:\MCC18\lib||$(LKRDIR)||
+SOLK=<src>|..\..\Microchip\TCPIP Stack\Announce.c|..\..\Microchip\TCPIP Stack\ARP.c|..\..\Microchip\TCPIP Stack\AutoIP.c|..\..\Microchip\TCPIP Stack\BerkeleyAPI.c|..\..\Microchip\TCPIP Stack\Delay.c|..\..\Microchip\TCPIP Stack\DHCP.c|..\..\Microchip\TCPIP Stack\DHCPs.c|..\..\Microchip\TCPIP Stack\DNS.c|..\..\Microchip\TCPIP Stack\DNSs.c|..\..\Microchip\TCPIP Stack\DynDNS.c|..\..\Microchip\TCPIP Stack\ENC28J60.c|..\..\Microchip\TCPIP Stack\FTP.c|..\..\Microchip\TCPIP Stack\Hashes.c|..\..\Microchip\TCPIP Stack\Helpers.c|..\..\Microchip\TCPIP Stack\HTTP2.c|..\..\Microchip\TCPIP Stack\ICMP.c|..\..\Microchip\TCPIP Stack\IP.c|..\..\Microchip\TCPIP Stack\LCDBlocking.c|..\..\Microchip\TCPIP Stack\MPFS2.c|..\..\Microchip\TCPIP Stack\NBNS.c|..\..\Microchip\TCPIP Stack\Reboot.c|..\..\Microchip\TCPIP Stack\SMTP.c|..\..\Microchip\TCPIP Stack\SNMP.c|..\..\Microchip\TCPIP Stack\SNTP.c|..\..\Microchip\TCPIP Stack\SPIEEPROM.c|..\..\Microchip\TCPIP Stack\SPIFlash.c|..\..\Microchip\TCPIP Stack\SPIRAM.c|..\..\Microchip\TCPIP Stack\StackTsk.c|..\..\Microchip\TCPIP Stack\TCP.c|..\..\Microchip\TCPIP Stack\TCPPerformanceTest.c|..\..\Microchip\TCPIP Stack\Telnet.c|..\..\Microchip\TCPIP Stack\TFTPc.c|..\..\Microchip\TCPIP Stack\Tick.c|..\..\Microchip\TCPIP Stack\UART2TCPBridge.c|..\..\Microchip\TCPIP Stack\UART.c|..\..\Microchip\TCPIP Stack\UDP.c|..\..\Microchip\TCPIP Stack\UDPPerformanceTest.c|CustomHTTPApp.c|CustomSNMPApp.c|MainDemo.c|BerkeleyTCPClientDemo.c|BerkeleyTCPServerDemo.c|BerkeleyUDPClientDemo.c|GenericTCPClient.c|GenericTCPServer.c|PingDemo.c|SMTPDemo.c|UARTConfig.c|..\..\Microchip\TCPIP Stack\ENCX24J600.c|DL_MPFSImg.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-k -sco -DCFG_INCLUDE_PIC18F26K20_ENC28 -mL -Ou- -Ot- -Ob- -Op- -Or- -Od- -Opa-
+TraceCmdString=
+DebugOptions=-D__DEBUG -D__MPLAB_DEBUGGER_ICD3=1
+[File037]
+Location=C:\microchip\mla\v2013-06-15\TCPIP\tcpip_18f26k20_demo_app\CustomHTTPApp.o
+Folder=Intermediary
+DeviceName=PIC18F26K20
+LanguageToolSuiteID={5B7D72DD-9861-47BD-9F60-2BE967BF8416}
+LanguageToolID={E56A1C86-9D32-4DF6-8C34-FE0388B1B644}
+LanguageToolLocation=C:\Program Files (x86)\Microchip\mplabc18\v3.37.01\bin\mcc18.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)|.;..\Microchip\Include;..\..\Microchip\Include||$(LIBDIR)|C:\MCC18\lib||$(LKRDIR)||
+SOLK=<src>|..\..\Microchip\TCPIP Stack\Announce.c|..\..\Microchip\TCPIP Stack\ARP.c|..\..\Microchip\TCPIP Stack\AutoIP.c|..\..\Microchip\TCPIP Stack\BerkeleyAPI.c|..\..\Microchip\TCPIP Stack\Delay.c|..\..\Microchip\TCPIP Stack\DHCP.c|..\..\Microchip\TCPIP Stack\DHCPs.c|..\..\Microchip\TCPIP Stack\DNS.c|..\..\Microchip\TCPIP Stack\DNSs.c|..\..\Microchip\TCPIP Stack\DynDNS.c|..\..\Microchip\TCPIP Stack\ENC28J60.c|..\..\Microchip\TCPIP Stack\FTP.c|..\..\Microchip\TCPIP Stack\Hashes.c|..\..\Microchip\TCPIP Stack\Helpers.c|..\..\Microchip\TCPIP Stack\HTTP2.c|..\..\Microchip\TCPIP Stack\ICMP.c|..\..\Microchip\TCPIP Stack\IP.c|..\..\Microchip\TCPIP Stack\LCDBlocking.c|..\..\Microchip\TCPIP Stack\MPFS2.c|..\..\Microchip\TCPIP Stack\NBNS.c|..\..\Microchip\TCPIP Stack\Reboot.c|..\..\Microchip\TCPIP Stack\SMTP.c|..\..\Microchip\TCPIP Stack\SNMP.c|..\..\Microchip\TCPIP Stack\SNTP.c|..\..\Microchip\TCPIP Stack\SPIEEPROM.c|..\..\Microchip\TCPIP Stack\SPIFlash.c|..\..\Microchip\TCPIP Stack\SPIRAM.c|..\..\Microchip\TCPIP Stack\StackTsk.c|..\..\Microchip\TCPIP Stack\TCP.c|..\..\Microchip\TCPIP Stack\TCPPerformanceTest.c|..\..\Microchip\TCPIP Stack\Telnet.c|..\..\Microchip\TCPIP Stack\TFTPc.c|..\..\Microchip\TCPIP Stack\Tick.c|..\..\Microchip\TCPIP Stack\UART2TCPBridge.c|..\..\Microchip\TCPIP Stack\UART.c|..\..\Microchip\TCPIP Stack\UDP.c|..\..\Microchip\TCPIP Stack\UDPPerformanceTest.c|CustomHTTPApp.c|CustomSNMPApp.c|MainDemo.c|BerkeleyTCPClientDemo.c|BerkeleyTCPServerDemo.c|BerkeleyUDPClientDemo.c|GenericTCPClient.c|GenericTCPServer.c|PingDemo.c|SMTPDemo.c|UARTConfig.c|..\..\Microchip\TCPIP Stack\ENCX24J600.c|DL_MPFSImg.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-k -sco -DCFG_INCLUDE_PIC18F26K20_ENC28 -mL -Ou- -Ot- -Ob- -Op- -Or- -Od- -Opa-
+TraceCmdString=
+DebugOptions=-D__DEBUG -D__MPLAB_DEBUGGER_ICD3=1
+[File038]
+Location=C:\microchip\mla\v2013-06-15\TCPIP\tcpip_18f26k20_demo_app\CustomSNMPApp.o
+Folder=Intermediary
+DeviceName=PIC18F26K20
+LanguageToolSuiteID={5B7D72DD-9861-47BD-9F60-2BE967BF8416}
+LanguageToolID={E56A1C86-9D32-4DF6-8C34-FE0388B1B644}
+LanguageToolLocation=C:\Program Files (x86)\Microchip\mplabc18\v3.37.01\bin\mcc18.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)|.;..\Microchip\Include;..\..\Microchip\Include||$(LIBDIR)|C:\MCC18\lib||$(LKRDIR)||
+SOLK=<src>|..\..\Microchip\TCPIP Stack\Announce.c|..\..\Microchip\TCPIP Stack\ARP.c|..\..\Microchip\TCPIP Stack\AutoIP.c|..\..\Microchip\TCPIP Stack\BerkeleyAPI.c|..\..\Microchip\TCPIP Stack\Delay.c|..\..\Microchip\TCPIP Stack\DHCP.c|..\..\Microchip\TCPIP Stack\DHCPs.c|..\..\Microchip\TCPIP Stack\DNS.c|..\..\Microchip\TCPIP Stack\DNSs.c|..\..\Microchip\TCPIP Stack\DynDNS.c|..\..\Microchip\TCPIP Stack\ENC28J60.c|..\..\Microchip\TCPIP Stack\FTP.c|..\..\Microchip\TCPIP Stack\Hashes.c|..\..\Microchip\TCPIP Stack\Helpers.c|..\..\Microchip\TCPIP Stack\HTTP2.c|..\..\Microchip\TCPIP Stack\ICMP.c|..\..\Microchip\TCPIP Stack\IP.c|..\..\Microchip\TCPIP Stack\LCDBlocking.c|..\..\Microchip\TCPIP Stack\MPFS2.c|..\..\Microchip\TCPIP Stack\NBNS.c|..\..\Microchip\TCPIP Stack\Reboot.c|..\..\Microchip\TCPIP Stack\SMTP.c|..\..\Microchip\TCPIP Stack\SNMP.c|..\..\Microchip\TCPIP Stack\SNTP.c|..\..\Microchip\TCPIP Stack\SPIEEPROM.c|..\..\Microchip\TCPIP Stack\SPIFlash.c|..\..\Microchip\TCPIP Stack\SPIRAM.c|..\..\Microchip\TCPIP Stack\StackTsk.c|..\..\Microchip\TCPIP Stack\TCP.c|..\..\Microchip\TCPIP Stack\TCPPerformanceTest.c|..\..\Microchip\TCPIP Stack\Telnet.c|..\..\Microchip\TCPIP Stack\TFTPc.c|..\..\Microchip\TCPIP Stack\Tick.c|..\..\Microchip\TCPIP Stack\UART2TCPBridge.c|..\..\Microchip\TCPIP Stack\UART.c|..\..\Microchip\TCPIP Stack\UDP.c|..\..\Microchip\TCPIP Stack\UDPPerformanceTest.c|CustomHTTPApp.c|CustomSNMPApp.c|MainDemo.c|BerkeleyTCPClientDemo.c|BerkeleyTCPServerDemo.c|BerkeleyUDPClientDemo.c|GenericTCPClient.c|GenericTCPServer.c|PingDemo.c|SMTPDemo.c|UARTConfig.c|..\..\Microchip\TCPIP Stack\ENCX24J600.c|DL_MPFSImg.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-k -sco -DCFG_INCLUDE_PIC18F26K20_ENC28 -mL -Ou- -Ot- -Ob- -Op- -Or- -Od- -Opa-
+TraceCmdString=
+DebugOptions=-D__DEBUG -D__MPLAB_DEBUGGER_ICD3=1
+[File039]
+Location=C:\microchip\mla\v2013-06-15\TCPIP\tcpip_18f26k20_demo_app\MainDemo.o
+Folder=Intermediary
+DeviceName=PIC18F26K20
+LanguageToolSuiteID={5B7D72DD-9861-47BD-9F60-2BE967BF8416}
+LanguageToolID={E56A1C86-9D32-4DF6-8C34-FE0388B1B644}
+LanguageToolLocation=C:\Program Files (x86)\Microchip\mplabc18\v3.37.01\bin\mcc18.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)|.;..\Microchip\Include;..\..\Microchip\Include||$(LIBDIR)|C:\MCC18\lib||$(LKRDIR)||
+SOLK=<src>|..\..\Microchip\TCPIP Stack\Announce.c|..\..\Microchip\TCPIP Stack\ARP.c|..\..\Microchip\TCPIP Stack\AutoIP.c|..\..\Microchip\TCPIP Stack\BerkeleyAPI.c|..\..\Microchip\TCPIP Stack\Delay.c|..\..\Microchip\TCPIP Stack\DHCP.c|..\..\Microchip\TCPIP Stack\DHCPs.c|..\..\Microchip\TCPIP Stack\DNS.c|..\..\Microchip\TCPIP Stack\DNSs.c|..\..\Microchip\TCPIP Stack\DynDNS.c|..\..\Microchip\TCPIP Stack\ENC28J60.c|..\..\Microchip\TCPIP Stack\FTP.c|..\..\Microchip\TCPIP Stack\Hashes.c|..\..\Microchip\TCPIP Stack\Helpers.c|..\..\Microchip\TCPIP Stack\HTTP2.c|..\..\Microchip\TCPIP Stack\ICMP.c|..\..\Microchip\TCPIP Stack\IP.c|..\..\Microchip\TCPIP Stack\LCDBlocking.c|..\..\Microchip\TCPIP Stack\MPFS2.c|..\..\Microchip\TCPIP Stack\NBNS.c|..\..\Microchip\TCPIP Stack\Reboot.c|..\..\Microchip\TCPIP Stack\SMTP.c|..\..\Microchip\TCPIP Stack\SNMP.c|..\..\Microchip\TCPIP Stack\SNTP.c|..\..\Microchip\TCPIP Stack\SPIEEPROM.c|..\..\Microchip\TCPIP Stack\SPIFlash.c|..\..\Microchip\TCPIP Stack\SPIRAM.c|..\..\Microchip\TCPIP Stack\StackTsk.c|..\..\Microchip\TCPIP Stack\TCP.c|..\..\Microchip\TCPIP Stack\TCPPerformanceTest.c|..\..\Microchip\TCPIP Stack\Telnet.c|..\..\Microchip\TCPIP Stack\TFTPc.c|..\..\Microchip\TCPIP Stack\Tick.c|..\..\Microchip\TCPIP Stack\UART2TCPBridge.c|..\..\Microchip\TCPIP Stack\UART.c|..\..\Microchip\TCPIP Stack\UDP.c|..\..\Microchip\TCPIP Stack\UDPPerformanceTest.c|CustomHTTPApp.c|CustomSNMPApp.c|MainDemo.c|BerkeleyTCPClientDemo.c|BerkeleyTCPServerDemo.c|BerkeleyUDPClientDemo.c|GenericTCPClient.c|GenericTCPServer.c|PingDemo.c|SMTPDemo.c|UARTConfig.c|..\..\Microchip\TCPIP Stack\ENCX24J600.c|DL_MPFSImg.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-k -sco -DCFG_INCLUDE_PIC18F26K20_ENC28 -mL -Ou- -Ot- -Ob- -Op- -Or- -Od- -Opa-
+TraceCmdString=
+DebugOptions=-D__DEBUG -D__MPLAB_DEBUGGER_ICD3=1
+[File040]
+Location=C:\microchip\mla\v2013-06-15\TCPIP\tcpip_18f26k20_demo_app\BerkeleyTCPClientDemo.o
+Folder=Intermediary
+DeviceName=PIC18F26K20
+LanguageToolSuiteID={5B7D72DD-9861-47BD-9F60-2BE967BF8416}
+LanguageToolID={E56A1C86-9D32-4DF6-8C34-FE0388B1B644}
+LanguageToolLocation=C:\Program Files (x86)\Microchip\mplabc18\v3.37.01\bin\mcc18.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)|.;..\Microchip\Include;..\..\Microchip\Include||$(LIBDIR)|C:\MCC18\lib||$(LKRDIR)||
+SOLK=<src>|..\..\Microchip\TCPIP Stack\Announce.c|..\..\Microchip\TCPIP Stack\ARP.c|..\..\Microchip\TCPIP Stack\AutoIP.c|..\..\Microchip\TCPIP Stack\BerkeleyAPI.c|..\..\Microchip\TCPIP Stack\Delay.c|..\..\Microchip\TCPIP Stack\DHCP.c|..\..\Microchip\TCPIP Stack\DHCPs.c|..\..\Microchip\TCPIP Stack\DNS.c|..\..\Microchip\TCPIP Stack\DNSs.c|..\..\Microchip\TCPIP Stack\DynDNS.c|..\..\Microchip\TCPIP Stack\ENC28J60.c|..\..\Microchip\TCPIP Stack\FTP.c|..\..\Microchip\TCPIP Stack\Hashes.c|..\..\Microchip\TCPIP Stack\Helpers.c|..\..\Microchip\TCPIP Stack\HTTP2.c|..\..\Microchip\TCPIP Stack\ICMP.c|..\..\Microchip\TCPIP Stack\IP.c|..\..\Microchip\TCPIP Stack\LCDBlocking.c|..\..\Microchip\TCPIP Stack\MPFS2.c|..\..\Microchip\TCPIP Stack\NBNS.c|..\..\Microchip\TCPIP Stack\Reboot.c|..\..\Microchip\TCPIP Stack\SMTP.c|..\..\Microchip\TCPIP Stack\SNMP.c|..\..\Microchip\TCPIP Stack\SNTP.c|..\..\Microchip\TCPIP Stack\SPIEEPROM.c|..\..\Microchip\TCPIP Stack\SPIFlash.c|..\..\Microchip\TCPIP Stack\SPIRAM.c|..\..\Microchip\TCPIP Stack\StackTsk.c|..\..\Microchip\TCPIP Stack\TCP.c|..\..\Microchip\TCPIP Stack\TCPPerformanceTest.c|..\..\Microchip\TCPIP Stack\Telnet.c|..\..\Microchip\TCPIP Stack\TFTPc.c|..\..\Microchip\TCPIP Stack\Tick.c|..\..\Microchip\TCPIP Stack\UART2TCPBridge.c|..\..\Microchip\TCPIP Stack\UART.c|..\..\Microchip\TCPIP Stack\UDP.c|..\..\Microchip\TCPIP Stack\UDPPerformanceTest.c|CustomHTTPApp.c|CustomSNMPApp.c|MainDemo.c|BerkeleyTCPClientDemo.c|BerkeleyTCPServerDemo.c|BerkeleyUDPClientDemo.c|GenericTCPClient.c|GenericTCPServer.c|PingDemo.c|SMTPDemo.c|UARTConfig.c|..\..\Microchip\TCPIP Stack\ENCX24J600.c|DL_MPFSImg.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-k -sco -DCFG_INCLUDE_PIC18F26K20_ENC28 -mL -Ou- -Ot- -Ob- -Op- -Or- -Od- -Opa-
+TraceCmdString=
+DebugOptions=-D__DEBUG -D__MPLAB_DEBUGGER_ICD3=1
+[File041]
+Location=C:\microchip\mla\v2013-06-15\TCPIP\tcpip_18f26k20_demo_app\BerkeleyTCPServerDemo.o
+Folder=Intermediary
+DeviceName=PIC18F26K20
+LanguageToolSuiteID={5B7D72DD-9861-47BD-9F60-2BE967BF8416}
+LanguageToolID={E56A1C86-9D32-4DF6-8C34-FE0388B1B644}
+LanguageToolLocation=C:\Program Files (x86)\Microchip\mplabc18\v3.37.01\bin\mcc18.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)|.;..\Microchip\Include;..\..\Microchip\Include||$(LIBDIR)|C:\MCC18\lib||$(LKRDIR)||
+SOLK=<src>|..\..\Microchip\TCPIP Stack\Announce.c|..\..\Microchip\TCPIP Stack\ARP.c|..\..\Microchip\TCPIP Stack\AutoIP.c|..\..\Microchip\TCPIP Stack\BerkeleyAPI.c|..\..\Microchip\TCPIP Stack\Delay.c|..\..\Microchip\TCPIP Stack\DHCP.c|..\..\Microchip\TCPIP Stack\DHCPs.c|..\..\Microchip\TCPIP Stack\DNS.c|..\..\Microchip\TCPIP Stack\DNSs.c|..\..\Microchip\TCPIP Stack\DynDNS.c|..\..\Microchip\TCPIP Stack\ENC28J60.c|..\..\Microchip\TCPIP Stack\FTP.c|..\..\Microchip\TCPIP Stack\Hashes.c|..\..\Microchip\TCPIP Stack\Helpers.c|..\..\Microchip\TCPIP Stack\HTTP2.c|..\..\Microchip\TCPIP Stack\ICMP.c|..\..\Microchip\TCPIP Stack\IP.c|..\..\Microchip\TCPIP Stack\LCDBlocking.c|..\..\Microchip\TCPIP Stack\MPFS2.c|..\..\Microchip\TCPIP Stack\NBNS.c|..\..\Microchip\TCPIP Stack\Reboot.c|..\..\Microchip\TCPIP Stack\SMTP.c|..\..\Microchip\TCPIP Stack\SNMP.c|..\..\Microchip\TCPIP Stack\SNTP.c|..\..\Microchip\TCPIP Stack\SPIEEPROM.c|..\..\Microchip\TCPIP Stack\SPIFlash.c|..\..\Microchip\TCPIP Stack\SPIRAM.c|..\..\Microchip\TCPIP Stack\StackTsk.c|..\..\Microchip\TCPIP Stack\TCP.c|..\..\Microchip\TCPIP Stack\TCPPerformanceTest.c|..\..\Microchip\TCPIP Stack\Telnet.c|..\..\Microchip\TCPIP Stack\TFTPc.c|..\..\Microchip\TCPIP Stack\Tick.c|..\..\Microchip\TCPIP Stack\UART2TCPBridge.c|..\..\Microchip\TCPIP Stack\UART.c|..\..\Microchip\TCPIP Stack\UDP.c|..\..\Microchip\TCPIP Stack\UDPPerformanceTest.c|CustomHTTPApp.c|CustomSNMPApp.c|MainDemo.c|BerkeleyTCPClientDemo.c|BerkeleyTCPServerDemo.c|BerkeleyUDPClientDemo.c|GenericTCPClient.c|GenericTCPServer.c|PingDemo.c|SMTPDemo.c|UARTConfig.c|..\..\Microchip\TCPIP Stack\ENCX24J600.c|DL_MPFSImg.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-k -sco -DCFG_INCLUDE_PIC18F26K20_ENC28 -mL -Ou- -Ot- -Ob- -Op- -Or- -Od- -Opa-
+TraceCmdString=
+DebugOptions=-D__DEBUG -D__MPLAB_DEBUGGER_ICD3=1
+[File042]
+Location=C:\microchip\mla\v2013-06-15\TCPIP\tcpip_18f26k20_demo_app\BerkeleyUDPClientDemo.o
+Folder=Intermediary
+DeviceName=PIC18F26K20
+LanguageToolSuiteID={5B7D72DD-9861-47BD-9F60-2BE967BF8416}
+LanguageToolID={E56A1C86-9D32-4DF6-8C34-FE0388B1B644}
+LanguageToolLocation=C:\Program Files (x86)\Microchip\mplabc18\v3.37.01\bin\mcc18.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)|.;..\Microchip\Include;..\..\Microchip\Include||$(LIBDIR)|C:\MCC18\lib||$(LKRDIR)||
+SOLK=<src>|..\..\Microchip\TCPIP Stack\Announce.c|..\..\Microchip\TCPIP Stack\ARP.c|..\..\Microchip\TCPIP Stack\AutoIP.c|..\..\Microchip\TCPIP Stack\BerkeleyAPI.c|..\..\Microchip\TCPIP Stack\Delay.c|..\..\Microchip\TCPIP Stack\DHCP.c|..\..\Microchip\TCPIP Stack\DHCPs.c|..\..\Microchip\TCPIP Stack\DNS.c|..\..\Microchip\TCPIP Stack\DNSs.c|..\..\Microchip\TCPIP Stack\DynDNS.c|..\..\Microchip\TCPIP Stack\ENC28J60.c|..\..\Microchip\TCPIP Stack\FTP.c|..\..\Microchip\TCPIP Stack\Hashes.c|..\..\Microchip\TCPIP Stack\Helpers.c|..\..\Microchip\TCPIP Stack\HTTP2.c|..\..\Microchip\TCPIP Stack\ICMP.c|..\..\Microchip\TCPIP Stack\IP.c|..\..\Microchip\TCPIP Stack\LCDBlocking.c|..\..\Microchip\TCPIP Stack\MPFS2.c|..\..\Microchip\TCPIP Stack\NBNS.c|..\..\Microchip\TCPIP Stack\Reboot.c|..\..\Microchip\TCPIP Stack\SMTP.c|..\..\Microchip\TCPIP Stack\SNMP.c|..\..\Microchip\TCPIP Stack\SNTP.c|..\..\Microchip\TCPIP Stack\SPIEEPROM.c|..\..\Microchip\TCPIP Stack\SPIFlash.c|..\..\Microchip\TCPIP Stack\SPIRAM.c|..\..\Microchip\TCPIP Stack\StackTsk.c|..\..\Microchip\TCPIP Stack\TCP.c|..\..\Microchip\TCPIP Stack\TCPPerformanceTest.c|..\..\Microchip\TCPIP Stack\Telnet.c|..\..\Microchip\TCPIP Stack\TFTPc.c|..\..\Microchip\TCPIP Stack\Tick.c|..\..\Microchip\TCPIP Stack\UART2TCPBridge.c|..\..\Microchip\TCPIP Stack\UART.c|..\..\Microchip\TCPIP Stack\UDP.c|..\..\Microchip\TCPIP Stack\UDPPerformanceTest.c|CustomHTTPApp.c|CustomSNMPApp.c|MainDemo.c|BerkeleyTCPClientDemo.c|BerkeleyTCPServerDemo.c|BerkeleyUDPClientDemo.c|GenericTCPClient.c|GenericTCPServer.c|PingDemo.c|SMTPDemo.c|UARTConfig.c|..\..\Microchip\TCPIP Stack\ENCX24J600.c|DL_MPFSImg.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-k -sco -DCFG_INCLUDE_PIC18F26K20_ENC28 -mL -Ou- -Ot- -Ob- -Op- -Or- -Od- -Opa-
+TraceCmdString=
+DebugOptions=-D__DEBUG -D__MPLAB_DEBUGGER_ICD3=1
+[File043]
+Location=C:\microchip\mla\v2013-06-15\TCPIP\tcpip_18f26k20_demo_app\GenericTCPClient.o
+Folder=Intermediary
+DeviceName=PIC18F26K20
+LanguageToolSuiteID={5B7D72DD-9861-47BD-9F60-2BE967BF8416}
+LanguageToolID={E56A1C86-9D32-4DF6-8C34-FE0388B1B644}
+LanguageToolLocation=C:\Program Files (x86)\Microchip\mplabc18\v3.37.01\bin\mcc18.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)|.;..\Microchip\Include;..\..\Microchip\Include||$(LIBDIR)|C:\MCC18\lib||$(LKRDIR)||
+SOLK=<src>|..\..\Microchip\TCPIP Stack\Announce.c|..\..\Microchip\TCPIP Stack\ARP.c|..\..\Microchip\TCPIP Stack\AutoIP.c|..\..\Microchip\TCPIP Stack\BerkeleyAPI.c|..\..\Microchip\TCPIP Stack\Delay.c|..\..\Microchip\TCPIP Stack\DHCP.c|..\..\Microchip\TCPIP Stack\DHCPs.c|..\..\Microchip\TCPIP Stack\DNS.c|..\..\Microchip\TCPIP Stack\DNSs.c|..\..\Microchip\TCPIP Stack\DynDNS.c|..\..\Microchip\TCPIP Stack\ENC28J60.c|..\..\Microchip\TCPIP Stack\FTP.c|..\..\Microchip\TCPIP Stack\Hashes.c|..\..\Microchip\TCPIP Stack\Helpers.c|..\..\Microchip\TCPIP Stack\HTTP2.c|..\..\Microchip\TCPIP Stack\ICMP.c|..\..\Microchip\TCPIP Stack\IP.c|..\..\Microchip\TCPIP Stack\LCDBlocking.c|..\..\Microchip\TCPIP Stack\MPFS2.c|..\..\Microchip\TCPIP Stack\NBNS.c|..\..\Microchip\TCPIP Stack\Reboot.c|..\..\Microchip\TCPIP Stack\SMTP.c|..\..\Microchip\TCPIP Stack\SNMP.c|..\..\Microchip\TCPIP Stack\SNTP.c|..\..\Microchip\TCPIP Stack\SPIEEPROM.c|..\..\Microchip\TCPIP Stack\SPIFlash.c|..\..\Microchip\TCPIP Stack\SPIRAM.c|..\..\Microchip\TCPIP Stack\StackTsk.c|..\..\Microchip\TCPIP Stack\TCP.c|..\..\Microchip\TCPIP Stack\TCPPerformanceTest.c|..\..\Microchip\TCPIP Stack\Telnet.c|..\..\Microchip\TCPIP Stack\TFTPc.c|..\..\Microchip\TCPIP Stack\Tick.c|..\..\Microchip\TCPIP Stack\UART2TCPBridge.c|..\..\Microchip\TCPIP Stack\UART.c|..\..\Microchip\TCPIP Stack\UDP.c|..\..\Microchip\TCPIP Stack\UDPPerformanceTest.c|CustomHTTPApp.c|CustomSNMPApp.c|MainDemo.c|BerkeleyTCPClientDemo.c|BerkeleyTCPServerDemo.c|BerkeleyUDPClientDemo.c|GenericTCPClient.c|GenericTCPServer.c|PingDemo.c|SMTPDemo.c|UARTConfig.c|..\..\Microchip\TCPIP Stack\ENCX24J600.c|DL_MPFSImg.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-k -sco -DCFG_INCLUDE_PIC18F26K20_ENC28 -mL -Ou- -Ot- -Ob- -Op- -Or- -Od- -Opa-
+TraceCmdString=
+DebugOptions=-D__DEBUG -D__MPLAB_DEBUGGER_ICD3=1
+[File044]
+Location=C:\microchip\mla\v2013-06-15\TCPIP\tcpip_18f26k20_demo_app\GenericTCPServer.o
+Folder=Intermediary
+DeviceName=PIC18F26K20
+LanguageToolSuiteID={5B7D72DD-9861-47BD-9F60-2BE967BF8416}
+LanguageToolID={E56A1C86-9D32-4DF6-8C34-FE0388B1B644}
+LanguageToolLocation=C:\Program Files (x86)\Microchip\mplabc18\v3.37.01\bin\mcc18.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)|.;..\Microchip\Include;..\..\Microchip\Include||$(LIBDIR)|C:\MCC18\lib||$(LKRDIR)||
+SOLK=<src>|..\..\Microchip\TCPIP Stack\Announce.c|..\..\Microchip\TCPIP Stack\ARP.c|..\..\Microchip\TCPIP Stack\AutoIP.c|..\..\Microchip\TCPIP Stack\BerkeleyAPI.c|..\..\Microchip\TCPIP Stack\Delay.c|..\..\Microchip\TCPIP Stack\DHCP.c|..\..\Microchip\TCPIP Stack\DHCPs.c|..\..\Microchip\TCPIP Stack\DNS.c|..\..\Microchip\TCPIP Stack\DNSs.c|..\..\Microchip\TCPIP Stack\DynDNS.c|..\..\Microchip\TCPIP Stack\ENC28J60.c|..\..\Microchip\TCPIP Stack\FTP.c|..\..\Microchip\TCPIP Stack\Hashes.c|..\..\Microchip\TCPIP Stack\Helpers.c|..\..\Microchip\TCPIP Stack\HTTP2.c|..\..\Microchip\TCPIP Stack\ICMP.c|..\..\Microchip\TCPIP Stack\IP.c|..\..\Microchip\TCPIP Stack\LCDBlocking.c|..\..\Microchip\TCPIP Stack\MPFS2.c|..\..\Microchip\TCPIP Stack\NBNS.c|..\..\Microchip\TCPIP Stack\Reboot.c|..\..\Microchip\TCPIP Stack\SMTP.c|..\..\Microchip\TCPIP Stack\SNMP.c|..\..\Microchip\TCPIP Stack\SNTP.c|..\..\Microchip\TCPIP Stack\SPIEEPROM.c|..\..\Microchip\TCPIP Stack\SPIFlash.c|..\..\Microchip\TCPIP Stack\SPIRAM.c|..\..\Microchip\TCPIP Stack\StackTsk.c|..\..\Microchip\TCPIP Stack\TCP.c|..\..\Microchip\TCPIP Stack\TCPPerformanceTest.c|..\..\Microchip\TCPIP Stack\Telnet.c|..\..\Microchip\TCPIP Stack\TFTPc.c|..\..\Microchip\TCPIP Stack\Tick.c|..\..\Microchip\TCPIP Stack\UART2TCPBridge.c|..\..\Microchip\TCPIP Stack\UART.c|..\..\Microchip\TCPIP Stack\UDP.c|..\..\Microchip\TCPIP Stack\UDPPerformanceTest.c|CustomHTTPApp.c|CustomSNMPApp.c|MainDemo.c|BerkeleyTCPClientDemo.c|BerkeleyTCPServerDemo.c|BerkeleyUDPClientDemo.c|GenericTCPClient.c|GenericTCPServer.c|PingDemo.c|SMTPDemo.c|UARTConfig.c|..\..\Microchip\TCPIP Stack\ENCX24J600.c|DL_MPFSImg.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-k -sco -DCFG_INCLUDE_PIC18F26K20_ENC28 -mL -Ou- -Ot- -Ob- -Op- -Or- -Od- -Opa-
+TraceCmdString=
+DebugOptions=-D__DEBUG -D__MPLAB_DEBUGGER_ICD3=1
+[File045]
+Location=C:\microchip\mla\v2013-06-15\TCPIP\tcpip_18f26k20_demo_app\PingDemo.o
+Folder=Intermediary
+DeviceName=PIC18F26K20
+LanguageToolSuiteID={5B7D72DD-9861-47BD-9F60-2BE967BF8416}
+LanguageToolID={E56A1C86-9D32-4DF6-8C34-FE0388B1B644}
+LanguageToolLocation=C:\Program Files (x86)\Microchip\mplabc18\v3.37.01\bin\mcc18.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)|.;..\Microchip\Include;..\..\Microchip\Include||$(LIBDIR)|C:\MCC18\lib||$(LKRDIR)||
+SOLK=<src>|..\..\Microchip\TCPIP Stack\Announce.c|..\..\Microchip\TCPIP Stack\ARP.c|..\..\Microchip\TCPIP Stack\AutoIP.c|..\..\Microchip\TCPIP Stack\BerkeleyAPI.c|..\..\Microchip\TCPIP Stack\Delay.c|..\..\Microchip\TCPIP Stack\DHCP.c|..\..\Microchip\TCPIP Stack\DHCPs.c|..\..\Microchip\TCPIP Stack\DNS.c|..\..\Microchip\TCPIP Stack\DNSs.c|..\..\Microchip\TCPIP Stack\DynDNS.c|..\..\Microchip\TCPIP Stack\ENC28J60.c|..\..\Microchip\TCPIP Stack\FTP.c|..\..\Microchip\TCPIP Stack\Hashes.c|..\..\Microchip\TCPIP Stack\Helpers.c|..\..\Microchip\TCPIP Stack\HTTP2.c|..\..\Microchip\TCPIP Stack\ICMP.c|..\..\Microchip\TCPIP Stack\IP.c|..\..\Microchip\TCPIP Stack\LCDBlocking.c|..\..\Microchip\TCPIP Stack\MPFS2.c|..\..\Microchip\TCPIP Stack\NBNS.c|..\..\Microchip\TCPIP Stack\Reboot.c|..\..\Microchip\TCPIP Stack\SMTP.c|..\..\Microchip\TCPIP Stack\SNMP.c|..\..\Microchip\TCPIP Stack\SNTP.c|..\..\Microchip\TCPIP Stack\SPIEEPROM.c|..\..\Microchip\TCPIP Stack\SPIFlash.c|..\..\Microchip\TCPIP Stack\SPIRAM.c|..\..\Microchip\TCPIP Stack\StackTsk.c|..\..\Microchip\TCPIP Stack\TCP.c|..\..\Microchip\TCPIP Stack\TCPPerformanceTest.c|..\..\Microchip\TCPIP Stack\Telnet.c|..\..\Microchip\TCPIP Stack\TFTPc.c|..\..\Microchip\TCPIP Stack\Tick.c|..\..\Microchip\TCPIP Stack\UART2TCPBridge.c|..\..\Microchip\TCPIP Stack\UART.c|..\..\Microchip\TCPIP Stack\UDP.c|..\..\Microchip\TCPIP Stack\UDPPerformanceTest.c|CustomHTTPApp.c|CustomSNMPApp.c|MainDemo.c|BerkeleyTCPClientDemo.c|BerkeleyTCPServerDemo.c|BerkeleyUDPClientDemo.c|GenericTCPClient.c|GenericTCPServer.c|PingDemo.c|SMTPDemo.c|UARTConfig.c|..\..\Microchip\TCPIP Stack\ENCX24J600.c|DL_MPFSImg.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-k -sco -DCFG_INCLUDE_PIC18F26K20_ENC28 -mL -Ou- -Ot- -Ob- -Op- -Or- -Od- -Opa-
+TraceCmdString=
+DebugOptions=-D__DEBUG -D__MPLAB_DEBUGGER_ICD3=1
+[File046]
+Location=C:\microchip\mla\v2013-06-15\TCPIP\tcpip_18f26k20_demo_app\SMTPDemo.o
+Folder=Intermediary
+DeviceName=PIC18F26K20
+LanguageToolSuiteID={5B7D72DD-9861-47BD-9F60-2BE967BF8416}
+LanguageToolID={E56A1C86-9D32-4DF6-8C34-FE0388B1B644}
+LanguageToolLocation=C:\Program Files (x86)\Microchip\mplabc18\v3.37.01\bin\mcc18.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)|.;..\Microchip\Include;..\..\Microchip\Include||$(LIBDIR)|C:\MCC18\lib||$(LKRDIR)||
+SOLK=<src>|..\..\Microchip\TCPIP Stack\Announce.c|..\..\Microchip\TCPIP Stack\ARP.c|..\..\Microchip\TCPIP Stack\AutoIP.c|..\..\Microchip\TCPIP Stack\BerkeleyAPI.c|..\..\Microchip\TCPIP Stack\Delay.c|..\..\Microchip\TCPIP Stack\DHCP.c|..\..\Microchip\TCPIP Stack\DHCPs.c|..\..\Microchip\TCPIP Stack\DNS.c|..\..\Microchip\TCPIP Stack\DNSs.c|..\..\Microchip\TCPIP Stack\DynDNS.c|..\..\Microchip\TCPIP Stack\ENC28J60.c|..\..\Microchip\TCPIP Stack\FTP.c|..\..\Microchip\TCPIP Stack\Hashes.c|..\..\Microchip\TCPIP Stack\Helpers.c|..\..\Microchip\TCPIP Stack\HTTP2.c|..\..\Microchip\TCPIP Stack\ICMP.c|..\..\Microchip\TCPIP Stack\IP.c|..\..\Microchip\TCPIP Stack\LCDBlocking.c|..\..\Microchip\TCPIP Stack\MPFS2.c|..\..\Microchip\TCPIP Stack\NBNS.c|..\..\Microchip\TCPIP Stack\Reboot.c|..\..\Microchip\TCPIP Stack\SMTP.c|..\..\Microchip\TCPIP Stack\SNMP.c|..\..\Microchip\TCPIP Stack\SNTP.c|..\..\Microchip\TCPIP Stack\SPIEEPROM.c|..\..\Microchip\TCPIP Stack\SPIFlash.c|..\..\Microchip\TCPIP Stack\SPIRAM.c|..\..\Microchip\TCPIP Stack\StackTsk.c|..\..\Microchip\TCPIP Stack\TCP.c|..\..\Microchip\TCPIP Stack\TCPPerformanceTest.c|..\..\Microchip\TCPIP Stack\Telnet.c|..\..\Microchip\TCPIP Stack\TFTPc.c|..\..\Microchip\TCPIP Stack\Tick.c|..\..\Microchip\TCPIP Stack\UART2TCPBridge.c|..\..\Microchip\TCPIP Stack\UART.c|..\..\Microchip\TCPIP Stack\UDP.c|..\..\Microchip\TCPIP Stack\UDPPerformanceTest.c|CustomHTTPApp.c|CustomSNMPApp.c|MainDemo.c|BerkeleyTCPClientDemo.c|BerkeleyTCPServerDemo.c|BerkeleyUDPClientDemo.c|GenericTCPClient.c|GenericTCPServer.c|PingDemo.c|SMTPDemo.c|UARTConfig.c|..\..\Microchip\TCPIP Stack\ENCX24J600.c|DL_MPFSImg.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-k -sco -DCFG_INCLUDE_PIC18F26K20_ENC28 -mL -Ou- -Ot- -Ob- -Op- -Or- -Od- -Opa-
+TraceCmdString=
+DebugOptions=-D__DEBUG -D__MPLAB_DEBUGGER_ICD3=1
+[File047]
+Location=C:\microchip\mla\v2013-06-15\TCPIP\tcpip_18f26k20_demo_app\UARTConfig.o
+Folder=Intermediary
+DeviceName=PIC18F26K20
+LanguageToolSuiteID={5B7D72DD-9861-47BD-9F60-2BE967BF8416}
+LanguageToolID={E56A1C86-9D32-4DF6-8C34-FE0388B1B644}
+LanguageToolLocation=C:\Program Files (x86)\Microchip\mplabc18\v3.37.01\bin\mcc18.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)|.;..\Microchip\Include;..\..\Microchip\Include||$(LIBDIR)|C:\MCC18\lib||$(LKRDIR)||
+SOLK=<src>|..\..\Microchip\TCPIP Stack\Announce.c|..\..\Microchip\TCPIP Stack\ARP.c|..\..\Microchip\TCPIP Stack\AutoIP.c|..\..\Microchip\TCPIP Stack\BerkeleyAPI.c|..\..\Microchip\TCPIP Stack\Delay.c|..\..\Microchip\TCPIP Stack\DHCP.c|..\..\Microchip\TCPIP Stack\DHCPs.c|..\..\Microchip\TCPIP Stack\DNS.c|..\..\Microchip\TCPIP Stack\DNSs.c|..\..\Microchip\TCPIP Stack\DynDNS.c|..\..\Microchip\TCPIP Stack\ENC28J60.c|..\..\Microchip\TCPIP Stack\FTP.c|..\..\Microchip\TCPIP Stack\Hashes.c|..\..\Microchip\TCPIP Stack\Helpers.c|..\..\Microchip\TCPIP Stack\HTTP2.c|..\..\Microchip\TCPIP Stack\ICMP.c|..\..\Microchip\TCPIP Stack\IP.c|..\..\Microchip\TCPIP Stack\LCDBlocking.c|..\..\Microchip\TCPIP Stack\MPFS2.c|..\..\Microchip\TCPIP Stack\NBNS.c|..\..\Microchip\TCPIP Stack\Reboot.c|..\..\Microchip\TCPIP Stack\SMTP.c|..\..\Microchip\TCPIP Stack\SNMP.c|..\..\Microchip\TCPIP Stack\SNTP.c|..\..\Microchip\TCPIP Stack\SPIEEPROM.c|..\..\Microchip\TCPIP Stack\SPIFlash.c|..\..\Microchip\TCPIP Stack\SPIRAM.c|..\..\Microchip\TCPIP Stack\StackTsk.c|..\..\Microchip\TCPIP Stack\TCP.c|..\..\Microchip\TCPIP Stack\TCPPerformanceTest.c|..\..\Microchip\TCPIP Stack\Telnet.c|..\..\Microchip\TCPIP Stack\TFTPc.c|..\..\Microchip\TCPIP Stack\Tick.c|..\..\Microchip\TCPIP Stack\UART2TCPBridge.c|..\..\Microchip\TCPIP Stack\UART.c|..\..\Microchip\TCPIP Stack\UDP.c|..\..\Microchip\TCPIP Stack\UDPPerformanceTest.c|CustomHTTPApp.c|CustomSNMPApp.c|MainDemo.c|BerkeleyTCPClientDemo.c|BerkeleyTCPServerDemo.c|BerkeleyUDPClientDemo.c|GenericTCPClient.c|GenericTCPServer.c|PingDemo.c|SMTPDemo.c|UARTConfig.c|..\..\Microchip\TCPIP Stack\ENCX24J600.c|DL_MPFSImg.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-k -sco -DCFG_INCLUDE_PIC18F26K20_ENC28 -mL -Ou- -Ot- -Ob- -Op- -Or- -Od- -Opa-
+TraceCmdString=
+DebugOptions=-D__DEBUG -D__MPLAB_DEBUGGER_ICD3=1
+[File048]
+Location=C:\microchip\mla\v2013-06-15\TCPIP\tcpip_18f26k20_demo_app\ENCX24J600.o
+Folder=Intermediary
+DeviceName=PIC18F26K20
+LanguageToolSuiteID={5B7D72DD-9861-47BD-9F60-2BE967BF8416}
+LanguageToolID={E56A1C86-9D32-4DF6-8C34-FE0388B1B644}
+LanguageToolLocation=C:\Program Files (x86)\Microchip\mplabc18\v3.37.01\bin\mcc18.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)|.;..\Microchip\Include;..\..\Microchip\Include||$(LIBDIR)|C:\MCC18\lib||$(LKRDIR)||
+SOLK=<src>|..\..\Microchip\TCPIP Stack\Announce.c|..\..\Microchip\TCPIP Stack\ARP.c|..\..\Microchip\TCPIP Stack\AutoIP.c|..\..\Microchip\TCPIP Stack\BerkeleyAPI.c|..\..\Microchip\TCPIP Stack\Delay.c|..\..\Microchip\TCPIP Stack\DHCP.c|..\..\Microchip\TCPIP Stack\DHCPs.c|..\..\Microchip\TCPIP Stack\DNS.c|..\..\Microchip\TCPIP Stack\DNSs.c|..\..\Microchip\TCPIP Stack\DynDNS.c|..\..\Microchip\TCPIP Stack\ENC28J60.c|..\..\Microchip\TCPIP Stack\FTP.c|..\..\Microchip\TCPIP Stack\Hashes.c|..\..\Microchip\TCPIP Stack\Helpers.c|..\..\Microchip\TCPIP Stack\HTTP2.c|..\..\Microchip\TCPIP Stack\ICMP.c|..\..\Microchip\TCPIP Stack\IP.c|..\..\Microchip\TCPIP Stack\LCDBlocking.c|..\..\Microchip\TCPIP Stack\MPFS2.c|..\..\Microchip\TCPIP Stack\NBNS.c|..\..\Microchip\TCPIP Stack\Reboot.c|..\..\Microchip\TCPIP Stack\SMTP.c|..\..\Microchip\TCPIP Stack\SNMP.c|..\..\Microchip\TCPIP Stack\SNTP.c|..\..\Microchip\TCPIP Stack\SPIEEPROM.c|..\..\Microchip\TCPIP Stack\SPIFlash.c|..\..\Microchip\TCPIP Stack\SPIRAM.c|..\..\Microchip\TCPIP Stack\StackTsk.c|..\..\Microchip\TCPIP Stack\TCP.c|..\..\Microchip\TCPIP Stack\TCPPerformanceTest.c|..\..\Microchip\TCPIP Stack\Telnet.c|..\..\Microchip\TCPIP Stack\TFTPc.c|..\..\Microchip\TCPIP Stack\Tick.c|..\..\Microchip\TCPIP Stack\UART2TCPBridge.c|..\..\Microchip\TCPIP Stack\UART.c|..\..\Microchip\TCPIP Stack\UDP.c|..\..\Microchip\TCPIP Stack\UDPPerformanceTest.c|CustomHTTPApp.c|CustomSNMPApp.c|MainDemo.c|BerkeleyTCPClientDemo.c|BerkeleyTCPServerDemo.c|BerkeleyUDPClientDemo.c|GenericTCPClient.c|GenericTCPServer.c|PingDemo.c|SMTPDemo.c|UARTConfig.c|..\..\Microchip\TCPIP Stack\ENCX24J600.c|DL_MPFSImg.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-k -sco -DCFG_INCLUDE_PIC18F26K20_ENC28 -mL -Ou- -Ot- -Ob- -Op- -Or- -Od- -Opa-
+TraceCmdString=
+DebugOptions=-D__DEBUG -D__MPLAB_DEBUGGER_ICD3=1
+[File049]
+Location=C:\microchip\mla\v2013-06-15\TCPIP\tcpip_18f26k20_demo_app\DL_MPFSImg.o
+Folder=Intermediary
+DeviceName=PIC18F26K20
+LanguageToolSuiteID={5B7D72DD-9861-47BD-9F60-2BE967BF8416}
+LanguageToolID={E56A1C86-9D32-4DF6-8C34-FE0388B1B644}
+LanguageToolLocation=C:\Program Files (x86)\Microchip\mplabc18\v3.37.01\bin\mcc18.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)|.;..\Microchip\Include;..\..\Microchip\Include||$(LIBDIR)|C:\MCC18\lib||$(LKRDIR)||
+SOLK=<src>|..\..\Microchip\TCPIP Stack\Announce.c|..\..\Microchip\TCPIP Stack\ARP.c|..\..\Microchip\TCPIP Stack\AutoIP.c|..\..\Microchip\TCPIP Stack\BerkeleyAPI.c|..\..\Microchip\TCPIP Stack\Delay.c|..\..\Microchip\TCPIP Stack\DHCP.c|..\..\Microchip\TCPIP Stack\DHCPs.c|..\..\Microchip\TCPIP Stack\DNS.c|..\..\Microchip\TCPIP Stack\DNSs.c|..\..\Microchip\TCPIP Stack\DynDNS.c|..\..\Microchip\TCPIP Stack\ENC28J60.c|..\..\Microchip\TCPIP Stack\FTP.c|..\..\Microchip\TCPIP Stack\Hashes.c|..\..\Microchip\TCPIP Stack\Helpers.c|..\..\Microchip\TCPIP Stack\HTTP2.c|..\..\Microchip\TCPIP Stack\ICMP.c|..\..\Microchip\TCPIP Stack\IP.c|..\..\Microchip\TCPIP Stack\LCDBlocking.c|..\..\Microchip\TCPIP Stack\MPFS2.c|..\..\Microchip\TCPIP Stack\NBNS.c|..\..\Microchip\TCPIP Stack\Reboot.c|..\..\Microchip\TCPIP Stack\SMTP.c|..\..\Microchip\TCPIP Stack\SNMP.c|..\..\Microchip\TCPIP Stack\SNTP.c|..\..\Microchip\TCPIP Stack\SPIEEPROM.c|..\..\Microchip\TCPIP Stack\SPIFlash.c|..\..\Microchip\TCPIP Stack\SPIRAM.c|..\..\Microchip\TCPIP Stack\StackTsk.c|..\..\Microchip\TCPIP Stack\TCP.c|..\..\Microchip\TCPIP Stack\TCPPerformanceTest.c|..\..\Microchip\TCPIP Stack\Telnet.c|..\..\Microchip\TCPIP Stack\TFTPc.c|..\..\Microchip\TCPIP Stack\Tick.c|..\..\Microchip\TCPIP Stack\UART2TCPBridge.c|..\..\Microchip\TCPIP Stack\UART.c|..\..\Microchip\TCPIP Stack\UDP.c|..\..\Microchip\TCPIP Stack\UDPPerformanceTest.c|CustomHTTPApp.c|CustomSNMPApp.c|MainDemo.c|BerkeleyTCPClientDemo.c|BerkeleyTCPServerDemo.c|BerkeleyUDPClientDemo.c|GenericTCPClient.c|GenericTCPServer.c|PingDemo.c|SMTPDemo.c|UARTConfig.c|..\..\Microchip\TCPIP Stack\ENCX24J600.c|DL_MPFSImg.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-k -sco -DCFG_INCLUDE_PIC18F26K20_ENC28 -mL -Ou- -Ot- -Ob- -Op- -Or- -Od- -Opa-
+TraceCmdString=
+DebugOptions=-D__DEBUG -D__MPLAB_DEBUGGER_ICD3=1
+[File050]
+Location=C:\microchip\mla\v2013-06-15\TCPIP\tcpip_18f26k20_demo_app\PIC18F26K20_ENC28J60.cof
+Folder=Output
+DeviceName=PIC18F26K20
+LanguageToolSuiteID={5B7D72DD-9861-47BD-9F60-2BE967BF8416}
+LanguageToolID={96C98149-AA1B-4CF9-B967-FAE79CAB663C}
+LanguageToolLocation=C:\Program Files (x86)\Microchip\mplabc18\v3.37.01\bin\mplink.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)|.;..\Microchip\Include;..\..\Microchip\Include||$(LIBDIR)|C:\MCC18\lib||$(LKRDIR)||
+SOLK=<src>|..\..\Microchip\TCPIP Stack\Announce.c|..\..\Microchip\TCPIP Stack\ARP.c|..\..\Microchip\TCPIP Stack\AutoIP.c|..\..\Microchip\TCPIP Stack\BerkeleyAPI.c|..\..\Microchip\TCPIP Stack\Delay.c|..\..\Microchip\TCPIP Stack\DHCP.c|..\..\Microchip\TCPIP Stack\DHCPs.c|..\..\Microchip\TCPIP Stack\DNS.c|..\..\Microchip\TCPIP Stack\DNSs.c|..\..\Microchip\TCPIP Stack\DynDNS.c|..\..\Microchip\TCPIP Stack\ENC28J60.c|..\..\Microchip\TCPIP Stack\FTP.c|..\..\Microchip\TCPIP Stack\Hashes.c|..\..\Microchip\TCPIP Stack\Helpers.c|..\..\Microchip\TCPIP Stack\HTTP2.c|..\..\Microchip\TCPIP Stack\ICMP.c|..\..\Microchip\TCPIP Stack\IP.c|..\..\Microchip\TCPIP Stack\LCDBlocking.c|..\..\Microchip\TCPIP Stack\MPFS2.c|..\..\Microchip\TCPIP Stack\NBNS.c|..\..\Microchip\TCPIP Stack\Reboot.c|..\..\Microchip\TCPIP Stack\SMTP.c|..\..\Microchip\TCPIP Stack\SNMP.c|..\..\Microchip\TCPIP Stack\SNTP.c|..\..\Microchip\TCPIP Stack\SPIEEPROM.c|..\..\Microchip\TCPIP Stack\SPIFlash.c|..\..\Microchip\TCPIP Stack\SPIRAM.c|..\..\Microchip\TCPIP Stack\StackTsk.c|..\..\Microchip\TCPIP Stack\TCP.c|..\..\Microchip\TCPIP Stack\TCPPerformanceTest.c|..\..\Microchip\TCPIP Stack\Telnet.c|..\..\Microchip\TCPIP Stack\TFTPc.c|..\..\Microchip\TCPIP Stack\Tick.c|..\..\Microchip\TCPIP Stack\UART2TCPBridge.c|..\..\Microchip\TCPIP Stack\UART.c|..\..\Microchip\TCPIP Stack\UDP.c|..\..\Microchip\TCPIP Stack\UDPPerformanceTest.c|CustomHTTPApp.c|CustomSNMPApp.c|MainDemo.c|BerkeleyTCPClientDemo.c|BerkeleyTCPServerDemo.c|BerkeleyUDPClientDemo.c|GenericTCPClient.c|GenericTCPServer.c|PingDemo.c|SMTPDemo.c|UARTConfig.c|..\..\Microchip\TCPIP Stack\ENCX24J600.c|DL_MPFSImg.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=/m"$(BINDIR_)$(TARGETBASE).map" /w /o"$(BINDIR_)$(TARGETBASE).cof"
+TraceCmdString=
+DebugOptions=/z__MPLAB_DEBUG=1 /z__MPLAB_DEBUGGER_ICD3=1 /z__ICD2RAM=1
+[File051]
+Location=C:\microchip\mla\v2013-06-15\TCPIP\tcpip_18f26k20_demo_app\PIC18F26K20_ENC28J60.hex
+Folder=Output
+DeviceName=PIC18F26K20
+LanguageToolSuiteID={5B7D72DD-9861-47BD-9F60-2BE967BF8416}
+LanguageToolID={96C98149-AA1B-4CF9-B967-FAE79CAB663C}
+LanguageToolLocation=C:\Program Files (x86)\Microchip\mplabc18\v3.37.01\bin\mplink.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)|.;..\Microchip\Include;..\..\Microchip\Include||$(LIBDIR)|C:\MCC18\lib||$(LKRDIR)||
+SOLK=<src>|..\..\Microchip\TCPIP Stack\Announce.c|..\..\Microchip\TCPIP Stack\ARP.c|..\..\Microchip\TCPIP Stack\AutoIP.c|..\..\Microchip\TCPIP Stack\BerkeleyAPI.c|..\..\Microchip\TCPIP Stack\Delay.c|..\..\Microchip\TCPIP Stack\DHCP.c|..\..\Microchip\TCPIP Stack\DHCPs.c|..\..\Microchip\TCPIP Stack\DNS.c|..\..\Microchip\TCPIP Stack\DNSs.c|..\..\Microchip\TCPIP Stack\DynDNS.c|..\..\Microchip\TCPIP Stack\ENC28J60.c|..\..\Microchip\TCPIP Stack\FTP.c|..\..\Microchip\TCPIP Stack\Hashes.c|..\..\Microchip\TCPIP Stack\Helpers.c|..\..\Microchip\TCPIP Stack\HTTP2.c|..\..\Microchip\TCPIP Stack\ICMP.c|..\..\Microchip\TCPIP Stack\IP.c|..\..\Microchip\TCPIP Stack\LCDBlocking.c|..\..\Microchip\TCPIP Stack\MPFS2.c|..\..\Microchip\TCPIP Stack\NBNS.c|..\..\Microchip\TCPIP Stack\Reboot.c|..\..\Microchip\TCPIP Stack\SMTP.c|..\..\Microchip\TCPIP Stack\SNMP.c|..\..\Microchip\TCPIP Stack\SNTP.c|..\..\Microchip\TCPIP Stack\SPIEEPROM.c|..\..\Microchip\TCPIP Stack\SPIFlash.c|..\..\Microchip\TCPIP Stack\SPIRAM.c|..\..\Microchip\TCPIP Stack\StackTsk.c|..\..\Microchip\TCPIP Stack\TCP.c|..\..\Microchip\TCPIP Stack\TCPPerformanceTest.c|..\..\Microchip\TCPIP Stack\Telnet.c|..\..\Microchip\TCPIP Stack\TFTPc.c|..\..\Microchip\TCPIP Stack\Tick.c|..\..\Microchip\TCPIP Stack\UART2TCPBridge.c|..\..\Microchip\TCPIP Stack\UART.c|..\..\Microchip\TCPIP Stack\UDP.c|..\..\Microchip\TCPIP Stack\UDPPerformanceTest.c|CustomHTTPApp.c|CustomSNMPApp.c|MainDemo.c|BerkeleyTCPClientDemo.c|BerkeleyTCPServerDemo.c|BerkeleyUDPClientDemo.c|GenericTCPClient.c|GenericTCPServer.c|PingDemo.c|SMTPDemo.c|UARTConfig.c|..\..\Microchip\TCPIP Stack\ENCX24J600.c|DL_MPFSImg.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=/m"$(BINDIR_)$(TARGETBASE).map" /w /o"$(BINDIR_)$(TARGETBASE).cof"
+TraceCmdString=
+DebugOptions=/z__MPLAB_DEBUG=1 /z__MPLAB_DEBUGGER_ICD3=1 /z__ICD2RAM=1
+[File052]
+Location=C:\microchip\mla\v2013-06-15\TCPIP\tcpip_18f26k20_demo_app\PIC18F26K20_ENC28J60.map
+Folder=Output
+DeviceName=PIC18F26K20
+LanguageToolSuiteID={5B7D72DD-9861-47BD-9F60-2BE967BF8416}
+LanguageToolID={96C98149-AA1B-4CF9-B967-FAE79CAB663C}
+LanguageToolLocation=C:\Program Files (x86)\Microchip\mplabc18\v3.37.01\bin\mplink.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)|.;..\Microchip\Include;..\..\Microchip\Include||$(LIBDIR)|C:\MCC18\lib||$(LKRDIR)||
+SOLK=<src>|..\..\Microchip\TCPIP Stack\Announce.c|..\..\Microchip\TCPIP Stack\ARP.c|..\..\Microchip\TCPIP Stack\AutoIP.c|..\..\Microchip\TCPIP Stack\BerkeleyAPI.c|..\..\Microchip\TCPIP Stack\Delay.c|..\..\Microchip\TCPIP Stack\DHCP.c|..\..\Microchip\TCPIP Stack\DHCPs.c|..\..\Microchip\TCPIP Stack\DNS.c|..\..\Microchip\TCPIP Stack\DNSs.c|..\..\Microchip\TCPIP Stack\DynDNS.c|..\..\Microchip\TCPIP Stack\ENC28J60.c|..\..\Microchip\TCPIP Stack\FTP.c|..\..\Microchip\TCPIP Stack\Hashes.c|..\..\Microchip\TCPIP Stack\Helpers.c|..\..\Microchip\TCPIP Stack\HTTP2.c|..\..\Microchip\TCPIP Stack\ICMP.c|..\..\Microchip\TCPIP Stack\IP.c|..\..\Microchip\TCPIP Stack\LCDBlocking.c|..\..\Microchip\TCPIP Stack\MPFS2.c|..\..\Microchip\TCPIP Stack\NBNS.c|..\..\Microchip\TCPIP Stack\Reboot.c|..\..\Microchip\TCPIP Stack\SMTP.c|..\..\Microchip\TCPIP Stack\SNMP.c|..\..\Microchip\TCPIP Stack\SNTP.c|..\..\Microchip\TCPIP Stack\SPIEEPROM.c|..\..\Microchip\TCPIP Stack\SPIFlash.c|..\..\Microchip\TCPIP Stack\SPIRAM.c|..\..\Microchip\TCPIP Stack\StackTsk.c|..\..\Microchip\TCPIP Stack\TCP.c|..\..\Microchip\TCPIP Stack\TCPPerformanceTest.c|..\..\Microchip\TCPIP Stack\Telnet.c|..\..\Microchip\TCPIP Stack\TFTPc.c|..\..\Microchip\TCPIP Stack\Tick.c|..\..\Microchip\TCPIP Stack\UART2TCPBridge.c|..\..\Microchip\TCPIP Stack\UART.c|..\..\Microchip\TCPIP Stack\UDP.c|..\..\Microchip\TCPIP Stack\UDPPerformanceTest.c|CustomHTTPApp.c|CustomSNMPApp.c|MainDemo.c|BerkeleyTCPClientDemo.c|BerkeleyTCPServerDemo.c|BerkeleyUDPClientDemo.c|GenericTCPClient.c|GenericTCPServer.c|PingDemo.c|SMTPDemo.c|UARTConfig.c|..\..\Microchip\TCPIP Stack\ENCX24J600.c|DL_MPFSImg.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=/m"$(BINDIR_)$(TARGETBASE).map" /w /o"$(BINDIR_)$(TARGETBASE).cof"
+TraceCmdString=
+DebugOptions=/z__MPLAB_DEBUG=1 /z__MPLAB_DEBUGGER_ICD3=1 /z__ICD2RAM=1
+[TOOL_LOC_STAMPS]
+tool_loc{96C98149-AA1B-4CF9-B967-FAE79CAB663C}=C:\Program Files (x86)\Microchip\mplabc18\v3.37.01\bin\mplink.exe
+tool_loc{E56A1C86-9D32-4DF6-8C34-FE0388B1B644}=C:\Program Files (x86)\Microchip\mplabc18\v3.37.01\bin\mcc18.exe
