@@ -220,7 +220,7 @@
 
 
 // Register name fix up for certain processors
-#define SPBRGH			SPBRGH1
+#define SPBRGH			SPBRGH
 #if defined(__18F87J50) || defined(_18F87J50) || defined(__18F87J11) || defined(_18F87J11)
 	#define ADCON2		ADCON1
 #endif
